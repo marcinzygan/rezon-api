@@ -1,0 +1,30 @@
+{
+  "name": "rezon-api",
+  "version": "1.0.0",
+  "description": "API for Rezon products",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcinzygan/rezon-api.git"
+  },
+  "keywords": [
+    "rezon",
+    "api"
+  ],
+  "author": "Marcin Zygan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcinzygan/rezon-api/issues"
+  },
+  "homepage": "https://github.com/marcinzygan/rezon-api#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
