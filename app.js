@@ -4,8 +4,6 @@ const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
 const app = express();
 
-const port = 8000;
-
 // MIDDLEWARE
 app.use(morgan("dev"));
 app.use(express.json());
@@ -20,7 +18,4 @@ app.use((req, res, next) => {
 app.use("/api/v1/products", productRouter);
 app.use("/api/v1/users", userRouter);
 
-// APP START
-app.listen(port, () => {
-  console.log(`App running on port ${port} ...`);
-});
+module.exports = app;
