@@ -1,8 +1,7 @@
-const fs = require("fs");
-const express = require("express");
 const morgan = require("morgan");
-const productRouter = require("./routes/productRoute");
-
+const express = require("express");
+const productRouter = require("./routes/productRoutes");
+const userRouter = require("./routes/userRoutes");
 const app = express();
 
 const port = 8000;
@@ -16,47 +15,7 @@ app.use((req, res, next) => {
 });
 // ROUTE HANDLERS
 
-// user handlers
-const getAllUsers = (req, res) => {
-  res.status(500).json({
-    status: "error",
-    message: "this route is not implemented yet",
-  });
-};
-const createUser = (req, res) => {
-  res.status(500).json({
-    status: "error",
-    message: "this route is not implemented yet",
-  });
-};
-const getUser = (req, res) => {
-  res.status(500).json({
-    status: "error",
-    message: "this route is not implemented yet",
-  });
-};
-const updateUser = (req, res) => {
-  res.status(500).json({
-    status: "error",
-    message: "this route is not implemented yet",
-  });
-};
-const deleteUser = (req, res) => {
-  res.status(500).json({
-    status: "error",
-    message: "this route is not implemented yet",
-  });
-};
 //// ROUTES
-
-const userRouter = express.Router();
-
-// USERS ROUTES
-
-userRouter.route("/").get(getAllUsers).post(createUser);
-
-// Users by id
-userRouter.route("/:id").get(getUser).patch(updateUser).delete(deleteUser);
 
 app.use("/api/v1/products", productRouter);
 app.use("/api/v1/users", userRouter);
