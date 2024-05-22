@@ -1,19 +1,30 @@
 const fs = require("fs");
 const express = require("express");
+const morgan = require("morgan");
 
 const app = express();
+
 const port = 8000;
 
 // MIDDLEWARE
+app.use(morgan("dev"));
 app.use(express.json());
-
-// READ PRODUCT DATA
+app.use((req, res, next) => {
+  console.log("hello from middleware");
+  next();
+});
+app.use((req, res, next) => {
+  req.requestTime = new Date().toISOString();
+  next();
+});
+// ROUTE HANDLERS
 const products = JSON.parse(
   fs.readFileSync(`${__dirname}/data/testProducts.json`)
 );
 
 const getAllProducts = (req, res) => {
   res.status(200).json({
+    requestedAt: req.requestTime,
     status: "success",
     results: products.length,
     data: {
@@ -84,7 +95,38 @@ const deleteProduct = (req, res) => {
     data: null,
   });
 };
-
+// user handlers
+const getAllUsers = (req, res) => {
+  res.status(500).json({
+    status: "error",
+    message: "this route is not implemented yet",
+  });
+};
+const createUser = (req, res) => {
+  res.status(500).json({
+    status: "error",
+    message: "this route is not implemented yet",
+  });
+};
+const getUser = (req, res) => {
+  res.status(500).json({
+    status: "error",
+    message: "this route is not implemented yet",
+  });
+};
+const updateUser = (req, res) => {
+  res.status(500).json({
+    status: "error",
+    message: "this route is not implemented yet",
+  });
+};
+const deleteUser = (req, res) => {
+  res.status(500).json({
+    status: "error",
+    message: "this route is not implemented yet",
+  });
+};
+//// ROUTES
 //  ROUTES FOR GET AND POST REQUEST
 app.route("/api/v1/products").get(getAllProducts).post(createProduct);
 
@@ -94,6 +136,16 @@ app
   .get(getProduct)
   .patch(updateProduct)
   .delete(deleteProduct);
+
+// USERS ROUTES
+app.route("/api/v1/users").get(getAllUsers).post(createUser);
+
+// Users by id
+app
+  .route("/api/v1/users/:id")
+  .get(getUser)
+  .patch(updateUser)
+  .delete(deleteUser);
 
 // APP START
 app.listen(port, () => {
