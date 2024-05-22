@@ -1,20 +1,5 @@
-const fs = require("fs");
 const express = require("express");
-const morgan = require("morgan");
-const productRouter = require("./routes/productRoute");
-
-const app = express();
-
-const port = 8000;
-
-// MIDDLEWARE
-app.use(morgan("dev"));
-app.use(express.json());
-app.use((req, res, next) => {
-  req.requestTime = new Date().toISOString();
-  next();
-});
-// ROUTE HANDLERS
+const userRouter = express.Router();
 
 // user handlers
 const getAllUsers = (req, res) => {
@@ -47,9 +32,6 @@ const deleteUser = (req, res) => {
     message: "this route is not implemented yet",
   });
 };
-//// ROUTES
-
-const userRouter = express.Router();
 
 // USERS ROUTES
 
@@ -58,10 +40,4 @@ userRouter.route("/").get(getAllUsers).post(createUser);
 // Users by id
 userRouter.route("/:id").get(getUser).patch(updateUser).delete(deleteUser);
 
-app.use("/api/v1/products", productRouter);
-app.use("/api/v1/users", userRouter);
-
-// APP START
-app.listen(port, () => {
-  console.log(`App running on port ${port} ...`);
-});
+module.exports = userRouter;
