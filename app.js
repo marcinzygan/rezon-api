@@ -12,8 +12,7 @@ const products = JSON.parse(
   fs.readFileSync(`${__dirname}/data/testProducts.json`)
 );
 
-// GET REQUEST
-app.get("/api/v1/products", (req, res) => {
+const getAllProducts = (req, res) => {
   res.status(200).json({
     status: "success",
     results: products.length,
@@ -21,9 +20,8 @@ app.get("/api/v1/products", (req, res) => {
       products: products,
     },
   });
-});
-// GET REQUEST for ID
-app.get("/api/v1/products/:id", (req, res) => {
+};
+const getProduct = (req, res) => {
   // convert param id to number
   const id = req.params.id * 1;
   // find product by id
@@ -40,9 +38,8 @@ app.get("/api/v1/products/:id", (req, res) => {
       product: product,
     },
   });
-});
-// POST REQUEST
-app.post("/api/v1/products", (req, res) => {
+};
+const createProduct = (req, res) => {
   const newId = products[products.length - 1].id + 1;
   const newProduct = Object.assign({ id: newId }, req.body);
   // add new product to poroducts array
@@ -60,7 +57,43 @@ app.post("/api/v1/products", (req, res) => {
       });
     }
   );
-});
+};
+const updateProduct = (req, res) => {
+  if (req.params.id * 1 > products.length) {
+    return res.status(404).json({
+      status: "fail",
+      message: "Invalid Id",
+    });
+  }
+  res.status(200).json({
+    status: "success",
+    data: {
+      product: "Updated Product here",
+    },
+  });
+};
+const deleteProduct = (req, res) => {
+  if (req.params.id * 1 > products.length) {
+    return res.status(404).json({
+      status: "fail",
+      message: "Invalid Id",
+    });
+  }
+  res.status(204).json({
+    status: "success",
+    data: null,
+  });
+};
+
+//  ROUTES FOR GET AND POST REQUEST
+app.route("/api/v1/products").get(getAllProducts).post(createProduct);
+
+// ROUTES FOR GET PATCH DELETE PRODUCT BY ID
+app
+  .route("/api/v1/products/:id")
+  .get(getProduct)
+  .patch(updateProduct)
+  .delete(deleteProduct);
 
 // APP START
 app.listen(port, () => {
