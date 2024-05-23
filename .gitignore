@@ -1,2 +1,4 @@
 #Ignore all files in directory
 node_modules/
+
+*.env
