@@ -2,6 +2,7 @@ const morgan = require("morgan");
 const express = require("express");
 const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
+
 const app = express();
 
 // MIDDLEWARE
