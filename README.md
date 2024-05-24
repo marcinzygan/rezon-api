@@ -1,6 +1,6 @@
 👋 Hi, I’m @marcinzygan
 
-# This is RESTful API for products for Rezon.eu built with Node.js, Express, MongoDB, Mongoose"
+# This is RESTful API for products for Rezon.eu built with Node.js, Express, MongoDB, Mongoose
 
 # Rezon Product API
 
