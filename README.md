@@ -41,7 +41,7 @@ const productSchema = new mongoose.Schema({
   dimensions: String,
   new: Boolean,
   active: Boolean,
-  dowolny_ksztalt: Boolean,
+  custom_shape: Boolean,
 });
 ```
 
@@ -86,7 +86,7 @@ fetch("/api/v1/products")
     "dimensions": "10x10x10",
     "new": true,
     "active": true,
-    "dowolny_ksztalt": false
+    "custom_shape": false
   },
   ...
 ]
@@ -116,7 +116,7 @@ const newProduct = {
   dimensions: "20x20x20",
   new: false,
   active: true,
-  dowolny_ksztalt: true,
+  custom_shape: true,
 };
 
 fetch("/api/v1/products", {
@@ -151,7 +151,7 @@ fetch("/api/v1/products", {
     "dimensions": "20x20x20",
     "new": false,
     "active": true,
-    "dowolny_ksztalt": true
+    "custom_shape": true
   }
 }
 ```
@@ -191,7 +191,7 @@ fetch(`/api/v1/products/${productId}`)
   "dimensions": "10x10x10",
   "new": true,
   "active": true,
-  "dowolny_ksztalt": false
+  "custom_shape": false
 }
 ```
 
@@ -242,7 +242,7 @@ fetch(`/api/v1/products/${productId}`, {
     "dimensions": "10x10x10",
     "new": true,
     "active": true,
-    "dowolny_ksztalt": false
+    "custom_shape": false
   }
 }
 ```

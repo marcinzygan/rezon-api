@@ -43,7 +43,7 @@ const productSchema = new mongoose.Schema({
   dimensions: String,
   new: Boolean,
   active: Boolean,
-  dowolny_ksztalt: Boolean,
+  custom_shape: Boolean,
 });
 const Product = mongoose.model("Product", productSchema);
 
@@ -63,7 +63,7 @@ const testProduct = new Product({
   dimensions: "dowolny",
   new: false,
   active: true,
-  dowolny_ksztalt: true,
+  custom_shape: true,
 });
 testProduct
   .save()
