@@ -32,7 +32,7 @@ const productSchema = new mongoose.Schema({
   },
   price: {
     type: Number,
-    required: [true, "Please provide product number"],
+    required: [true, "Please provide product price"],
   },
   description: String,
   image: String,
@@ -48,11 +48,11 @@ const productSchema = new mongoose.Schema({
 const Product = mongoose.model("Product", productSchema);
 
 const testProduct = new Product({
-  id: 2,
-  pc_id: "Test PRODUCT 1",
-  name: "Test product 2",
+  id: 4,
+  pc_id: "Test PRODUCT 3",
+  name: "Test product 3",
   category: "magnesy",
-  price: 4.5,
+  price: 9,
   description:
     "Magnes wykonany z wyciętego akrylu w kształcie dowolnym. Możliwe nadrukowanie grafiki na powstałym kształcie.",
   image: "/images/magnesy/01.jpg",
