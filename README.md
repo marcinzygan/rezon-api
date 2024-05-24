@@ -1,8 +1,6 @@
 👋 Hi, I’m @marcinzygan
 
-# This is RESTful API for products for Rezon.eu built with Node.js, Express, MongoDB, Mongoose
-
-# Rezon Product API
+# This is RESTful API for Rezon.eu products built with Node.js, Express, MongoDB, Mongoose
 
 Welcome to the Rezon Product API. This API allows you to manage products in a database. Below are the details of the available routes and the product schema.
 
