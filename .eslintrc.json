@@ -8,6 +8,7 @@
         "endOfLine": "auto"
       }
     ],
+    "allowModules": ["mongoose"],
     "spaced-comment": "off",
     "no-console": "warn",
     "consistent-return": "off",
