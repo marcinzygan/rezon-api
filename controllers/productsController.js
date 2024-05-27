@@ -1,18 +1,14 @@
-const fs = require("fs");
-
-const products = JSON.parse(
-  fs.readFileSync(`${__dirname}/../data/testProducts.json`),
-);
+const Product = require("../models/productModel");
 
 // GET ALL PRODUCTS
 exports.getAllProducts = (req, res) => {
   res.status(200).json({
-    requestedAt: req.requestTime,
-    status: "success",
-    results: products.length,
-    data: {
-      products: products,
-    },
+    // requestedAt: req.requestTime,
+    // status: "success",
+    // results: products.length,
+    // data: {
+    //   products: products,
+    // },
   });
 };
 
@@ -21,7 +17,7 @@ exports.getProduct = (req, res) => {
   // convert param id to number
   const id = req.params.id * 1;
   // find product by id
-  const foundProduct = products.find((product) => product.id === id);
+  // const foundProduct = products.find((product) => product.id === id);
 
   res.status(200).json({
     status: "success",
@@ -32,24 +28,21 @@ exports.getProduct = (req, res) => {
 };
 
 //CREATE PRODUCT
-exports.createProduct = (req, res) => {
-  const newId = products[products.length - 1].id + 1;
-  const newProduct = { id: newId, ...req.body };
-  // add new product to poroducts array
-  products.push(newProduct);
-  // Wrtie new products array to file async , convert products array to JSON
-  fs.writeFile(
-    `${__dirname}/data/testProducts.json`,
-    JSON.stringify(products),
-    () => {
-      res.status(201).json({
-        status: "success",
-        data: {
-          product: newProduct,
-        },
-      });
-    },
-  );
+exports.createProduct = async (req, res) => {
+  try {
+    const newProduct = await Product.create(req.body);
+    res.status(200).json({
+      status: "success",
+      data: {
+        product: newProduct,
+      },
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: "fail",
+      message: err,
+    });
+  }
 };
 
 // UPDATE PRODUCT BY ID
@@ -67,24 +60,4 @@ exports.deleteProduct = (req, res) => {
     status: "success",
     data: null,
   });
-};
-// CHECK IF ID IS VALID
-exports.checkID = (req, res, next, val) => {
-  console.log(`the product id is ${val}`);
-  if (req.params.id * 1 > products.length) {
-    return res.status(404).json({
-      status: "fail",
-      message: "Invalid Id",
-    });
-  }
-  next();
-};
-exports.checkBody = (req, res, next) => {
-  if (!req.body.name || !req.body.price) {
-    return res.status(400).json({
-      status: "fail",
-      message: "Please provide product name and price",
-    });
-  }
-  next();
 };
