@@ -6,6 +6,7 @@ exports.getAllProducts = async (req, res) => {
     const products = await Product.find();
     res.status(200).json({
       status: "success",
+      numberOfProducts: products.length,
       data: {
         products: products,
       },
@@ -21,10 +22,12 @@ exports.getAllProducts = async (req, res) => {
 //  GET PRODUCT BY ID
 exports.getProduct = async (req, res) => {
   try {
+    // Get id from param url
     const id = req.params.id;
-    // F ind product by search parameter
-    const foundProduct = await Product.findOne({ _id: id });
-    //  Product.findById(id) to search by mongoDB _id
+    // Find product by search parameter
+    const foundProduct = await Product.findById(id);
+    // const foundProduct = await Product.findOne({ _id: id });
+
     res.status(200).json({
       status: "success",
       data: {
@@ -42,7 +45,8 @@ exports.getProduct = async (req, res) => {
 //CREATE PRODUCT
 exports.createProduct = async (req, res) => {
   try {
-    const newProduct = await Product.create(req.body);
+    // Create new product
+    const newProduct = await Product.create(id);
     res.status(200).json({
       status: "success",
       data: {
@@ -58,18 +62,45 @@ exports.createProduct = async (req, res) => {
 };
 
 // UPDATE PRODUCT BY ID
-exports.updateProduct = (req, res) => {
-  res.status(200).json({
-    status: "success",
-    data: {
-      product: "Updated Product here",
-    },
-  });
+exports.updateProduct = async (req, res) => {
+  try {
+    // Get id from param url
+    const id = req.params.id;
+    // Find product by id and update
+    const foundProduct = await Product.findByIdAndUpdate(id, req.body, {
+      // options to return new updated product
+      new: true,
+      // run validators
+      runValidators: true,
+    });
+    res.status(200).json({
+      status: "success",
+      data: {
+        product: foundProduct,
+      },
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: "fail",
+      message: err,
+    });
+  }
 };
 // DELETE PRODUCT BY ID
-exports.deleteProduct = (req, res) => {
-  res.status(204).json({
-    status: "success",
-    data: null,
-  });
+exports.deleteProduct = async (req, res) => {
+  // Get id from param url
+  const id = req.params.id;
+  try {
+    // delete product by id
+    await Product.findByIdAndDelete(id);
+    res.status(204).json({
+      status: "success",
+      data: null,
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: "fail",
+      message: err,
+    });
+  }
 };
