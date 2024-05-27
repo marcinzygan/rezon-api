@@ -1,30 +1,42 @@
 const Product = require("../models/productModel");
 
 // GET ALL PRODUCTS
-exports.getAllProducts = (req, res) => {
-  res.status(200).json({
-    // requestedAt: req.requestTime,
-    // status: "success",
-    // results: products.length,
-    // data: {
-    //   products: products,
-    // },
-  });
+exports.getAllProducts = async (req, res) => {
+  try {
+    const products = await Product.find();
+    res.status(200).json({
+      status: "success",
+      data: {
+        products: products,
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: "fail",
+      message: err,
+    });
+  }
 };
 
 //  GET PRODUCT BY ID
-exports.getProduct = (req, res) => {
-  // convert param id to number
-  const id = req.params.id * 1;
-  // find product by id
-  // const foundProduct = products.find((product) => product.id === id);
-
-  res.status(200).json({
-    status: "success",
-    data: {
-      product: foundProduct,
-    },
-  });
+exports.getProduct = async (req, res) => {
+  try {
+    const id = req.params.id;
+    // F ind product by search parameter
+    const foundProduct = await Product.findOne({ _id: id });
+    //  Product.findById(id) to search by mongoDB _id
+    res.status(200).json({
+      status: "success",
+      data: {
+        product: foundProduct,
+      },
+    });
+  } catch (err) {
+    res.status(404).json({
+      status: "fail",
+      message: err,
+    });
+  }
 };
 
 //CREATE PRODUCT
