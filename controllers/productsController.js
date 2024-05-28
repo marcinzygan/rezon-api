@@ -3,7 +3,19 @@ const Product = require("../models/productModel");
 // GET ALL PRODUCTS
 exports.getAllProducts = async (req, res) => {
   try {
-    const products = await Product.find();
+    console.log(req.query);
+    let products;
+    if (req.query.name) {
+      const { name } = req.query;
+      // create regex to find product by name not case sesitive
+      const regex = new RegExp(name, "i");
+      console.log(regex);
+      const queryObj = { ...req.query };
+      products = await Product.find({ name: regex });
+    } else {
+      products = await Product.find();
+    }
+
     res.status(200).json({
       status: "success",
       numberOfProducts: products.length,
