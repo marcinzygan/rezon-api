@@ -22,13 +22,22 @@ const productSchema = new mongoose.Schema({
   description: String,
   image: String,
   slider_images: Array,
-  technology: String,
+  technology: Number,
   stock: Number,
   stock_optimal: Number,
+  stock_ordered: Number,
+  stock_additional: Object,
   dimensions: String,
   new: Boolean,
   active: Boolean,
   custom_shape: Boolean,
+  form: String,
+  catalogue: String,
+  compilation: Boolean,
+  compilation_desc: String,
+  compilation_quantity: Number,
+  compilation_price: Number,
+  stand: Boolean,
 });
 const Product = mongoose.model("Product", productSchema);
 

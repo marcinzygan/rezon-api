@@ -22,10 +22,8 @@ exports.getAllProducts = async (req, res) => {
 //  GET PRODUCT BY ID
 exports.getProduct = async (req, res) => {
   try {
-    // Get id from param url
-    const id = req.params.id;
     // Find product by search parameter
-    const foundProduct = await Product.findById(id);
+    const foundProduct = await Product.findById(req.params.id);
     // const foundProduct = await Product.findOne({ _id: id });
 
     res.status(200).json({
@@ -46,7 +44,7 @@ exports.getProduct = async (req, res) => {
 exports.createProduct = async (req, res) => {
   try {
     // Create new product
-    const newProduct = await Product.create(id);
+    const newProduct = await Product.create(req.body);
     res.status(200).json({
       status: "success",
       data: {
@@ -64,15 +62,17 @@ exports.createProduct = async (req, res) => {
 // UPDATE PRODUCT BY ID
 exports.updateProduct = async (req, res) => {
   try {
-    // Get id from param url
-    const id = req.params.id;
     // Find product by id and update
-    const foundProduct = await Product.findByIdAndUpdate(id, req.body, {
-      // options to return new updated product
-      new: true,
-      // run validators
-      runValidators: true,
-    });
+    const foundProduct = await Product.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      {
+        // options to return new updated product
+        new: true,
+        // run validators
+        runValidators: true,
+      },
+    );
     res.status(200).json({
       status: "success",
       data: {
@@ -88,11 +88,9 @@ exports.updateProduct = async (req, res) => {
 };
 // DELETE PRODUCT BY ID
 exports.deleteProduct = async (req, res) => {
-  // Get id from param url
-  const id = req.params.id;
   try {
     // delete product by id
-    await Product.findByIdAndDelete(id);
+    await Product.findByIdAndDelete(req.params.id);
     res.status(204).json({
       status: "success",
       data: null,
