@@ -1,8 +1,8 @@
 [
   {
     "category": "magnesy",
-    "image": "/images/magnesy/01.jpg",
-    "slider_images": ["/images/magnesy/01.jpg"],
+    "imageCover": "/images/magnesy/01.jpg",
+    "images": ["/images/magnesy/01.jpg"],
     "pc_id": "AKRYL 1",
     "name": "AKRYL DOWOLNY KSZTAŁT",
     "description": "Magnes wykonany z wyciętego akrylu w kształcie dowolnym. Możliwe nadrukowanie grafiki na powstałym kształcie.",
@@ -17,8 +17,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/02.jpg",
-    "slider_images": ["/images/magnesy/02.jpg"],
+    "imageCover": "/images/magnesy/02.jpg",
+    "images": ["/images/magnesy/02.jpg"],
     "pc_id": "MAGNES POLSKA ",
     "name": "MAGNES AKRYL POLSKA",
     "description": "Magnes wykonany z akrylu w kształcie mapy Polski z możliwością nadruku grafiki. Produkt w woreczku.",
@@ -33,8 +33,8 @@
 
   {
     "category": "magnesy",
-    "image": "/images/magnesy/07.jpg",
-    "slider_images": ["/images/magnesy/07.jpg"],
+    "imageCover": "/images/magnesy/07.jpg",
+    "images": ["/images/magnesy/07.jpg"],
     "pc_id": "MAGNES DREWNO",
     "name": "MAGNES DREWNO ZNACZEK",
     "description": "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
@@ -48,8 +48,8 @@
 
   {
     "category": "magnesy",
-    "image": "/images/magnesy/09.jpg",
-    "slider_images": ["/images/magnesy/09.jpg"],
+    "imageCover": "/images/magnesy/09.jpg",
+    "images": ["/images/magnesy/09.jpg"],
     "pc_id": "MAGNES METAL APARAT",
     "name": "MAGNES METAL APARAT",
     "description": "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
@@ -62,8 +62,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/010.jpg",
-    "slider_images": ["/images/magnesy/010.jpg"],
+    "imageCover": "/images/magnesy/010.jpg",
+    "images": ["/images/magnesy/010.jpg"],
     "pc_id": "MAGNES METAL MORSKI",
     "name": "MAGNES METAL MORSKI",
     "description": "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
@@ -76,8 +76,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/011.jpg",
-    "slider_images": ["/images/magnesy/011.jpg"],
+    "imageCover": "/images/magnesy/011.jpg",
+    "images": ["/images/magnesy/011.jpg"],
     "pc_id": "MAGNES METAL KOTWICA",
     "name": "MAGNES METAL KOTWICA",
     "description": "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
@@ -91,8 +91,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/012.jpg",
-    "slider_images": ["/images/magnesy/012.jpg"],
+    "imageCover": "/images/magnesy/012.jpg",
+    "images": ["/images/magnesy/012.jpg"],
     "pc_id": "MAGNES METAL RAMKA",
     "name": "MAGNES METAL RAMKA",
     "description": "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
@@ -106,8 +106,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/013.jpg",
-    "slider_images": ["/images/magnesy/013.jpg"],
+    "imageCover": "/images/magnesy/013.jpg",
+    "images": ["/images/magnesy/013.jpg"],
     "pc_id": "MAGNES METAL TELEFON",
     "name": "MAGNES METAL TELEFON",
     "description": "Magnes wykonany z polerowanego stopu metali \nz miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
@@ -121,8 +121,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/014.jpg",
-    "slider_images": ["/images/magnesy/014.jpg"],
+    "imageCover": "/images/magnesy/014.jpg",
+    "images": ["/images/magnesy/014.jpg"],
     "pc_id": "MAGNES METAL SERCE",
     "name": "MAGNES METAL SERCE",
     "description": "Magnes wykonany z polerowanego stopu metali \nz miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
@@ -136,8 +136,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/015.jpg",
-    "slider_images": ["/images/magnesy/015.jpg"],
+    "imageCover": "/images/magnesy/015.jpg",
+    "images": ["/images/magnesy/015.jpg"],
     "pc_id": "MAGNES METAL STER",
     "name": "MAGNES METAL STER",
     "description": "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
@@ -151,8 +151,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/016.jpg",
-    "slider_images": ["/images/magnesy/016.jpg"],
+    "imageCover": "/images/magnesy/016.jpg",
+    "images": ["/images/magnesy/016.jpg"],
     "pc_id": "MAGNES METAL KARTKA",
     "name": "MAGNES METAL KARTKA",
     "description": "Magnes wykonany z polerowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
@@ -166,8 +166,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/017.jpg",
-    "slider_images": ["/images/magnesy/017.jpg"],
+    "imageCover": "/images/magnesy/017.jpg",
+    "images": ["/images/magnesy/017.jpg"],
     "pc_id": "MAGNES METAL LINA",
     "name": "MAGNES METAL LINA",
     "description": "Magnes wykonany z polerowanego stopu metali \nz miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
@@ -181,8 +181,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/018.jpg",
-    "slider_images": ["/images/magnesy/018.jpg"],
+    "imageCover": "/images/magnesy/018.jpg",
+    "images": ["/images/magnesy/018.jpg"],
     "pc_id": "MAGNES METAL PAPIRUS",
     "name": "MAGNES METAL PAPIRUS",
     "description": "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
@@ -197,8 +197,8 @@
 
   {
     "category": "magnesy",
-    "image": "/images/magnesy/020.jpg",
-    "slider_images": ["/images/magnesy/020.jpg"],
+    "imageCover": "/images/magnesy/020.jpg",
+    "images": ["/images/magnesy/020.jpg"],
     "pc_id": "DK32-KAPSEL METAL",
     "name": "MAGNES METAL KAPSEL",
     "description": "Metalowy kapsel z magnesem o średnicy 42 mm. Grafika wykonana na zadrukowanej folia i pokryta żywicą.  Produkt zapakowany  w woreczku.",
@@ -213,8 +213,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/021.jpg",
-    "slider_images": ["/images/magnesy/021.jpg"],
+    "imageCover": "/images/magnesy/021.jpg",
+    "images": ["/images/magnesy/021.jpg"],
     "pc_id": "DK42-159",
     "name": "MAGNES METAL I LOVE",
     "description": "Metalowy magnes wykonany w wysokiej jakości. Sympatyczna pamiątka  i  praktyczna ozdoba. Możliwość wykonania dowolnej grafiki klienta.",
@@ -228,8 +228,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/022.jpg",
-    "slider_images": ["/images/magnesy/022.jpg"],
+    "imageCover": "/images/magnesy/022.jpg",
+    "images": ["/images/magnesy/022.jpg"],
     "pc_id": "POLIRESING KAMIENIE",
     "name": "MAGNES POLIRESING KAMIENIE",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -243,8 +243,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/023.jpg",
-    "slider_images": ["/images/magnesy/023.jpg"],
+    "imageCover": "/images/magnesy/023.jpg",
+    "images": ["/images/magnesy/023.jpg"],
     "pc_id": "POLIRESING STER",
     "name": "MAGNES POLIRESING STER",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -258,8 +258,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/024.jpg",
-    "slider_images": ["/images/magnesy/024.jpg"],
+    "imageCover": "/images/magnesy/024.jpg",
+    "images": ["/images/magnesy/024.jpg"],
     "pc_id": "POLIRESING KOTWICA",
     "name": "MAGNES POLIRESING KOTWICA",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -273,8 +273,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/025.jpg",
-    "slider_images": ["/images/magnesy/025.jpg"],
+    "imageCover": "/images/magnesy/025.jpg",
+    "images": ["/images/magnesy/025.jpg"],
     "pc_id": "POLIRESING MUSZLA",
     "name": "MAGNES POLIRESING MUSZLA",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -288,8 +288,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/026.jpg",
-    "slider_images": ["/images/magnesy/026.jpg"],
+    "imageCover": "/images/magnesy/026.jpg",
+    "images": ["/images/magnesy/026.jpg"],
     "pc_id": "POLIRESING SERCE",
     "name": "MAGNES POLIRESING SERCE",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -303,8 +303,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/027.jpg",
-    "slider_images": ["/images/magnesy/027.jpg"],
+    "imageCover": "/images/magnesy/027.jpg",
+    "images": ["/images/magnesy/027.jpg"],
     "pc_id": "POLIRESING ŻAGLÓWKA",
     "name": "MAGNES POLIRESING ŻAGLÓWKA",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -318,8 +318,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/028.jpg",
-    "slider_images": ["/images/magnesy/028.jpg"],
+    "imageCover": "/images/magnesy/028.jpg",
+    "images": ["/images/magnesy/028.jpg"],
     "pc_id": "MAGNES SZKŁO",
     "name": "MAGNES SZKŁO KOŁO",
     "description": "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
@@ -334,8 +334,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/029.jpg",
-    "slider_images": ["/images/magnesy/029.jpg"],
+    "imageCover": "/images/magnesy/029.jpg",
+    "images": ["/images/magnesy/029.jpg"],
     "pc_id": "MAGNES SZKŁO",
     "name": "MAGNES SZKŁO OWAL",
     "description": "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
@@ -350,8 +350,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/030.jpg",
-    "slider_images": ["/images/magnesy/030.jpg"],
+    "imageCover": "/images/magnesy/030.jpg",
+    "images": ["/images/magnesy/030.jpg"],
     "pc_id": "MAGNES SZKŁO",
     "name": "MAGNES SZKŁO SERCE",
     "description": "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
@@ -367,8 +367,8 @@
 
   {
     "category": "magnesy",
-    "image": "/images/magnesy/032.jpg",
-    "slider_images": ["/images/magnesy/032.jpg"],
+    "imageCover": "/images/magnesy/032.jpg",
+    "images": ["/images/magnesy/032.jpg"],
     "pc_id": "MAGNES SZKŁO",
     "name": "MAGNES SZKŁO KOSZULKA",
     "description": "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
@@ -384,8 +384,8 @@
 
   {
     "category": "magnesy",
-    "image": "/images/magnesy/035.jpg",
-    "slider_images": ["/images/magnesy/035.jpg"],
+    "imageCover": "/images/magnesy/035.jpg",
+    "images": ["/images/magnesy/035.jpg"],
     "pc_id": "SKLEJKA MAZAK",
     "name": "MAGNES SKLEJKA MAZAK",
     "description": "Ozdobny magnes - kolorowanka wykonany ze sklejki. Możliwość wykonania dowolnej prostej grafiki w dowolnym kształcie. Do magnesu dołączony komplet 6 mazaków. Produkt zapakowany w woreczku.",
@@ -400,8 +400,8 @@
 
   {
     "category": "magnesy",
-    "image": "/images/magnesy/036.jpg",
-    "slider_images": ["/images/magnesy/036.jpg"],
+    "imageCover": "/images/magnesy/036.jpg",
+    "images": ["/images/magnesy/036.jpg"],
     "pc_id": "SKLEJKA SZKŁO",
     "name": "MAGNES SKLEJKA SZKŁO",
     "description": "Ozdobny magnes wykonany ze sklejki z doklejonym szklanym elementem. Możliwość wykonania dowolnej prostej grafiki w dowolnym kształcie na sklejce i dowolnej grafiki na szklanym elemencie. Produkt zapakowany w woreczku.",
@@ -415,8 +415,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/037.jpg",
-    "slider_images": ["/images/magnesy/037.jpg"],
+    "imageCover": "/images/magnesy/037.jpg",
+    "images": ["/images/magnesy/037.jpg"],
     "pc_id": "DK38-007B",
     "name": "MAGNES ECO KOŁO",
     "description": "Magnes wykonany z drewna z wypaloną grafiką. Możliwość wykonania dowolnej prostej grafiki.",
@@ -430,8 +430,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/038.jpg",
-    "slider_images": ["/images/magnesy/038.jpg"],
+    "imageCover": "/images/magnesy/038.jpg",
+    "images": ["/images/magnesy/038.jpg"],
     "pc_id": "DK38-007C",
     "name": "MAGNES ECO OWAL",
     "description": "Magnes wykonany z drewna z wypaloną grafiką. Możliwość wykonania dowolnej prostej grafiki.",
@@ -445,8 +445,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/039.jpg",
-    "slider_images": ["/images/magnesy/039.jpg"],
+    "imageCover": "/images/magnesy/039.jpg",
+    "images": ["/images/magnesy/039.jpg"],
     "pc_id": "MAGNES ŻYWICA-1",
     "name": "MAGNES ŻYWICA TOREBKA",
     "description": "Żywicowany magnes o wysokiej wartości estetycznej. Elegancka pamiątka okolicznościowa zapakowana \nw stylowym woreczku. Możliwość wykonania na produkcie grafiki klienta.",
@@ -460,8 +460,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/040.jpg",
-    "slider_images": ["/images/magnesy/040.jpg"],
+    "imageCover": "/images/magnesy/040.jpg",
+    "images": ["/images/magnesy/040.jpg"],
     "pc_id": "MAGNES ŻYWICA-2",
     "name": "MAGNES ŻYWICA PROSTOKĄT",
     "description": "Żywicowany magnes o wysokiej wartości estetycznej. Elegancka pamiątka okolicznościowa zapakowana \nw stylowym woreczku. Możliwość wykonania na produkcie grafiki klienta.",
@@ -475,8 +475,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/041.jpg",
-    "slider_images": ["/images/magnesy/041.jpg"],
+    "imageCover": "/images/magnesy/041.jpg",
+    "images": ["/images/magnesy/041.jpg"],
     "pc_id": "MAGNES ŻYWICA IMIĘ",
     "name": "MAGNES ŻYWICA IMIĘ",
     "description": "Żywicowany magnes o wysokiej wartości estetycznej. Elegancka pamiątka okolicznościowa zapakowana w stylowym woreczku. Możliwość wykonania na produkcie grafiki klienta. Planowane 6 oryginalnych wzorów ze zdjęciem miejscowości i imieniem.",
@@ -496,8 +496,8 @@
 
   {
     "category": "magnesy",
-    "image": "/images/magnesy/044.jpg",
-    "slider_images": ["/images/magnesy/044.jpg"],
+    "imageCover": "/images/magnesy/044.jpg",
+    "images": ["/images/magnesy/044.jpg"],
     "pc_id": "MAGNES DŁUGOPIS",
     "name": "MAGNES DŁUGOPIS",
     "description": "Plastikowy magnes z funkcją długopisu. Możliwe wykonanie dowolnej grafiki na wierzchniej stronie przedmiotu. Do długopisu dołączony mały notes i samoprzylepne karteczki.",
@@ -511,8 +511,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/045.jpg",
-    "slider_images": ["/images/magnesy/045.jpg"],
+    "imageCover": "/images/magnesy/045.jpg",
+    "images": ["/images/magnesy/045.jpg"],
     "pc_id": "DK41-077B",
     "name": "ZŁOTA RYBKA",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -526,8 +526,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/046.jpg",
-    "slider_images": ["/images/magnesy/046.jpg"],
+    "imageCover": "/images/magnesy/046.jpg",
+    "images": ["/images/magnesy/046.jpg"],
     "pc_id": "DK41-077A",
     "name": "MAGNES NÓŻKI",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -541,8 +541,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/047.jpg",
-    "slider_images": ["/images/magnesy/047.jpg"],
+    "imageCover": "/images/magnesy/047.jpg",
+    "images": ["/images/magnesy/047.jpg"],
     "pc_id": "MAGNES MDF",
     "name": "MAGNES MDF",
     "description": "Jednowarstwowy drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
@@ -556,8 +556,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/048.jpg",
-    "slider_images": ["/images/magnesy/048.jpg"],
+    "imageCover": "/images/magnesy/048.jpg",
+    "images": ["/images/magnesy/048.jpg"],
     "pc_id": "MAGNES MDF IMIĘ",
     "name": "MAGNES MDF IMIĘ",
     "description": "Dwuwarstwowy drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
@@ -576,8 +576,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/049.jpg",
-    "slider_images": ["/images/magnesy/049.jpg"],
+    "imageCover": "/images/magnesy/049.jpg",
+    "images": ["/images/magnesy/049.jpg"],
     "pc_id": "MAGNES WAKACJE",
     "name": "MAGNES WAKACJE",
     "description": "Drewniany magnes moje wakacje z nazwą miejscowości. Elegancki magnes wypełniony żywicą, wykonany w technologii full color.",
@@ -591,8 +591,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/050.jpg",
-    "slider_images": ["/images/magnesy/050.jpg"],
+    "imageCover": "/images/magnesy/050.jpg",
+    "images": ["/images/magnesy/050.jpg"],
     "pc_id": "MAGNES FOLIA",
     "name": "MAGNES FOLIA",
     "description": "Barwny magnes wykonany w technologii full color. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. ",
@@ -606,8 +606,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/MAGNES_FOLIA_1.jpg",
-    "slider_images": ["/images/magnesy/MAGNES_FOLIA_1.jpg"],
+    "imageCover": "/images/magnesy/MAGNES_FOLIA_1.jpg",
+    "images": ["/images/magnesy/MAGNES_FOLIA_1.jpg"],
     "pc_id": "MAGNES FOLIA 1",
     "name": "MAGNES FOLIA 1",
     "description": "Barwny magnes wykonany w technologii full color w dowolnym kształcie. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka.",
@@ -622,8 +622,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/MAGNES_FOLIA_2.jpg",
-    "slider_images": ["/images/magnesy/MAGNES_FOLIA_2.jpg"],
+    "imageCover": "/images/magnesy/MAGNES_FOLIA_2.jpg",
+    "images": ["/images/magnesy/MAGNES_FOLIA_2.jpg"],
     "pc_id": "MAGNES FOLIA 2",
     "name": "MAGNES FOLIA 2",
     "description": "Barwny magnes wykonany w technologii full color w dowolnym kształcie. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. ",
@@ -638,8 +638,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/magnes_polirezing.webp",
-    "slider_images": ["/images/magnesy/magnes_polirezing.webp"],
+    "imageCover": "/images/magnesy/magnes_polirezing.webp",
+    "images": ["/images/magnesy/magnes_polirezing.webp"],
     "pc_id": "MAGNES POLIRESING",
     "name": "MAGNES POLIRESING ZNAK",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -653,8 +653,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf.webp",
-    "slider_images": ["/images/magnesy/hdf.webp"],
+    "imageCover": "/images/magnesy/hdf.webp",
+    "images": ["/images/magnesy/hdf.webp"],
     "pc_id": "MAGNES HDF",
     "name": "MAGNES HDF",
     "description": "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color.",
@@ -668,8 +668,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf_graf.webp",
-    "slider_images": ["/images/magnesy/hdf_graf.webp"],
+    "imageCover": "/images/magnesy/hdf_graf.webp",
+    "images": ["/images/magnesy/hdf_graf.webp"],
     "pc_id": "MAGNES HDF GRAF",
     "name": "MAGNES HDF GRAF",
     "description": "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color.",
@@ -683,8 +683,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/pianka1.webp",
-    "slider_images": ["/images/magnesy/pianka1.webp"],
+    "imageCover": "/images/magnesy/pianka1.webp",
+    "images": ["/images/magnesy/pianka1.webp"],
     "pc_id": "MAGNES PIANKA 1",
     "name": "MAGNES PIANKA 1",
     "description": "Magnes wykonany z lekkiej pianki z kolorową grafiką.",
@@ -699,8 +699,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/pianka2.webp",
-    "slider_images": ["/images/magnesy/pianka2.webp"],
+    "imageCover": "/images/magnesy/pianka2.webp",
+    "images": ["/images/magnesy/pianka2.webp"],
     "pc_id": "MAGNES PIANKA 2",
     "name": "MAGNES PIANKA 2",
     "description": "Magnes wykonany z lekkiej pianki z kolorową grafiką.",
@@ -715,8 +715,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/wklejka_2.jpg",
-    "slider_images": [
+    "imageCover": "/images/magnesy/wklejka_2.jpg",
+    "images": [
       "/images/magnesy/wklejka_2.jpg",
       "/images/magnesy/wklejka_1.jpg",
       "/images/magnesy/wklejka_3.jpg",
@@ -736,8 +736,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/POCZTOWKA1_1.jpg",
-    "slider_images": [
+    "imageCover": "/images/magnesy/POCZTOWKA1_1.jpg",
+    "images": [
       "/images/magnesy/POCZTOWKA1_1.jpg",
       "/images/magnesy/POCZTOWKA1_2.jpg"
     ],
@@ -755,8 +755,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/POCZTOWKA2_2.jpg",
-    "slider_images": [
+    "imageCover": "/images/magnesy/POCZTOWKA2_2.jpg",
+    "images": [
       "/images/magnesy/POCZTOWKA2_2.jpg",
       "/images/magnesy/POCZTOWKA2_1.jpg"
     ],
@@ -774,8 +774,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf_zywica1.jpg",
-    "slider_images": [
+    "imageCover": "/images/magnesy/hdf_zywica1.jpg",
+    "images": [
       "/images/magnesy/hdf_zywica1.jpg",
       "/images/magnesy/hdf_zywica2.jpg"
     ],
@@ -793,8 +793,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf_zywica_serce.jpg",
-    "slider_images": ["/images/magnesy/hdf_zywica_serce.jpg"],
+    "imageCover": "/images/magnesy/hdf_zywica_serce.jpg",
+    "images": ["/images/magnesy/hdf_zywica_serce.jpg"],
     "pc_id": "HDF ŻYWICA",
     "name": "MAGNES HDF ŻYWICA SERCE",
     "description": "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color. Magnes pokryty jest żywicą.",
@@ -809,8 +809,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf_zywica_prostokat_maly.jpg",
-    "slider_images": ["/images/magnesy/hdf_zywica_prostokat_maly.jpg"],
+    "imageCover": "/images/magnesy/hdf_zywica_prostokat_maly.jpg",
+    "images": ["/images/magnesy/hdf_zywica_prostokat_maly.jpg"],
     "pc_id": "HDF ŻYWICA",
     "name": "MAGNES HDF ŻYWICA PROSTOKĄT MAŁY",
     "description": "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color. Magnes pokryty jest żywicą.",
@@ -825,8 +825,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf_zywica_prostokat_duzy.jpg",
-    "slider_images": ["/images/magnesy/hdf_zywica_prostokat_duzy.jpg"],
+    "imageCover": "/images/magnesy/hdf_zywica_prostokat_duzy.jpg",
+    "images": ["/images/magnesy/hdf_zywica_prostokat_duzy.jpg"],
     "pc_id": "HDF ŻYWICA",
     "name": "MAGNES HDF ŻYWICA PROSTOKĄT DUŻY",
     "description": "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color. Magnes pokryty jest żywicą.",
@@ -841,8 +841,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf_zywica_muszla.jpg",
-    "slider_images": ["/images/magnesy/hdf_zywica_muszla.jpg"],
+    "imageCover": "/images/magnesy/hdf_zywica_muszla.jpg",
+    "images": ["/images/magnesy/hdf_zywica_muszla.jpg"],
     "pc_id": "HDF ŻYWICA",
     "name": "MAGNES HDF ŻYWICA MUSZLA",
     "description": "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color. Magnes pokryty jest żywicą.",
@@ -857,8 +857,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/hdf_zywica_polska.jpg",
-    "slider_images": ["/images/magnesy/hdf_zywica_polska.jpg"],
+    "imageCover": "/images/magnesy/hdf_zywica_polska.jpg",
+    "images": ["/images/magnesy/hdf_zywica_polska.jpg"],
     "pc_id": "HDF ŻYWICA",
     "name": "MAGNES HDF ŻYWICA POLSKA",
     "description": "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color. Magnes pokryty jest żywicą.",
@@ -873,8 +873,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/LYZECZKA_1.jpg",
-    "slider_images": ["/images/magnesy/LYZECZKA_1.jpg"],
+    "imageCover": "/images/magnesy/LYZECZKA_1.jpg",
+    "images": ["/images/magnesy/LYZECZKA_1.jpg"],
     "pc_id": "DK42-131",
     "name": "ŁYŻECZKA 1",
     "description": "Metalowa łyżeczka z dwoma magnesami umieszczonymi na odwrocie. Na łyżeczce znajduje się miejsce na którym wklejana jest naklejka pokryta żywicą. Produkt w kolorze srebrnym.",
@@ -889,8 +889,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/LYZECZKA_2.jpg",
-    "slider_images": ["/images/magnesy/LYZECZKA_2.jpg"],
+    "imageCover": "/images/magnesy/LYZECZKA_2.jpg",
+    "images": ["/images/magnesy/LYZECZKA_2.jpg"],
     "pc_id": "",
     "name": "ŁYŻECZKA 2",
     "description": "Metalowa łyżeczka z dwoma magnesami umieszczonymi na odwrocie. Na łyżeczce znajduje się miejsce na którym wklejana jest naklejka pokryta żywicą. Produkt w kolorze złotym.",
@@ -905,8 +905,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/MAGNES_KUBEK.jpg",
-    "slider_images": ["/images/magnesy/MAGNES_KUBEK.jpg"],
+    "imageCover": "/images/magnesy/MAGNES_KUBEK.jpg",
+    "images": ["/images/magnesy/MAGNES_KUBEK.jpg"],
     "pc_id": "DK42-151",
     "name": "MAGNES KUBEK",
     "description": "Metalowy kubek z magnesem umieszczonym na odwrocie. Na kubku wklejana jest naklejka ze wzorem.",
@@ -921,8 +921,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/MAGNES_POLIRESING_ZYWICA_STER.jpg",
-    "slider_images": ["/images/magnesy/MAGNES_POLIRESING_ZYWICA_STER.jpg"],
+    "imageCover": "/images/magnesy/MAGNES_POLIRESING_ZYWICA_STER.jpg",
+    "images": ["/images/magnesy/MAGNES_POLIRESING_ZYWICA_STER.jpg"],
     "pc_id": "DK42-055A",
     "name": "MAGNES POLIRESING ŻYWICA STER",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -937,8 +937,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/MAGNES_POLIRESING_ZYWICA_MUSZLA.jpg",
-    "slider_images": ["/images/magnesy/MAGNES_POLIRESING_ZYWICA_MUSZLA.jpg"],
+    "imageCover": "/images/magnesy/MAGNES_POLIRESING_ZYWICA_MUSZLA.jpg",
+    "images": ["/images/magnesy/MAGNES_POLIRESING_ZYWICA_MUSZLA.jpg"],
     "pc_id": "DK42-055B",
     "name": "MAGNES POLIRESING ŻYWICA MUSZLA",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -953,8 +953,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/MAGNES_POLIRESING_ZYWICA_STATEK.jpg",
-    "slider_images": ["/images/magnesy/MAGNES_POLIRESING_ZYWICA_STATEK.jpg"],
+    "imageCover": "/images/magnesy/MAGNES_POLIRESING_ZYWICA_STATEK.jpg",
+    "images": ["/images/magnesy/MAGNES_POLIRESING_ZYWICA_STATEK.jpg"],
     "pc_id": "DK42-055C",
     "name": "MAGNES POLIRESING ŻYWICA STATEK",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -969,8 +969,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/magnes_poliresing_ramka_1.jpg",
-    "slider_images": ["/images/magnesy/magnes_poliresing_ramka_1.jpg"],
+    "imageCover": "/images/magnesy/magnes_poliresing_ramka_1.jpg",
+    "images": ["/images/magnesy/magnes_poliresing_ramka_1.jpg"],
     "pc_id": "POLIRESING RAMKA 1",
     "name": "MAGNES POLIRESING RAMKA 1",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -985,8 +985,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/magnes_poliresing_ramka_2.jpg",
-    "slider_images": ["/images/magnesy/magnes_poliresing_ramka_2.jpg"],
+    "imageCover": "/images/magnesy/magnes_poliresing_ramka_2.jpg",
+    "images": ["/images/magnesy/magnes_poliresing_ramka_2.jpg"],
     "pc_id": "POLIRESING RAMKA 2",
     "name": "MAGNES POLIRESING RAMKA 2",
     "description": "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -1001,8 +1001,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/magnes_metal_kolo_1.jpg",
-    "slider_images": ["/images/magnesy/magnes_metal_kolo_1.jpg"],
+    "imageCover": "/images/magnesy/magnes_metal_kolo_1.jpg",
+    "images": ["/images/magnesy/magnes_metal_kolo_1.jpg"],
     "pc_id": "DK42-165A",
     "name": "MAGNES METAL KOŁO 1",
     "description": "Magnes wykonany z metalu z napisem `MORZE BAŁTYCKIE`, posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -1017,8 +1017,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/magnes_metal_kolo_2.jpg",
-    "slider_images": ["/images/magnesy/magnes_metal_kolo_2.jpg"],
+    "imageCover": "/images/magnesy/magnes_metal_kolo_2.jpg",
+    "images": ["/images/magnesy/magnes_metal_kolo_2.jpg"],
     "pc_id": "DK42-185",
     "name": "MAGNES METAL KOŁO 2",
     "description": "Magnes wykonany z metalu z napisem `MORZE BAŁTYCKIE`, posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -1033,8 +1033,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/magnes_metal_kolo_3.jpg",
-    "slider_images": ["/images/magnesy/magnes_metal_kolo_3.jpg"],
+    "imageCover": "/images/magnesy/magnes_metal_kolo_3.jpg",
+    "images": ["/images/magnesy/magnes_metal_kolo_3.jpg"],
     "pc_id": "DK42-166",
     "name": "MAGNES METAL KOŁO 3",
     "description": "Magnes wykonany z metalu z napisem `I ❤ POLSKA`, posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -1049,8 +1049,8 @@
   },
   {
     "category": "magnesy",
-    "image": "/images/magnesy/magnes_metal_kolo_4.jpg",
-    "slider_images": ["/images/magnesy/magnes_metal_kolo_4.jpg"],
+    "imageCover": "/images/magnesy/magnes_metal_kolo_4.jpg",
+    "images": ["/images/magnesy/magnes_metal_kolo_4.jpg"],
     "pc_id": "DK42-165B",
     "name": "MAGNES METAL KOŁO 4",
     "description": "Magnes wykonany z metalu posiadający miejsce na wykonanie grafiki ze wzorem. Naklejka ze wzorem pokryta jest żywicą. Produkt zapakowany w woreczku.",
@@ -1066,8 +1066,8 @@
 
   {
     "category": "breloki",
-    "image": "/images/Breloki/01.jpg",
-    "slider_images": ["/images/Breloki/01.jpg"],
+    "imageCover": "/images/Breloki/01.jpg",
+    "images": ["/images/Breloki/01.jpg"],
     "pc_id": "DK39-EKO2",
     "name": "BRELOK ECO",
     "description": "Elegancki brelok wykonany z imitacji skóry z grawerem laserowym który można wykonać na obu stronach breloka. Produkt dostępny w 3 kolorach: Czarny ze srebrnym grawerem, Brązowy z czarnym grawerem i Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
@@ -1081,8 +1081,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/01.jpg",
-    "slider_images": [
+    "imageCover": "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/01.jpg",
+    "images": [
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/01.jpg",
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/02.jpg",
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/03.jpg",
@@ -1110,8 +1110,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/03.jpg",
-    "slider_images": ["/images/Breloki/03.jpg"],
+    "imageCover": "/images/Breloki/03.jpg",
+    "images": ["/images/Breloki/03.jpg"],
     "pc_id": "DK28-016A",
     "name": "BRELOK METALOWY Z DŻETAMI",
     "description": "Brelok metalowy z dżetami z wygrawerowanym metodą laserową imieniem. Oferujemy brelok  w kształcie serca. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -1127,8 +1127,8 @@
 
   {
     "category": "breloki",
-    "image": "/images/Breloki/05.jpg",
-    "slider_images": ["/images/Breloki/05.jpg"],
+    "imageCover": "/images/Breloki/05.jpg",
+    "images": ["/images/Breloki/05.jpg"],
     "pc_id": "DK41-031C",
     "name": "BRELOK OBCINACZKI OTWIERACZ",
     "description": "Brelok, otwieracz i obcinaczki do paznokci w jednym. Metalowe i solidne wykonanie. Na zewnątrz posiada miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
@@ -1142,8 +1142,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/06.jpg",
-    "slider_images": ["/images/Breloki/06.jpg"],
+    "imageCover": "/images/Breloki/06.jpg",
+    "images": ["/images/Breloki/06.jpg"],
     "pc_id": "BRELOK OBROTOWY BECZKA",
     "name": "BRELOK OBROTOWY BECZKA",
     "description": "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
@@ -1158,8 +1158,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/07.jpg",
-    "slider_images": ["/images/Breloki/07.jpg"],
+    "imageCover": "/images/Breloki/07.jpg",
+    "images": ["/images/Breloki/07.jpg"],
     "pc_id": "BRELOK OBROTOWY KOŁO",
     "name": "BRELOK OBROTOWY KOŁO",
     "description": "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
@@ -1174,8 +1174,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/08.jpg",
-    "slider_images": ["/images/Breloki/08.jpg"],
+    "imageCover": "/images/Breloki/08.jpg",
+    "images": ["/images/Breloki/08.jpg"],
     "pc_id": "BRELOK OBROTOWY PROSTOKĄT",
     "name": "BRELOK OBROTOWY PROSTOKĄT",
     "description": "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
@@ -1190,8 +1190,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/09.jpg",
-    "slider_images": ["/images/Breloki/09.jpg"],
+    "imageCover": "/images/Breloki/09.jpg",
+    "images": ["/images/Breloki/09.jpg"],
     "pc_id": "BRELOK OBROTOWY SERCE",
     "name": "BRELOK OBROTOWY SERCE",
     "description": "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
@@ -1206,8 +1206,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/010.jpg",
-    "slider_images": ["/images/Breloki/010.jpg"],
+    "imageCover": "/images/Breloki/010.jpg",
+    "images": ["/images/Breloki/010.jpg"],
     "pc_id": "DK29-054D",
     "name": "BRELOK OTWIERACZ ALUMINIOWY",
     "description": "Kolorowy brelok z funkcją otwieracza wykonany \nz aluminium. Lekki produkt dostępny w 6 kolorach, możliwe wykonanie graweru.",
@@ -1221,8 +1221,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/011.jpg",
-    "slider_images": ["/images/Breloki/011.jpg"],
+    "imageCover": "/images/Breloki/011.jpg",
+    "images": ["/images/Breloki/011.jpg"],
     "pc_id": "BR OTWIERACZ 1",
     "name": "BRELOK OTWIERACZ METAL BUTELKA 1",
     "description": "Brelok metalowy w formie butelki z funkcją otwieracza na odwrocie. Logo wykonane na zadrukowanej folii \ni pokryte żywicą. Oferujemy 3 modele. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -1242,8 +1242,8 @@
 
   {
     "category": "breloki",
-    "image": "/images/Breloki/013.jpg",
-    "slider_images": ["/images/Breloki/013.jpg"],
+    "imageCover": "/images/Breloki/013.jpg",
+    "images": ["/images/Breloki/013.jpg"],
     "pc_id": "BRELOK OTWIERACZ-3",
     "name": "BRELOK OTWIERACZ METAL KAPSEL",
     "description": "Brelok  z funkcją otwieracza do butelek w kształcie kapsla. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce. Produkt zapakowany w woreczek i karteczkę",
@@ -1258,8 +1258,8 @@
 
   {
     "category": "breloki",
-    "image": "/images/Breloki/015.jpg",
-    "slider_images": ["/images/Breloki/015.jpg"],
+    "imageCover": "/images/Breloki/015.jpg",
+    "images": ["/images/Breloki/015.jpg"],
     "pc_id": "DK41-031D",
     "name": "BRELOK OTWIERACZ SCYZORYK",
     "description": "Metalowy brelok ze scyzorykiem, otwieraczem do butelek i korkociągiem. Na zewnątrz posiada miejsce wypełnione żywicą/logo. Możliwe wykonanie dowolnej grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -1273,8 +1273,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/016.jpg",
-    "slider_images": ["/images/Breloki/016.jpg"],
+    "imageCover": "/images/Breloki/016.jpg",
+    "images": ["/images/Breloki/016.jpg"],
     "pc_id": "BR OTWIERACZ 2",
     "name": "BRELOK OTWIERACZ SZKŁO",
     "description": "Okrągły otwieracz na którym możliwe jest wykonanie grafiki ze wzorem wykonanym na szklanym elemencie. Produkt zapakowany w woreczku ze stylową karteczką.",
@@ -1288,8 +1288,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/017.jpg",
-    "slider_images": ["/images/Breloki/017.jpg"],
+    "imageCover": "/images/Breloki/017.jpg",
+    "images": ["/images/Breloki/017.jpg"],
     "pc_id": "BRELOK METAL KARTKA",
     "name": "BRELOK POTRÓJNY KARTKA",
     "description": "Brelok metalowy wykonany z polerowanej stali złożony z 3 elementów ozdobionych naklejką żywiczną. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -1303,8 +1303,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/018.jpg",
-    "slider_images": ["/images/Breloki/018.jpg"],
+    "imageCover": "/images/Breloki/018.jpg",
+    "images": ["/images/Breloki/018.jpg"],
     "pc_id": "BRELOK METAL SERCE",
     "name": "BRELOK POTRÓJNY SERCE",
     "description": "Brelok metalowy wykonany z polerowanej stali złożony z 3 elementów ozdobionych naklejką żywiczną. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -1318,8 +1318,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/019.jpg",
-    "slider_images": ["/images/Breloki/019.jpg"],
+    "imageCover": "/images/Breloki/019.jpg",
+    "images": ["/images/Breloki/019.jpg"],
     "pc_id": "DK30-BRELOK SERCE",
     "name": "BRELOK SERCE AKRYL",
     "description": "Brelok z akrylu w kształcie serca z imieniem dziewczynki. Produkt dostępny w 3 kolorach, zapakowany na stylowej kartce w woreczku.",
@@ -1339,8 +1339,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/brelok_serce_male_2.jpg",
-    "slider_images": [
+    "imageCover": "/images/Breloki/brelok_serce_male_2.jpg",
+    "images": [
       "/images/Breloki/brelok_serce_male_1.jpg",
       "/images/Breloki/brelok_serce_male_2.jpg",
       "/images/Breloki/brelok_serce_male_3.jpg",
@@ -1360,8 +1360,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/020.jpg",
-    "slider_images": ["/images/Breloki/020.jpg"],
+    "imageCover": "/images/Breloki/020.jpg",
+    "images": ["/images/Breloki/020.jpg"],
     "pc_id": "DK29-054E",
     "name": "BRELOK SILIKONOWY",
     "description": "Brelok wykonany z elastycznego silikonu z miejscem na grawer. Produkt dostępny w 6 kolorach.",
@@ -1374,8 +1374,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/021.jpg",
-    "slider_images": ["/images/Breloki/021.jpg"],
+    "imageCover": "/images/Breloki/021.jpg",
+    "images": ["/images/Breloki/021.jpg"],
     "pc_id": "BRELOK SZKŁO",
     "name": "BRELOK SZKŁO KOŁO",
     "description": "Brelok metalowy wykonany z polerowanej stali \nz grafiką w szklanym elemencie, produkt zapakowany na stylowej kartce w woreczku.",
@@ -1390,8 +1390,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/022.jpg",
-    "slider_images": ["/images/Breloki/022.jpg"],
+    "imageCover": "/images/Breloki/022.jpg",
+    "images": ["/images/Breloki/022.jpg"],
     "pc_id": "BRELOK SZKŁO",
     "name": "BRELOK SZKŁO KOTWICA",
     "description": "Brelok metalowy wykonany z polerowanej stali \nz grafiką w szklanym elemencie, produkt zapakowany na stylowej kartce w woreczku.",
@@ -1406,8 +1406,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/023.jpg",
-    "slider_images": ["/images/Breloki/023.jpg"],
+    "imageCover": "/images/Breloki/023.jpg",
+    "images": ["/images/Breloki/023.jpg"],
     "pc_id": "BRELOK SZKŁO",
     "name": "BRELOK SZKŁO STER",
     "description": "Brelok metalowy wykonany z polerowanej stali \nz grafiką w szklanym elemencie, produkt zapakowany na stylowej kartce w woreczku.",
@@ -1422,8 +1422,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/024.jpg",
-    "slider_images": ["/images/Breloki/024.jpg"],
+    "imageCover": "/images/Breloki/024.jpg",
+    "images": ["/images/Breloki/024.jpg"],
     "pc_id": "BRELOK TABLICA",
     "name": "BRELOK TABLICA",
     "description": "Prostokątny, metalowy brelok z możliwością wklejenia za żywicowanej grafiki. Możliwość wykonania produktu z dowolną grafiką klienta.",
@@ -1437,8 +1437,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/025.jpg",
-    "slider_images": ["/images/Breloki/025.jpg"],
+    "imageCover": "/images/Breloki/025.jpg",
+    "images": ["/images/Breloki/025.jpg"],
     "pc_id": "BRELOK TAŚMA",
     "name": "BRELOK TAŚMA",
     "description": "Brelok w formie elastycznej tasiemki z poliestru z metalowym zapięciem. Idealny przedmiot do plecaka, torby podróżnej,  kluczy lub jako wykończenie zamka błyskawicznego kurtki. Brelok posiada nadrukowane elementy z imieniem, hasłem,  grafiką lub nazwą miejscowości. Dostępne w 12 różnorodnych kolorach",
@@ -1457,8 +1457,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/BRELOK_GRAWER_PROSTOKAT.jpg",
-    "slider_images": ["/images/Breloki/BRELOK_GRAWER_PROSTOKAT.jpg"],
+    "imageCover": "/images/Breloki/BRELOK_GRAWER_PROSTOKAT.jpg",
+    "images": ["/images/Breloki/BRELOK_GRAWER_PROSTOKAT.jpg"],
     "pc_id": "DK41-108",
     "name": "BRELOK GRAWER PROSTOKĄT",
     "description": "Brelok metalowy ze stylowym skórzanym wykończeniem! Metalowy element jest grawerowany laserowo.",
@@ -1476,8 +1476,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/BRELOK_GRAWER_OWAL.jpg",
-    "slider_images": ["/images/Breloki/BRELOK_GRAWER_OWAL.jpg"],
+    "imageCover": "/images/Breloki/BRELOK_GRAWER_OWAL.jpg",
+    "images": ["/images/Breloki/BRELOK_GRAWER_OWAL.jpg"],
     "pc_id": "DK41-108",
     "name": "BRELOK GRAWER OWAL",
     "description": "Brelok metalowy ze stylowym skórzanym wykończeniem! Metalowy element jest grawerowany laserowo.",
@@ -1495,8 +1495,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/BRELOK_GRAWER_KOLO.jpg",
-    "slider_images": ["/images/Breloki/BRELOK_GRAWER_KOLO.jpg"],
+    "imageCover": "/images/Breloki/BRELOK_GRAWER_KOLO.jpg",
+    "images": ["/images/Breloki/BRELOK_GRAWER_KOLO.jpg"],
     "pc_id": "DK41-108",
     "name": "BRELOK GRAWER KOŁO",
     "description": "Brelok metalowy ze stylowym skórzanym wykończeniem! Metalowy element jest grawerowany laserowo.",
@@ -1514,8 +1514,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/BRELOK_I_LOVE.jpg",
-    "slider_images": ["/images/Breloki/BRELOK_I_LOVE.jpg"],
+    "imageCover": "/images/Breloki/BRELOK_I_LOVE.jpg",
+    "images": ["/images/Breloki/BRELOK_I_LOVE.jpg"],
     "pc_id": "DK42-159",
     "name": "BRELOK I LOVE",
     "description": "Brelok metalowy z literą I ❤. Na breloku umieszczony jest element w kształcie koła gdzie wklejana jest naklejka ze wzorem , pokryta żywicą.",
@@ -1533,8 +1533,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/BRELOK_SCYZORYK.jpg",
-    "slider_images": ["/images/Breloki/BRELOK_SCYZORYK.jpg"],
+    "imageCover": "/images/Breloki/BRELOK_SCYZORYK.jpg",
+    "images": ["/images/Breloki/BRELOK_SCYZORYK.jpg"],
     "pc_id": "DK42-160",
     "name": "BRELOK SCYZORYK",
     "description": "Metalowy brelok scyzoryk z dwoma ostrzami. Brelok wyposarzony jest w standardowe metalowe kółko. Na breloku umieszczona jest naklejka ze wzorem , pokryta żywicą.",
@@ -1552,8 +1552,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/BRELOK_PREMIUM.jpg",
-    "slider_images": [
+    "imageCover": "/images/Breloki/BRELOK_PREMIUM.jpg",
+    "images": [
       "/images/Breloki/BRELOK_PREMIUM.jpg",
       "/images/Breloki/BRELOK_PREMIUM1.jpg"
     ],
@@ -1574,8 +1574,8 @@
   },
   {
     "category": "breloki",
-    "image": "",
-    "slider_images": [],
+    "imageCover": "",
+    "images": [],
     "pc_id": "DK42-162",
     "name": "BRELOK KOTWICA",
     "description": "Metalowy brelok w kształcie kotwicy z elementem na wykonanie grafiki. Brelok wyposarzony jest w standardowe metalowe kółko.",
@@ -1593,8 +1593,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/brelok_ster.jpg",
-    "slider_images": ["/images/Breloki/brelok_ster.jpg"],
+    "imageCover": "/images/Breloki/brelok_ster.jpg",
+    "images": ["/images/Breloki/brelok_ster.jpg"],
     "pc_id": "DK42-163",
     "name": "BRELOK STER",
     "description": "Metalowy brelok z elementem na wykonanie grafiki oraz dodatkowymi elementami w kształcie kotwicy i steru. Brelok wyposarzony jest w standardowe metalowe kółko.",
@@ -1613,8 +1613,8 @@
 
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/01.jpg",
-    "slider_images": ["/images/Otwieracze/01.jpg"],
+    "imageCover": "/images/Otwieracze/01.jpg",
+    "images": ["/images/Otwieracze/01.jpg"],
     "pc_id": "KORKOCIĄG-1",
     "name": "KORKOCIĄG BUTELKA",
     "description": "Plastikowy korkociąg w kształcie butelki z winem. Możliwe wykonanie dowolnej grafiki ze wzorem. Produkt zapakowany w stylowym woreczku.",
@@ -1628,8 +1628,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/02.jpg",
-    "slider_images": ["/images/Otwieracze/02.jpg"],
+    "imageCover": "/images/Otwieracze/02.jpg",
+    "images": ["/images/Otwieracze/02.jpg"],
     "pc_id": "KORKOCIĄG-2",
     "name": "KORKOCIĄG OTWIERACZ",
     "description": "Plastikowy korkociąg  z otwieraczem do butelek. Możliwe wykonanie dowolnej grafiki ze wzorem. Produkt zapakowany w stylowym woreczk",
@@ -1643,8 +1643,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/03.jpg",
-    "slider_images": ["/images/Otwieracze/03.jpg"],
+    "imageCover": "/images/Otwieracze/03.jpg",
+    "images": ["/images/Otwieracze/03.jpg"],
     "pc_id": "MAGNES OTWIERACZ",
     "name": "MAGNES OTWIERACZ BUTELKA",
     "description": "Otwieracz w formie butelki stylizowanej na butelkę alkoholu, dodatkowo posiada magnes. Oferujemy 8 wzorów butelek. Produkt zapakowany w woreczek i karteczkę",
@@ -1674,8 +1674,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/04.jpg",
-    "slider_images": ["/images/Otwieracze/04.jpg"],
+    "imageCover": "/images/Otwieracze/04.jpg",
+    "images": ["/images/Otwieracze/04.jpg"],
     "pc_id": "DK32-KAPSEL CHROM",
     "name": "OTWIERACZ KAPSEL CHROM",
     "description": "Otwieracz i zatyczka do butelek w kształcie kapsla z funkcją magnesu na lodówkę. Wykonany z wysokiej jakości tworzywa sztucznego, pokryty powłoką imitującą chrom. ",
@@ -1694,8 +1694,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/05.jpg",
-    "slider_images": ["/images/Otwieracze/05.jpg"],
+    "imageCover": "/images/Otwieracze/05.jpg",
+    "images": ["/images/Otwieracze/05.jpg"],
     "pc_id": "CHROM-ŻYWICA",
     "name": "OTWIERACZ KAPSEL CHROM",
     "description": "Otwieracz i zatyczka do butelek w kształcie kapsla z funkcją magnesu na lodówkę. Wykonany z wysokiej jakości tworzywa sztucznego, pokryty powłoką imitującą chrom.",
@@ -1709,8 +1709,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/06.jpg",
-    "slider_images": ["/images/Otwieracze/06.jpg"],
+    "imageCover": "/images/Otwieracze/06.jpg",
+    "images": ["/images/Otwieracze/06.jpg"],
     "pc_id": "OTWIERACZ KOŁO",
     "name": "OTWIERACZ METAL KOŁO",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
@@ -1724,8 +1724,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/07.jpg",
-    "slider_images": ["/images/Otwieracze/07.jpg"],
+    "imageCover": "/images/Otwieracze/07.jpg",
+    "images": ["/images/Otwieracze/07.jpg"],
     "pc_id": "OTWIERACZ KOSZULKA",
     "name": "OTWIERACZ METAL KOSZULKA",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
@@ -1738,8 +1738,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/08.jpg",
-    "slider_images": ["/images/Otwieracze/08.jpg"],
+    "imageCover": "/images/Otwieracze/08.jpg",
+    "images": ["/images/Otwieracze/08.jpg"],
     "pc_id": "OTWIERACZ KOTWICA",
     "name": "OTWIERACZ METAL KOTWICA",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
@@ -1752,8 +1752,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/09.jpg",
-    "slider_images": ["/images/Otwieracze/09.jpg"],
+    "imageCover": "/images/Otwieracze/09.jpg",
+    "images": ["/images/Otwieracze/09.jpg"],
     "pc_id": "OTWIERACZ MOSIĄDZ",
     "name": "OTWIERACZ METAL MOSIĄDZ",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
@@ -1766,8 +1766,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/010.jpg",
-    "slider_images": ["/images/Otwieracze/010.jpg"],
+    "imageCover": "/images/Otwieracze/010.jpg",
+    "images": ["/images/Otwieracze/010.jpg"],
     "pc_id": "OTWIERACZ OWAL",
     "name": "OTWIERACZ METAL OWAL",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
@@ -1780,8 +1780,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/011.jpg",
-    "slider_images": ["/images/Otwieracze/011.jpg"],
+    "imageCover": "/images/Otwieracze/011.jpg",
+    "images": ["/images/Otwieracze/011.jpg"],
     "pc_id": "OTWIERACZ STER",
     "name": "OTWIERACZ METAL STER",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
@@ -1794,8 +1794,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/012.jpg",
-    "slider_images": ["/images/Otwieracze/012.jpg"],
+    "imageCover": "/images/Otwieracze/012.jpg",
+    "images": ["/images/Otwieracze/012.jpg"],
     "pc_id": "OTWIERACZ PLAST",
     "name": "OTWIERACZ PLAST KOŁO",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1808,8 +1808,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/013.jpg",
-    "slider_images": ["/images/Otwieracze/013.jpg"],
+    "imageCover": "/images/Otwieracze/013.jpg",
+    "images": ["/images/Otwieracze/013.jpg"],
     "pc_id": "OTWIERACZ ŻYWICA",
     "name": "OTWIERACZ PLAST KOŁO ŻYWICA",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1822,8 +1822,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/014.jpg",
-    "slider_images": ["/images/Otwieracze/014.jpg"],
+    "imageCover": "/images/Otwieracze/014.jpg",
+    "images": ["/images/Otwieracze/014.jpg"],
     "pc_id": "OTWIERACZ PLAST",
     "name": "OTWIERACZ PLAST OWAL",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1836,8 +1836,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/015.jpg",
-    "slider_images": ["/images/Otwieracze/015.jpg"],
+    "imageCover": "/images/Otwieracze/015.jpg",
+    "images": ["/images/Otwieracze/015.jpg"],
     "pc_id": "OTWIERACZ ŻYWICA",
     "name": "OTWIERACZ PLAST OWAL ŻYWICA",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1850,8 +1850,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/016.jpg",
-    "slider_images": ["/images/Otwieracze/016.jpg"],
+    "imageCover": "/images/Otwieracze/016.jpg",
+    "images": ["/images/Otwieracze/016.jpg"],
     "pc_id": "OTWIERACZ PLAST",
     "name": "OTWIERACZ PLAST PROSTOKĄT",
     "description": "Otwieracz do butelek w kształcie prostokąta posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1865,8 +1865,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/017.jpg",
-    "slider_images": ["/images/Otwieracze/017.jpg"],
+    "imageCover": "/images/Otwieracze/017.jpg",
+    "images": ["/images/Otwieracze/017.jpg"],
     "pc_id": "OTWIERACZ ŻYWICA",
     "name": "OTWIERACZ PLAST PROSTOKĄT ŻYWICA",
     "description": "Otwieracz do butelek w kształcie prostokąta posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1880,8 +1880,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/018.jpg",
-    "slider_images": ["/images/Otwieracze/018.jpg"],
+    "imageCover": "/images/Otwieracze/018.jpg",
+    "images": ["/images/Otwieracze/018.jpg"],
     "pc_id": "OTWIERACZ PLAST",
     "name": "OTWIERACZ PLAST STOPA",
     "description": "Otwieracz do butelek w kształcie stopy posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1895,8 +1895,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/019.jpg",
-    "slider_images": ["/images/Otwieracze/019.jpg"],
+    "imageCover": "/images/Otwieracze/019.jpg",
+    "images": ["/images/Otwieracze/019.jpg"],
     "pc_id": "OTWIERACZ ŻYWICA",
     "name": "OTWIERACZ PLAST STOPA ŻYWICA",
     "description": "Otwieracz do butelek w kształcie stopy posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
@@ -1911,8 +1911,8 @@
 
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/024.jpg",
-    "slider_images": ["/images/Otwieracze/024.jpg"],
+    "imageCover": "/images/Otwieracze/024.jpg",
+    "images": ["/images/Otwieracze/024.jpg"],
     "pc_id": "DK41-079A",
     "name": "OTWIERACZ METAL 1",
     "description": "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Produkt zapakowany w woreczek.",
@@ -1926,8 +1926,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/korkociag_drewno1.jpg",
-    "slider_images": [
+    "imageCover": "/images/Otwieracze/korkociag_drewno1.jpg",
+    "images": [
       "/images/Otwieracze/korkociag_drewno1.jpg",
       "/images/Otwieracze/korkociag_drewno2.jpg"
     ],
@@ -1945,8 +1945,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/otwieracz_drewno.jpg",
-    "slider_images": ["/images/Otwieracze/otwieracz_drewno.jpg"],
+    "imageCover": "/images/Otwieracze/otwieracz_drewno.jpg",
+    "images": ["/images/Otwieracze/otwieracz_drewno.jpg"],
     "pc_id": "DK42-009C",
     "name": "OTWIERACZ DREWNO",
     "description": "Drewniany otwieracz do butelek. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
@@ -1961,8 +1961,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/OTWIERACZ_OWAL_SERCE.jpg",
-    "slider_images": ["/images/Otwieracze/OTWIERACZ_OWAL_SERCE.jpg"],
+    "imageCover": "/images/Otwieracze/OTWIERACZ_OWAL_SERCE.jpg",
+    "images": ["/images/Otwieracze/OTWIERACZ_OWAL_SERCE.jpg"],
     "pc_id": "DK42-144",
     "name": "OTWIERACZ OWAL SERCE",
     "description": "Metalowy otwieracz do butelek z hasłem: I ❤. Na produkcie umieszczona jest naklejka ze wzorem pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -1977,8 +1977,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/OTWIERACZ_METAL_LOVE.jpg",
-    "slider_images": ["/images/Otwieracze/OTWIERACZ_METAL_LOVE.jpg"],
+    "imageCover": "/images/Otwieracze/OTWIERACZ_METAL_LOVE.jpg",
+    "images": ["/images/Otwieracze/OTWIERACZ_METAL_LOVE.jpg"],
     "pc_id": "DK42-145",
     "name": "OTWIERACZ METAL LOVE",
     "description": "Metalowy otwieracz do butelek w kształcie napisu LOVE. Na produkcie umieszczone są naklejki ze wzorami. Naklejki pokryte żywicą. Produkt zapakowany w woreczek.",
@@ -1993,8 +1993,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/OTWIERACZ_METAL_SERCE.jpg",
-    "slider_images": ["/images/Otwieracze/OTWIERACZ_METAL_SERCE.jpg"],
+    "imageCover": "/images/Otwieracze/OTWIERACZ_METAL_SERCE.jpg",
+    "images": ["/images/Otwieracze/OTWIERACZ_METAL_SERCE.jpg"],
     "pc_id": "DK42-146",
     "name": "OTWIERACZ METAL SERCE",
     "description": "Metalowy otwieracz do butelek w kształcie serca. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -2009,8 +2009,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/OTWIERACZ_METAL_LATARNIA.jpg",
-    "slider_images": ["/images/Otwieracze/OTWIERACZ_METAL_LATARNIA.jpg"],
+    "imageCover": "/images/Otwieracze/OTWIERACZ_METAL_LATARNIA.jpg",
+    "images": ["/images/Otwieracze/OTWIERACZ_METAL_LATARNIA.jpg"],
     "pc_id": "DK42-147",
     "name": "OTWIERACZ METAL LATARNIA",
     "description": "Metalowy otwieracz do butelek w kształcie latarni. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -2025,8 +2025,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/OTWIERACZ_METAL_POLSKA.jpg",
-    "slider_images": ["/images/Otwieracze/OTWIERACZ_METAL_POLSKA.jpg"],
+    "imageCover": "/images/Otwieracze/OTWIERACZ_METAL_POLSKA.jpg",
+    "images": ["/images/Otwieracze/OTWIERACZ_METAL_POLSKA.jpg"],
     "pc_id": "DK42-148",
     "name": "OTWIERACZ METAL POLSKA",
     "description": "Metalowy otwieracz do butelek w kształcie Polski. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -2041,8 +2041,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/otwieracz_metal_kufel.jpg",
-    "slider_images": ["/images/Otwieracze/otwieracz_metal_kufel.jpg"],
+    "imageCover": "/images/Otwieracze/otwieracz_metal_kufel.jpg",
+    "images": ["/images/Otwieracze/otwieracz_metal_kufel.jpg"],
     "pc_id": "DK42-153",
     "name": "OTWIERACZ METAL KUFEL",
     "description": "Metalowy otwieracz do butelek w kształcie kufla. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -2057,8 +2057,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "",
-    "slider_images": [""],
+    "imageCover": "",
+    "images": [""],
     "pc_id": "DK42-168",
     "name": "OTWIERACZ KOŁO RATUNKOWE",
     "description": "Metalowy otwieracz do butelek w kształcie koła ratunkowego. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -2073,8 +2073,8 @@
   },
   {
     "category": "otwieracze",
-    "image": "/images/Otwieracze/otwieracz_lyzeczka.jpg",
-    "slider_images": ["/images/Otwieracze/otwieracz_lyzeczka.jpg"],
+    "imageCover": "/images/Otwieracze/otwieracz_lyzeczka.jpg",
+    "images": ["/images/Otwieracze/otwieracz_lyzeczka.jpg"],
     "pc_id": "DK42-164",
     "name": "OTWIERACZ ŁYŻECZKA",
     "description": "Metalowy otwieracz do butelek w kształcie łyżeczki. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -2090,8 +2090,8 @@
 
   {
     "category": "kubki i podkładki",
-    "image": "/images/Kubki_i_Podkładki/01.jpg",
-    "slider_images": ["/images/Kubki_i_Podkładki/01.jpg"],
+    "imageCover": "/images/Kubki_i_Podkładki/01.jpg",
+    "images": ["/images/Kubki_i_Podkładki/01.jpg"],
     "pc_id": "KIELISZEK ",
     "name": "KIELISZEK ",
     "description": "Kwadratowy kieliszek wykonany z grubego szkła pojemności 80 ml. Możliwe wykonane grafiki na dowolnej zewnętrznej ścianie kieliszka.",
@@ -2105,8 +2105,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Kubki_i_Podkładki/02.jpg",
-    "slider_images": ["/images/Kubki_i_Podkładki/02.jpg"],
+    "imageCover": "/images/Kubki_i_Podkładki/02.jpg",
+    "images": ["/images/Kubki_i_Podkładki/02.jpg"],
     "pc_id": "DK30-KUBEK",
     "name": "KUBEK CERAMICZNY KOLOROWY",
     "description": "Kubek ceramiczny z wygrawerowanym metodą laserową imieniem lub hasłem. Dostępne kolory: biało-czarny, \nczerwono-biały, biało-czerwony, czarno-biały, niebiesko-biały, biało-niebieski. Pierwszy człon koloru dotyczy zewnętrznej powierzchni kubka.",
@@ -2126,8 +2126,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Kubki_i_Podkładki/03.jpg",
-    "slider_images": ["/images/Kubki_i_Podkładki/03.jpg"],
+    "imageCover": "/images/Kubki_i_Podkładki/03.jpg",
+    "images": ["/images/Kubki_i_Podkładki/03.jpg"],
     "pc_id": "DK40-KUBEK PRL",
     "name": "KUBEK CERAMICZNY PRL",
     "description": "Kubek ceramiczny z wygrawerowanym metodą laserową imieniem lub hasłem. Ciekawy produkt w sympatycznym kształcie. Grawer w kolorze białym",
@@ -2147,8 +2147,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Kubki_i_Podkładki/04.jpg",
-    "slider_images": ["/images/Kubki_i_Podkładki/04.jpg"],
+    "imageCover": "/images/Kubki_i_Podkładki/04.jpg",
+    "images": ["/images/Kubki_i_Podkładki/04.jpg"],
     "pc_id": "DK37-001A",
     "name": "KUBEK CERAMICZNY WIELOKOLOROWY",
     "description": "Kubek ceramiczny z wygrawerowanym metodą laserową nazwą miejscowości lub hasłem. Produkt dostępny w 6 kolorach: jasno fioletowy - niebieski, ciemno fioletowy - różowy, czarno - czerwony, czarno - ciemno niebieski, jasno niebieski - czerwony, czarno - grafitowo szary. Kolor graweru: biały.",
@@ -2168,8 +2168,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Kubki_i_Podkładki/05.jpg",
-    "slider_images": ["/images/Kubki_i_Podkładki/05.jpg"],
+    "imageCover": "/images/Kubki_i_Podkładki/05.jpg",
+    "images": ["/images/Kubki_i_Podkładki/05.jpg"],
     "pc_id": "PODKŁADKA KOREK",
     "name": "PODKŁADKA Z KORKA",
     "description": "Podkładka z korka pod kubek, szklankę. Wykonana z naturalnego korka o średnicy 9,5 cm i grubości 6-7 mm. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -2184,8 +2184,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Kubki_i_Podkładki/KIELISZEK_OMBRE.jpg",
-    "slider_images": [
+    "imageCover": "/images/Kubki_i_Podkładki/KIELISZEK_OMBRE.jpg",
+    "images": [
       "/images/Kubki_i_Podkładki/KIELISZEK_OMBRE.jpg",
       "/images/Kubki_i_Podkładki/KIELISZEK_OMBRE1.jpg"
     ],
@@ -2203,8 +2203,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/01.jpg",
-    "slider_images": ["/images/Sublimacja/01.jpg"],
+    "imageCover": "/images/Sublimacja/01.jpg",
+    "images": ["/images/Sublimacja/01.jpg"],
     "pc_id": "KUBEK SUB",
     "name": "KUBEK SUB BIAŁY",
     "description": "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym.",
@@ -2220,8 +2220,8 @@
 
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kubek_sub_niebieski.webp",
-    "slider_images": ["/images/Sublimacja/kubek_sub_niebieski.webp"],
+    "imageCover": "/images/Sublimacja/kubek_sub_niebieski.webp",
+    "images": ["/images/Sublimacja/kubek_sub_niebieski.webp"],
     "pc_id": "KUBEK SUB",
     "name": "KUBEK SUB NIEBIESKI",
     "description": "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym, z niebieskim uchem oraz wnętrzem kubka.",
@@ -2235,8 +2235,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/02.jpg",
-    "slider_images": ["/images/Sublimacja/02.jpg"],
+    "imageCover": "/images/Sublimacja/02.jpg",
+    "images": ["/images/Sublimacja/02.jpg"],
     "pc_id": "FILIŻANKA SUB",
     "name": "FILIŻANKA SUB",
     "description": "Stylowa i elegancka ceramiczna filiżanka. Możliwość wykonania dowolnej grafiki w pełnym kolorze. Zestaw zawiera filiżankę i spodek.",
@@ -2250,8 +2250,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/03.jpg",
-    "slider_images": ["/images/Sublimacja/03.jpg"],
+    "imageCover": "/images/Sublimacja/03.jpg",
+    "images": ["/images/Sublimacja/03.jpg"],
     "pc_id": "SZKLANKA M SUB",
     "name": "SZKLANKA M SUB",
     "description": "Szklanka wykonana ze szkła mrożonego z możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach ",
@@ -2265,8 +2265,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/04.jpg",
-    "slider_images": ["/images/Sublimacja/04.jpg"],
+    "imageCover": "/images/Sublimacja/04.jpg",
+    "images": ["/images/Sublimacja/04.jpg"],
     "pc_id": "KUBEK M SUB",
     "name": "KUBEK M SUB",
     "description": "Szklanka z uchem wykonana ze szkła mrożonego z możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach ",
@@ -2280,8 +2280,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/05.jpg",
-    "slider_images": ["/images/Sublimacja/05.jpg"],
+    "imageCover": "/images/Sublimacja/05.jpg",
+    "images": ["/images/Sublimacja/05.jpg"],
     "pc_id": "KIELISZEK C SUB",
     "name": "KIELISZEK C SUB",
     "description": "Kieliszek wykonany z białej ceramiki z możliwością wykonania dowolnej grafiki.  Produkt dostępny w wielu ciekawych wzorach ",
@@ -2295,8 +2295,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/06.jpg",
-    "slider_images": ["/images/Sublimacja/06.jpg"],
+    "imageCover": "/images/Sublimacja/06.jpg",
+    "images": ["/images/Sublimacja/06.jpg"],
     "pc_id": "KIELISZEK M SUB",
     "name": "KIELISZEK M SUB",
     "description": "Kieliszek wykonany ze szkła mrożonego z możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach ",
@@ -2311,8 +2311,8 @@
 
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/08.jpg",
-    "slider_images": ["/images/Sublimacja/08.jpg"],
+    "imageCover": "/images/Sublimacja/08.jpg",
+    "images": ["/images/Sublimacja/08.jpg"],
     "pc_id": "SKARBONKA SUB",
     "name": "SKARBONKA SUB",
     "description": "Skarbonka w formie walca wykonana z wytrzymałej ceramiki. Możliwe jest nałożenie dowolnej grafiki w pełnym kolorze. Idealny prezent dla dziecka dostępny w wielu wzorach.",
@@ -2326,8 +2326,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/09.jpg",
-    "slider_images": ["/images/Sublimacja/09.jpg"],
+    "imageCover": "/images/Sublimacja/09.jpg",
+    "images": ["/images/Sublimacja/09.jpg"],
     "pc_id": "NAPARSTEK SUB",
     "name": "NAPARSTEK SUB",
     "description": "Naparstek wykonany z twardej ceramiki z możliwością wykonania dowolnej grafiki w pełnym kolorze. Ciekawy i funkcjonalny upominek.",
@@ -2341,8 +2341,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/podkladka_sub.webp",
-    "slider_images": ["/images/Sublimacja/podkladka_sub.webp"],
+    "imageCover": "/images/Sublimacja/podkladka_sub.webp",
+    "images": ["/images/Sublimacja/podkladka_sub.webp"],
     "pc_id": "PODKŁADKA SUB",
     "name": "PODKŁADKA SUB",
     "description": "Podkładka pod myszkę z barwnym wydrukiem wykonanym w technice sublimacyjnej. Wymiary podkładki 24cm x 20cm",
@@ -2356,8 +2356,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/szklanka_kwadrat_sub.webp",
-    "slider_images": ["/images/Sublimacja/szklanka_kwadrat_sub.webp"],
+    "imageCover": "/images/Sublimacja/szklanka_kwadrat_sub.webp",
+    "images": ["/images/Sublimacja/szklanka_kwadrat_sub.webp"],
     "pc_id": "SZKLANKA KWADRAT SUB",
     "name": "SZKLANKA KWADRAT SUB",
     "description": "Szklanka kwadratowa możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach .",
@@ -2371,8 +2371,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kieliszek_kwadrat_sub.webp",
-    "slider_images": ["/images/Sublimacja/kieliszek_kwadrat_sub.webp"],
+    "imageCover": "/images/Sublimacja/kieliszek_kwadrat_sub.webp",
+    "images": ["/images/Sublimacja/kieliszek_kwadrat_sub.webp"],
     "pc_id": "KIELISZEK KWADRAT SUB",
     "name": "KIELISZEK KWADRAT SUB",
     "description": "Kieliszek wykonany z białej ceramiki z możliwością wykonania dowolnej grafiki.  Produkt dostępny w wielu ciekawych wzorach ",
@@ -2386,8 +2386,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/sub_retro/08.jpg",
-    "slider_images": [
+    "imageCover": "/images/Sublimacja/sub_retro/08.jpg",
+    "images": [
       "/images/Sublimacja/sub_retro/08.jpg",
       "/images/Sublimacja/sub_retro/01.jpg",
       "/images/Sublimacja/sub_retro/02.jpg",
@@ -2411,8 +2411,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kufel_sub_a.jpg",
-    "slider_images": ["/images/Sublimacja/kufel_sub_a.jpg"],
+    "imageCover": "/images/Sublimacja/kufel_sub_a.jpg",
+    "images": ["/images/Sublimacja/kufel_sub_a.jpg"],
     "pc_id": "DK42-058A",
     "name": "DK42-058A",
     "description": "Ceramiczny kufel na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2427,8 +2427,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kufel_sub_b.jpg",
-    "slider_images": ["/images/Sublimacja/kufel_sub_b.jpg"],
+    "imageCover": "/images/Sublimacja/kufel_sub_b.jpg",
+    "images": ["/images/Sublimacja/kufel_sub_b.jpg"],
     "pc_id": "DK42-058B",
     "name": "DK42-058B",
     "description": "Ceramiczny kufel na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2443,8 +2443,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kufel_c_sub_duzy.jpg",
-    "slider_images": ["/images/Sublimacja/kufel_c_sub_duzy.jpg"],
+    "imageCover": "/images/Sublimacja/kufel_c_sub_duzy.jpg",
+    "images": ["/images/Sublimacja/kufel_c_sub_duzy.jpg"],
     "pc_id": "DK-SW7010",
     "name": "KUFEL C SUB DUŻY",
     "description": "Ceramiczny kufel na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2459,8 +2459,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kufel_sub_ceramika.jpg",
-    "slider_images": ["/images/Sublimacja/kufel_sub_ceramika.jpg"],
+    "imageCover": "/images/Sublimacja/kufel_sub_ceramika.jpg",
+    "images": ["/images/Sublimacja/kufel_sub_ceramika.jpg"],
     "pc_id": "DK-SW7010",
     "name": "KUFEL C SUB MAŁY",
     "description": "Ceramiczny kufel na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2475,8 +2475,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kufel_sub_beczka.jpg",
-    "slider_images": ["/images/Sublimacja/kufel_sub_beczka.jpg"],
+    "imageCover": "/images/Sublimacja/kufel_sub_beczka.jpg",
+    "images": ["/images/Sublimacja/kufel_sub_beczka.jpg"],
     "pc_id": "DK-SW7010",
     "name": "KUFEL C SUB BECZKA",
     "description": "Ceramiczny kufel na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2491,8 +2491,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kieliszek_ombre_wysoki.jpg",
-    "slider_images": ["/images/Sublimacja/kieliszek_ombre_wysoki.jpg"],
+    "imageCover": "/images/Sublimacja/kieliszek_ombre_wysoki.jpg",
+    "images": ["/images/Sublimacja/kieliszek_ombre_wysoki.jpg"],
     "pc_id": "KIELISZEK M SUB WYSOKI",
     "name": "KIELISZEK PROSTY KOL M",
     "description": "Ceramiczny kieliszek ze szkła mrożonego na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2507,8 +2507,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kufel_sub_kolor.jpg",
-    "slider_images": ["/images/Sublimacja/kufel_sub_kolor.jpg"],
+    "imageCover": "/images/Sublimacja/kufel_sub_kolor.jpg",
+    "images": ["/images/Sublimacja/kufel_sub_kolor.jpg"],
     "pc_id": "KUFEL SUB KOLOR",
     "name": "KUFEL KOL M SUB",
     "description": "Ceramiczny kufel ze szkła mrożonego na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2523,8 +2523,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/szklanka_sub_kolor.jpg",
-    "slider_images": ["/images/Sublimacja/szklanka_sub_kolor.jpg"],
+    "imageCover": "/images/Sublimacja/szklanka_sub_kolor.jpg",
+    "images": ["/images/Sublimacja/szklanka_sub_kolor.jpg"],
     "pc_id": "SZKALNKA SUB KOLOR",
     "name": "KUBEK KOL M SUB ",
     "description": "Ceramiczna szklanka ze szkła mrożonego na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2539,8 +2539,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kubek_sub_metal.jpg",
-    "slider_images": ["/images/Sublimacja/kubek_sub_metal.jpg"],
+    "imageCover": "/images/Sublimacja/kubek_sub_metal.jpg",
+    "images": ["/images/Sublimacja/kubek_sub_metal.jpg"],
     "pc_id": "KUBEK SUB METAL",
     "name": "KUBEK METAL ALU SUB",
     "description": "Metalowy kubek na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2555,8 +2555,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kubek_sub_metal_kolor.jpg",
-    "slider_images": ["/images/Sublimacja/kubek_sub_metal_kolor.jpg"],
+    "imageCover": "/images/Sublimacja/kubek_sub_metal_kolor.jpg",
+    "images": ["/images/Sublimacja/kubek_sub_metal_kolor.jpg"],
     "pc_id": "KUBEK SUB METAL KOLOR",
     "name": "KUBEK METAL KOL SUB",
     "description": "Metalowy kubek na którym wykonana jest grafika w pełnym kolorze. Grafika wykonana metodą sublimacji.",
@@ -2571,8 +2571,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/DK-SW1029.jpg",
-    "slider_images": ["/images/Sublimacja/DK-SW1029.jpg"],
+    "imageCover": "/images/Sublimacja/DK-SW1029.jpg",
+    "images": ["/images/Sublimacja/DK-SW1029.jpg"],
     "pc_id": "DK-SW1029",
     "name": "DK-SW1029",
     "description": "Ceramiczny kubek , z czarnym wykończeniem. Na kubku wykonany wzór metodą laserową",
@@ -2587,8 +2587,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/kubek_500_sub.jpg",
-    "slider_images": ["/images/Sublimacja/kubek_500_sub.jpg"],
+    "imageCover": "/images/Sublimacja/kubek_500_sub.jpg",
+    "images": ["/images/Sublimacja/kubek_500_sub.jpg"],
     "pc_id": "DK-SW5616",
     "name": "KUBEK 500 SUB",
     "description": "Ceramiczny kubek o pojemności 500 ml. Na kubku wykonany nanoszony jest wzór metodą sublimacji",
@@ -2603,8 +2603,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/DK-SW5617.jpg",
-    "slider_images": ["/images/Sublimacja/DK-SW5617.jpg"],
+    "imageCover": "/images/Sublimacja/DK-SW5617.jpg",
+    "images": ["/images/Sublimacja/DK-SW5617.jpg"],
     "pc_id": "DK-SW5617",
     "name": "DK-SW5617",
     "description": "Ceramiczny kubek o pojemności 500 ml. Zewnetrzna warstwa pokryta powłoką miłą w dotyku.Na kubku nanoszony jest wzór metodą laserową",
@@ -2620,8 +2620,8 @@
 
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/01.jpg",
-    "slider_images": ["/images/Długopisy/01.jpg"],
+    "imageCover": "/images/Długopisy/01.jpg",
+    "images": ["/images/Długopisy/01.jpg"],
     "pc_id": "DK40-025C",
     "name": "DŁUGOPIS KRYSZTAŁ Z GUMKĄ",
     "description": "Metalowy długopis z ozdobnymi kryształkami, na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 6 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
@@ -2636,8 +2636,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/02.jpg",
-    "slider_images": ["/images/Długopisy/02.jpg"],
+    "imageCover": "/images/Długopisy/02.jpg",
+    "images": ["/images/Długopisy/02.jpg"],
     "pc_id": "DK40-025D",
     "name": "DŁUGOPIS KRYSZTAŁ Z OCZKIEM",
     "description": "Metalowy długopis z ozdobnymi kryształkami, na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 6 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
@@ -2652,8 +2652,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/03.jpg",
-    "slider_images": ["/images/Długopisy/03.jpg"],
+    "imageCover": "/images/Długopisy/03.jpg",
+    "images": ["/images/Długopisy/03.jpg"],
     "pc_id": "DK29-037A",
     "name": "DŁUGOPIS METALOWY 2",
     "description": "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 2 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
@@ -2668,8 +2668,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/04.jpg",
-    "slider_images": ["/images/Długopisy/04.jpg"],
+    "imageCover": "/images/Długopisy/04.jpg",
+    "images": ["/images/Długopisy/04.jpg"],
     "pc_id": "DK40-025A",
     "name": "DŁUGOPIS METALOWY 3",
     "description": "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 5 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
@@ -2684,8 +2684,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/05.jpg",
-    "slider_images": ["/images/Długopisy/05.jpg"],
+    "imageCover": "/images/Długopisy/05.jpg",
+    "images": ["/images/Długopisy/05.jpg"],
     "pc_id": "DK40-025E",
     "name": "DŁUGOPIS METALOWY 4",
     "description": "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 6 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
@@ -2700,8 +2700,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/06.jpg",
-    "slider_images": ["/images/Długopisy/06.jpg"],
+    "imageCover": "/images/Długopisy/06.jpg",
+    "images": ["/images/Długopisy/06.jpg"],
     "pc_id": "DK40-025B",
     "name": "DŁUGOPIS METALOWY CZARNY",
     "description": "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 3 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
@@ -2716,8 +2716,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/07.jpg",
-    "slider_images": ["/images/Długopisy/07.jpg"],
+    "imageCover": "/images/Długopisy/07.jpg",
+    "images": ["/images/Długopisy/07.jpg"],
     "pc_id": "DŁ ZMAZYWALNY",
     "name": "DŁUGOPIS ZMAZYWALNY",
     "description": "Długopis z wkładem który posiada specjalną gumkę umieszczoną na końcówce długopisu, która ściera nie pozostawiając śladu. Długopis występuje w 8 kolorach. Jakość wykonania nie odbiega od markowych długopisów, wielokrotnie droższych. Wkład najwyższej jakości z datą przydatności około rok od rozpoczęcia użytkowania. Produkt posiada trwały nadruk, zapakowany na kolorowej kartce.",
@@ -2736,8 +2736,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/bambus.webp",
-    "slider_images": ["/images/Długopisy/bambus.webp"],
+    "imageCover": "/images/Długopisy/bambus.webp",
+    "images": ["/images/Długopisy/bambus.webp"],
     "pc_id": "DK41-094",
     "name": "DŁUGOPIS BAMBUS",
     "description": "Bambusowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. ",
@@ -2752,8 +2752,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/bambus_gumka.webp",
-    "slider_images": ["/images/Długopisy/bambus_gumka.webp"],
+    "imageCover": "/images/Długopisy/bambus_gumka.webp",
+    "images": ["/images/Długopisy/bambus_gumka.webp"],
     "pc_id": "DK41-095",
     "name": "DŁUGOPIS BAMBUS GUMKA",
     "description": "Bambusowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. ",
@@ -2768,8 +2768,8 @@
   },
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/bambus_gumka_kolor/bambus_gumka_01.jpg",
-    "slider_images": [
+    "imageCover": "/images/Długopisy/bambus_gumka_kolor/bambus_gumka_01.jpg",
+    "images": [
       "/images/Długopisy/bambus_gumka_kolor/bambus_gumka_01.jpg",
       "/images/Długopisy/bambus_gumka_kolor/bambus_gumka_02.jpg",
       "/images/Długopisy/bambus_gumka_kolor/bambus_gumka_03.jpg",
@@ -2790,8 +2790,8 @@
 
   {
     "category": "długopisy",
-    "image": "/images/Długopisy/bambus_guma/bambus_guma_01.jpg",
-    "slider_images": [
+    "imageCover": "/images/Długopisy/bambus_guma/bambus_guma_01.jpg",
+    "images": [
       "/images/Długopisy/bambus_guma/bambus_guma_01.jpg",
       "/images/Długopisy/bambus_guma/bambus_guma_02.jpg",
       "/images/Długopisy/bambus_guma/bambus_guma_03.jpg",
@@ -2812,8 +2812,8 @@
 
   {
     "category": "czapki i nakrycia głowy",
-    "image": "/images/Czapki/01.jpg",
-    "slider_images": ["/images/Czapki/01.jpg"],
+    "imageCover": "/images/Czapki/01.jpg",
+    "images": ["/images/Czapki/01.jpg"],
     "pc_id": "DK27-003",
     "name": "CHUSTA NA GŁOWĘ Z APLIKACJĄ",
     "description": "Chusta bawełniana z imieniem dziecka, boczki chusty kolorowe z 3 motywami (obrazkami), środek biały. Oferujemy  6 kolorów produktu, produkt zapakowany w woreczku.",
@@ -2833,8 +2833,8 @@
   },
   {
     "category": "czapki i nakrycia głowy",
-    "image": "/images/Czapki/02.jpg",
-    "slider_images": ["/images/Czapki/02.jpg"],
+    "imageCover": "/images/Czapki/02.jpg",
+    "images": ["/images/Czapki/02.jpg"],
     "pc_id": "DK27-NAME B/G",
     "name": "CZAPKA HIP HOP",
     "description": "Czapka hip hop z imieniem dziecka, rozmiar dziecięcy XS z regulowanym paskiem z tyłu głowy. Dostępne w 6 kolorach.",
@@ -2849,8 +2849,8 @@
   },
   {
     "category": "czapki i nakrycia głowy",
-    "image": "/images/Czapki/03.jpg",
-    "slider_images": ["/images/Czapki/03.jpg"],
+    "imageCover": "/images/Czapki/03.jpg",
+    "images": ["/images/Czapki/03.jpg"],
     "pc_id": "DK27-002 (CZAPKA) PASEK KAPITAN",
     "name": "CZAPKA KAPITAŃSKA",
     "description": "Czapka kapitańska z imieniem dziewczynki lub chłopca.  Imiona na paskach, klient kupuje czapkę i doczepiany zostaje pasek z odpowiednim imieniem lub napisem „KAPITAN”. Możliwe wykonanie dowolnego \nnapisu / białej grafiki na pasku.",
@@ -2869,8 +2869,8 @@
   },
   {
     "category": "czapki i nakrycia głowy",
-    "image": "/images/Czapki/04.jpg",
-    "slider_images": ["/images/Czapki/04.jpg"],
+    "imageCover": "/images/Czapki/04.jpg",
+    "images": ["/images/Czapki/04.jpg"],
     "pc_id": "DK30-OPASKA",
     "name": "OPASKA NA GŁOWĘ",
     "description": "Dziewczęca opaska na głowę + zestaw gumek do włosów. Oferujemy 4 kolory: fiolet, różowy, jasno różowy, jasny niebieski. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -2891,8 +2891,8 @@
 
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/01.jpg",
-    "slider_images": ["/images/Bransoletki/01.jpg"],
+    "imageCover": "/images/Bransoletki/01.jpg",
+    "images": ["/images/Bransoletki/01.jpg"],
     "pc_id": "BRANS MUSZLA D",
     "name": "BRANSOLETKA MUSZLA DUŻA",
     "description": "Bransoletka wykonana z miękkiego plecionego kolorowego sznurka z elementem pod grawer i naturalnymi muszelkami. Produkt personalizowany imionami damskimi. Niepowtarzalny upominek z wakacyjnego wyjazdu. Oferujemy produkt w 3 modnych kolorach.",
@@ -2912,8 +2912,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/02.jpg",
-    "slider_images": ["/images/Bransoletki/02.jpg"],
+    "imageCover": "/images/Bransoletki/02.jpg",
+    "images": ["/images/Bransoletki/02.jpg"],
     "pc_id": "BRANS MUSZLA M",
     "name": "BRANSOLETKA MUSZLA MAŁA",
     "description": "Bransoletka wykonana z miękkiego plecionego kolorowego sznurka z elementem pod grawer i naturalnymi muszelkami. Produkt personalizowany imionami dziecięcymi. Niepowtarzalny upominek z wakacyjnego wyjazdu. Oferujemy produkt w 3 modnych kolorach.",
@@ -2933,8 +2933,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/03.jpg",
-    "slider_images": ["/images/Bransoletki/03.jpg"],
+    "imageCover": "/images/Bransoletki/03.jpg",
+    "images": ["/images/Bransoletki/03.jpg"],
     "pc_id": "DK29-054A",
     "name": "BRANSOLETKA SILIKONOWA DUŻA",
     "description": "Bransoletka wykonana z elastycznego silikonu z miejscem na grawer. Produkt dostępny w kolorze czerwonym, obwód 20mm.",
@@ -2948,8 +2948,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/04.jpg",
-    "slider_images": ["/images/Bransoletki/04.jpg"],
+    "imageCover": "/images/Bransoletki/04.jpg",
+    "images": ["/images/Bransoletki/04.jpg"],
     "pc_id": "DK29-054B",
     "name": "BRANSOLETKA SILIKONOWA MAŁA",
     "description": "Bransoletka wykonana z elastycznego silikonu z miejscem na grawer. Produkt dostępny w 6 kolorach, obwód 18mm.",
@@ -2963,8 +2963,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/05.jpg",
-    "slider_images": ["/images/Bransoletki/05.jpg"],
+    "imageCover": "/images/Bransoletki/05.jpg",
+    "images": ["/images/Bransoletki/05.jpg"],
     "pc_id": "DK30-052",
     "name": "BRANSOLETKA SKÓRZANA",
     "description": "Bransoletka wykonana ze skóry i sznurka z metalowym elementem na którym wygrawerowane zostało imię dziecka. Oferowana w 4 kolorach, produkt zapakowany na stylowej kartce w woreczku.",
@@ -2979,8 +2979,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/06.jpg",
-    "slider_images": ["/images/Bransoletki/06.jpg"],
+    "imageCover": "/images/Bransoletki/06.jpg",
+    "images": ["/images/Bransoletki/06.jpg"],
     "pc_id": "BRANSOLETKA SZKŁO",
     "name": "BRANSOLETKA SZKŁO IMIĘ 1",
     "description": "Bransoletka wykonana ze skóry, sznurka i elementów metalowych oraz szklanego elementu na którym wykonano grafikę. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -2996,8 +2996,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/07.jpg",
-    "slider_images": ["/images/Bransoletki/07.jpg"],
+    "imageCover": "/images/Bransoletki/07.jpg",
+    "images": ["/images/Bransoletki/07.jpg"],
     "pc_id": "BRANSOLETKA SZKŁO",
     "name": "BRANSOLETKA SZKŁO IMIĘ 2",
     "description": "Bransoletka wykonana ze skóry, sznurka i elementów metalowych oraz szklanego elementu na którym wykonano grafikę. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -3013,8 +3013,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/08.jpg",
-    "slider_images": ["/images/Bransoletki/08.jpg"],
+    "imageCover": "/images/Bransoletki/08.jpg",
+    "images": ["/images/Bransoletki/08.jpg"],
     "pc_id": "DK32-SZNUREK",
     "name": "BRANSOLETKA SZNURKOWA",
     "description": "Bransoletka wykonana z miękkiego kolorowego sznurka z plastikowym elementem do graweru. Oferujemy 6 modnych kolorów po 3 dla dziewczynki i chłopca. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -3034,11 +3034,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Bransoletki/09.jpg",
-    "slider_images": [
-      "/images/Bransoletki/09.jpg",
-      "/images/Bransoletki/10.jpg"
-    ],
+    "imageCover": "/images/Bransoletki/09.jpg",
+    "images": ["/images/Bransoletki/09.jpg", "/images/Bransoletki/10.jpg"],
     "pc_id": "DK37 020A1",
     "name": "DK37 020A1",
     "description": "Bransoletka dziecięca na gumce. Dostępna w 6 kolorach ze wzorem I ❤ , oraz miejscem na grawer.",
@@ -3060,8 +3057,8 @@
 
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/01.jpg",
-    "slider_images": ["/images/Tekstylia/01.jpg"],
+    "imageCover": "/images/Tekstylia/01.jpg",
+    "images": ["/images/Tekstylia/01.jpg"],
     "pc_id": "CHUSTA MULTI",
     "name": "CHUSTA WIELOFUNKCYJNA IMIENNA",
     "description": "Chusty wielofunkcyjna w formie komina z możliwością wykonania dowolnej grafiki. Brak niewygodnych szwów, wykonana z elastycznego poliestru. Idealna na codzienne spacery, oraz aktywnego spędzania czasu, dla dorosłych jak i dzieci.(WERSJA Z IMIONAMI DZIECI)",
@@ -3081,8 +3078,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/02.jpg",
-    "slider_images": ["/images/Tekstylia/02.jpg"],
+    "imageCover": "/images/Tekstylia/02.jpg",
+    "images": ["/images/Tekstylia/02.jpg"],
     "pc_id": "CHUSTA MULTI",
     "name": "CHUSTA WIELOFUNKCYJNA Z APLIKACJĄ",
     "description": "Chusty wielofunkcyjna w formie komina z możliwością wykonania dowolnej grafiki. Brak niewygodnych szwów, wykonana z elastycznego poliestru. Idealna na codzienne spacery, oraz aktywnego spędzania czasu, dla dorosłych jak i dzieci.",
@@ -3096,8 +3093,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/03.jpg",
-    "slider_images": ["/images/Tekstylia/03.jpg"],
+    "imageCover": "/images/Tekstylia/03.jpg",
+    "images": ["/images/Tekstylia/03.jpg"],
     "pc_id": "DK41-ECO PORTFEL 1",
     "name": "PORTFEL /ETUI 1",
     "description": "Portfel/etui z zamkiem wykonany z bawełny wymiar 8 x 11 cm, dostępne kolory czarny \ni naturalany eco,dodatkowo zawieszka, nadruk pełny kolor 1 stronny wliczony w cenę.",
@@ -3111,8 +3108,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/04.jpg",
-    "slider_images": ["/images/Tekstylia/04.jpg"],
+    "imageCover": "/images/Tekstylia/04.jpg",
+    "images": ["/images/Tekstylia/04.jpg"],
     "pc_id": "DK41-ECO PORTFEL 1",
     "name": "PORTFEL /ETUI 2",
     "description": "Portfel / etui z zamkiem wykonany z bawełny, wymiar 10  x 18 cm. Produkt dostępny w 2 kolorach: czarny i naturalny eco, dodatkowo zawieszka. Możliwe wykonanie nadruku w pełnym kolorze wierzchniej strony wliczone w cenę.",
@@ -3126,8 +3123,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/05.jpg",
-    "slider_images": ["/images/Tekstylia/05.jpg"],
+    "imageCover": "/images/Tekstylia/05.jpg",
+    "images": ["/images/Tekstylia/05.jpg"],
     "pc_id": "DK30-046CD (POSZEWKA) DK30-046E (WSAD)",
     "name": "POSZEWKA MARYNISTYCZNA ",
     "description": "Poduszka (wsad i poszewka), produkt dostępny w wielu wzorach z motywem morskim. Produkt zapakowany w woreczku.",
@@ -3147,8 +3144,8 @@
 
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/08.jpg",
-    "slider_images": ["/images/Tekstylia/08.jpg"],
+    "imageCover": "/images/Tekstylia/08.jpg",
+    "images": ["/images/Tekstylia/08.jpg"],
     "pc_id": "SKARPETA D",
     "name": "SKARPETA DUŻA",
     "description": "Skarpetki - stopki dla młodzieży i dorosłych, wykonane z bawełny i domieszki poliestru. W regularnej ofercie posiadamy 240 wzorów. Wzory zostały opracowane przez naszych grafików pod kątem najnowszych trendów i oczekiwań rynkowych. Każda sztuka zapakowana na kartoniku w woreczek foliowy. Rozmiar: 35-39.",
@@ -3168,8 +3165,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/09.jpg",
-    "slider_images": ["/images/Tekstylia/09.jpg"],
+    "imageCover": "/images/Tekstylia/09.jpg",
+    "images": ["/images/Tekstylia/09.jpg"],
     "pc_id": "SKARPETA M",
     "name": "SKARPETA MAŁA",
     "description": "Skarpetki - stopki dla dzieci, wykonane z bawełny \ni domieszki poliestru. Dla dziewczynek i chłopców po 3 wzory. Każda para skarpetek poza oryginalnym wzorem posiada dodatkowo imię. Każda sztuka zapakowana na kartoniku w woreczek foliowy. Rozmiar: 30-35.",
@@ -3189,8 +3186,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/010.jpg",
-    "slider_images": ["/images/Tekstylia/010.jpg"],
+    "imageCover": "/images/Tekstylia/010.jpg",
+    "images": ["/images/Tekstylia/010.jpg"],
     "pc_id": "OP BUTELKA 3 - BAWEŁNA",
     "name": "OPAKOWANIE NA BUTELKĘ BAWEŁNIANE",
     "description": "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z bawełny z aplikacją.",
@@ -3206,8 +3203,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/011.jpg",
-    "slider_images": ["/images/Tekstylia/011.jpg"],
+    "imageCover": "/images/Tekstylia/011.jpg",
+    "images": ["/images/Tekstylia/011.jpg"],
     "pc_id": "OP BUTELKA 2 - LEN",
     "name": "OPAKOWANIE NA BUTELKĘ LNIANE",
     "description": "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z lnu z aplikacją.",
@@ -3223,8 +3220,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/012.jpg",
-    "slider_images": ["/images/Tekstylia/012.jpg"],
+    "imageCover": "/images/Tekstylia/012.jpg",
+    "images": ["/images/Tekstylia/012.jpg"],
     "pc_id": "OP BUTELKA 1 - ORGANZA",
     "name": "OPAKOWANIE NA BUTELKĘ Z ORGANZY",
     "description": "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z organzy z aplikacją, dostępny w 4 kolorach.",
@@ -3240,8 +3237,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/013.jpg",
-    "slider_images": ["/images/Tekstylia/013.jpg"],
+    "imageCover": "/images/Tekstylia/013.jpg",
+    "images": ["/images/Tekstylia/013.jpg"],
     "pc_id": "DK41-TORBA ECO",
     "name": "TORBA ECO",
     "description": "Torba bawełniana, 2 kolory, naturalny i czarny. Wymiar torby 40*41 cm+uszy 33 cm, dno pełne, mocna gramatura materiału 350 gr, wzmocnione szycia, zadruk logo 1 stronny w cenie, dowolna grafika, możliwy pełny kolor",
@@ -3255,8 +3252,8 @@
   },
   {
     "category": "tekstylia",
-    "image": "/images/Tekstylia/014.jpg",
-    "slider_images": ["/images/Tekstylia/014.jpg"],
+    "imageCover": "/images/Tekstylia/014.jpg",
+    "images": ["/images/Tekstylia/014.jpg"],
     "pc_id": "DK41-078AB (POSZEWKA) DK30-046B (WSAD)",
     "name": "POSZEWKA MAŁA SUB",
     "description": "Poduszka (wsad i poszewka), produkt dostępny w wielu wzorach z motywem morskim. Produkt zapakowany w woreczku.",
@@ -3271,8 +3268,8 @@
 
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/SKLEJKA/1_white.webp",
-    "slider_images": [
+    "imageCover": "/images/Ozdoby_domowe/SKLEJKA/1_white.webp",
+    "images": [
       "/images/Ozdoby_domowe/SKLEJKA/1_white.webp",
       "/images/Ozdoby_domowe/SKLEJKA/1.webp",
       "/images/Ozdoby_domowe/SKLEJKA/3_white.webp",
@@ -3302,8 +3299,8 @@
 
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/08.jpg",
-    "slider_images": ["/images/Ozdoby_domowe/08.jpg"],
+    "imageCover": "/images/Ozdoby_domowe/08.jpg",
+    "images": ["/images/Ozdoby_domowe/08.jpg"],
     "pc_id": "DK41-TERMOMETR",
     "name": "TERMOMETR MDF",
     "description": "Termometr wykonany z drewna dostępny w wielu ciekawych wzorach. Spora skala ułatwia odczytanie temperatury.",
@@ -3317,8 +3314,8 @@
   },
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/zaw_serce.webp",
-    "slider_images": [
+    "imageCover": "/images/Ozdoby_domowe/zaw_serce.webp",
+    "images": [
       "/images/Zestawy/Zaw_Serce/01.jpg",
       "/images/Zestawy/Zaw_Serce/02.jpg",
       "/images/Zestawy/Zaw_Serce/03.jpg",
@@ -3344,8 +3341,8 @@
   },
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_MALA/B1.jpg",
-    "slider_images": [
+    "imageCover": "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_MALA/B1.jpg",
+    "images": [
       "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_MALA/B1.jpg",
       "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_MALA/B3.jpg",
       "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_MALA/B4.jpg",
@@ -3372,8 +3369,8 @@
   },
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_DUZA/B8.jpg",
-    "slider_images": [
+    "imageCover": "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_DUZA/B8.jpg",
+    "images": [
       "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_DUZA/B2.jpg",
       "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_DUZA/B7.jpg",
       "/images/Ozdoby_domowe/BUTELKA_BURSZTYN_DUZA/B8.jpg",
@@ -3401,8 +3398,8 @@
   },
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/DZWONEK_KOLO.jpg",
-    "slider_images": ["/images/Ozdoby_domowe/DZWONEK_KOLO.jpg"],
+    "imageCover": "/images/Ozdoby_domowe/DZWONEK_KOLO.jpg",
+    "images": ["/images/Ozdoby_domowe/DZWONEK_KOLO.jpg"],
     "pc_id": "DK42-130",
     "name": "DZWONEK KOŁO",
     "description": "Metalowy dzwonek z obrotowym elementem w kształcie koła i miejscem na naklejkę pokrytą żywicą. Na produkcie umieszczamy dwustronny wzór.",
@@ -3417,8 +3414,8 @@
   },
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/DZWONEK_STER.jpg",
-    "slider_images": ["/images/Ozdoby_domowe/DZWONEK_STER.jpg"],
+    "imageCover": "/images/Ozdoby_domowe/DZWONEK_STER.jpg",
+    "images": ["/images/Ozdoby_domowe/DZWONEK_STER.jpg"],
     "pc_id": "DK42-132",
     "name": "DZWONEK STER",
     "description": "Metalowy dzwonek z obrotowym elementem w kształcie koła i miejscem na naklejkę pokrytą żywicą. Na produkcie umieszczamy dwustronny wzór.",
@@ -3433,8 +3430,8 @@
   },
   {
     "category": "ozdoby domowe",
-    "image": "/images/Ozdoby_domowe/NAPARSTEK.jpg",
-    "slider_images": ["/images/Ozdoby_domowe/NAPARSTEK.jpg"],
+    "imageCover": "/images/Ozdoby_domowe/NAPARSTEK.jpg",
+    "images": ["/images/Ozdoby_domowe/NAPARSTEK.jpg"],
     "pc_id": "DK42-154",
     "name": "NAPARSTEK",
     "description": "Metalowy naparstek z godłem Polski na odwrocie. Na przedniej części naparstka umieszczona jest naklejka ze wzorem pokryta żywicą.",
@@ -3450,8 +3447,8 @@
 
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/01.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/01.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/01.jpg",
+    "images": ["/images/Akcesoria_podróżne/01.jpg"],
     "pc_id": "ETUI OKULARY",
     "name": "ETUI NA OKULARY",
     "description": "Kolorowe etui na okulary wykonane z twardego materiału. Możliwość nadrukowania dowolnej grafiki na wierzchniej stronie pokrowca.",
@@ -3465,8 +3462,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/02.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/02.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/02.jpg",
+    "images": ["/images/Akcesoria_podróżne/02.jpg"],
     "pc_id": "DK39-017A1",
     "name": "KŁÓDKA DUŻA",
     "description": "Pamiątkowa kłódeczka z miejscem na wykonanie grafiki. Możliwe wykonanie dowolnej grafiki, wymiar 33mm.",
@@ -3480,8 +3477,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/03.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/03.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/03.jpg",
+    "images": ["/images/Akcesoria_podróżne/03.jpg"],
     "pc_id": "DK31-004A",
     "name": "PORTFEL PUSZKA",
     "description": "Niewielki jednokomorowy portfel wykonany \nz twardego materiału. Praktyczna pamiątka z miejscem na grawer z prostą grafiką.",
@@ -3495,8 +3492,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/04.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/04.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/04.jpg",
+    "images": ["/images/Akcesoria_podróżne/04.jpg"],
     "pc_id": "DK32-PORTFEL",
     "name": "PORTFEL SPORTOWY",
     "description": "Portfele wykonane z wodoodpornego materiału i wysokiej jakość nadruku typu „hot sticker”. Każdy portfel posiada sznurek umożliwiający zamocowanie do szlufki  spodni lub na szyi, praktyczne 2 kieszenie na zamek do przechowywania banknotów oraz monet. Oferujemy 6 modnych kolorów. Produkt zapakowany na stylowej kartce.",
@@ -3516,8 +3513,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/05.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/05.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/05.jpg",
+    "images": ["/images/Akcesoria_podróżne/05.jpg"],
     "pc_id": "DK41-031B",
     "name": "PUDEŁKO NA LEKI KOŁO",
     "description": "Pudełko kieszonkowe zawierające przegródki wewnętrzne na leki. Pudełko na zewnątrz posiada miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
@@ -3531,8 +3528,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/06.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/06.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/06.jpg",
+    "images": ["/images/Akcesoria_podróżne/06.jpg"],
     "pc_id": "DK41-031B",
     "name": "PUDEŁKO NA LEKI PROSTOKĄT",
     "description": "Pudełko kieszonkowe zawierające przegródki wewnętrzne na leki. Pudełko na zewnątrz posiada miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
@@ -3546,8 +3543,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/07.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/07.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/07.jpg",
+    "images": ["/images/Akcesoria_podróżne/07.jpg"],
     "pc_id": "DK28-011",
     "name": "SCYZORYK WIELOFUNKCYJNY",
     "description": "Scyzoryk turystyczny, metalowy, posiada 5 funkcji: nóż, otwieracz do butelek, otwieracz do puszek, korkociąg, śrubokręt Oferujemy 3 kolory: czarny, niebieski, bordowy. Produkt zapakowany w estetycznym i trwałym opakowaniu z tworzywa i kartonika.",
@@ -3567,8 +3564,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/08.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/08.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/08.jpg",
+    "images": ["/images/Akcesoria_podróżne/08.jpg"],
     "pc_id": "DK41-SCYZORYK",
     "name": "SCYZORYK WIELOFUNKCYJNY XL",
     "description": "Scyzoryk turystyczny, metalowy, posiada 11 funkcji. Oferujemy 3 kolory: czarny, niebieski, bordowy. Produkt zapakowany w estetycznym i trwałym opakowaniu z tworzywa i kartonika.",
@@ -3583,8 +3580,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/09.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/09.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/09.jpg",
+    "images": ["/images/Akcesoria_podróżne/09.jpg"],
     "pc_id": "DK39-EKO5",
     "name": "ZAWIESZKA DO WALIZKI ECO",
     "description": "Praktyczna i funkcjonalna pamiątka z grawerem wykonanym laserowo. Skutecznie pomaga w oznakowaniu bagażu w każdej podróży. Dostępne kolory:  Czarny ze srebrnym grawerem, Brązowy z czarnym grawerem i Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
@@ -3598,8 +3595,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/010.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/010.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/010.jpg",
+    "images": ["/images/Akcesoria_podróżne/010.jpg"],
     "pc_id": "ZAW WALIZKA",
     "name": "ZAWIESZKA DO WALIZKI PLASTIK",
     "description": "Praktyczna i funkcjonalna pamiątka z możliwością wykonania dowolnej grafiki.  Skutecznie pomaga w oznakowaniu bagażu w każdej podróży.",
@@ -3613,8 +3610,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/011.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/011.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/011.jpg",
+    "images": ["/images/Akcesoria_podróżne/011.jpg"],
     "pc_id": "DK37-060B2",
     "name": "LUSTERKO KIESZONKOWE KOŁO",
     "description": " Lusterko kieszonkowe otwierane z zewnątrz pokryte materiałem. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
@@ -3629,8 +3626,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/012.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/012.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/012.jpg",
+    "images": ["/images/Akcesoria_podróżne/012.jpg"],
     "pc_id": "DK37-060B4",
     "name": "LUSTERKO KIESZONKOWE KWADRAT",
     "description": " Lusterko kieszonkowe otwierane z zewnątrz pokryte materiałem. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
@@ -3645,8 +3642,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/013.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/013.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/013.jpg",
+    "images": ["/images/Akcesoria_podróżne/013.jpg"],
     "pc_id": "DK37-060B1",
     "name": "LUSTERKO KIESZONKOWE SERCE",
     "description": " Lusterko kieszonkowe otwierane z zewnątrz pokryte materiałem. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
@@ -3661,8 +3658,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/014.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/014.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/014.jpg",
+    "images": ["/images/Akcesoria_podróżne/014.jpg"],
     "pc_id": "DK41-031A",
     "name": "LUSTERKO METAL SERCE",
     "description": "Lusterko kieszonkowe oferowane w 3 kształtach: serce, owal, kwadrat. Lusterko metalowe z zewnątrz miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
@@ -3676,8 +3673,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/015.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/015.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/015.jpg",
+    "images": ["/images/Akcesoria_podróżne/015.jpg"],
     "pc_id": "DK41-031A",
     "name": "LUSTERKO METAL KWADRAT",
     "description": "Lusterko kieszonkowe oferowane w 3 kształtach: serce, owal, kwadrat. Lusterko metalowe z zewnątrz miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
@@ -3691,8 +3688,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/016.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/016.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/016.jpg",
+    "images": ["/images/Akcesoria_podróżne/016.jpg"],
     "pc_id": "DK41-031A",
     "name": "LUSTERKO METAL OWAL",
     "description": "Lusterko kieszonkowe oferowane w 3 kształtach: serce, owal, kwadrat. Lusterko metalowe z zewnątrz miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
@@ -3706,8 +3703,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/017.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/017.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/017.jpg",
+    "images": ["/images/Akcesoria_podróżne/017.jpg"],
     "pc_id": "WACHLARZ DREWNO",
     "name": "WACHLARZ DREWNO",
     "description": "Wachlarz wykonany z cienkiej sklejki. Możliwe jest wykonanie graweru laserowego z prostą grafiką.",
@@ -3721,8 +3718,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/018.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/018.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/018.jpg",
+    "images": ["/images/Akcesoria_podróżne/018.jpg"],
     "pc_id": "DK41-BIDON SZKŁO",
     "name": "BIDON SZKLANY",
     "description": "Szklana butelka 500ml z pokrowcem. Pokrowiec z neoprenu zapewnia komfort w przypadku bardzo zimnych napojów oraz wygodny chwyt. Bezpieczna zakrętka z uszczelką silikonową zapobiega wyciekaniu napoju. Na każdym pokrowcu znajduję się wysokiej jakości, nowoczesna grafika. Zawartość zestawu: 1 butelka szklana, 1 pokrowiec neoprenowy",
@@ -3736,8 +3733,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/scyzoryk_drewno1.jpg",
-    "slider_images": [
+    "imageCover": "/images/Akcesoria_podróżne/scyzoryk_drewno1.jpg",
+    "images": [
       "/images/Akcesoria_podróżne/scyzoryk_drewno1.jpg",
       "/images/Akcesoria_podróżne/scyzoryk_drewno2.jpg"
     ],
@@ -3755,8 +3752,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/PIERSIOWKA_1.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/PIERSIOWKA_1.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/PIERSIOWKA_1.jpg",
+    "images": ["/images/Akcesoria_podróżne/PIERSIOWKA_1.jpg"],
     "pc_id": "DK42-045A1",
     "name": "PIERSIÓWKA 1",
     "description": "Metalowa piersiówka wykonana ze stali nierdzewnej. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
@@ -3771,8 +3768,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/PIERSIOWKA_2.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/PIERSIOWKA_2.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/PIERSIOWKA_2.jpg",
+    "images": ["/images/Akcesoria_podróżne/PIERSIOWKA_2.jpg"],
     "pc_id": "DK42-045A2",
     "name": "PIERSIÓWKA 2",
     "description": "Metalowa piersiówka wykonana ze stali nierdzewnej. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
@@ -3787,8 +3784,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/PIERSIOWKA_3.jpg",
-    "slider_images": ["/images/Akcesoria_podróżne/PIERSIOWKA_3.jpg"],
+    "imageCover": "/images/Akcesoria_podróżne/PIERSIOWKA_3.jpg",
+    "images": ["/images/Akcesoria_podróżne/PIERSIOWKA_3.jpg"],
     "pc_id": "DK42-045A3",
     "name": "PIERSIÓWKA 3",
     "description": "Metalowa piersiówka wykonana ze stali nierdzewnej.Pojemność 235 ml. Na produkcie umieszczona jest naklejka ze wzorem pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -3804,8 +3801,8 @@
 
   {
     "category": "dziecięce",
-    "image": "/images/Dziecięce/01.jpg",
-    "slider_images": ["/images/Dziecięce/01.jpg"],
+    "imageCover": "/images/Dziecięce/01.jpg",
+    "images": ["/images/Dziecięce/01.jpg"],
     "pc_id": "GRA LABIRYNT",
     "name": "GRA ZRĘCZNOŚCIOWA",
     "description": "Gra zręcznościowa przeznaczona dla dzieci wykonana\n z plastiku i metalowych elementów. Możliwe wykonanie dowolnej grafiki pod labiryntem.",
@@ -3819,8 +3816,8 @@
   },
   {
     "category": "dziecięce",
-    "image": "/images/Dziecięce/02.jpg",
-    "slider_images": ["/images/Dziecięce/02.jpg"],
+    "imageCover": "/images/Dziecięce/02.jpg",
+    "images": ["/images/Dziecięce/02.jpg"],
     "pc_id": "LINIJKA",
     "name": "LINIJKA PUZZLE",
     "description": "Linijka z tworzywa sztucznego na której możliwe jest wykonanie grafiki ze wzorem. Linijka wmontowane ma także puzzle stanowiące przyjemną rozrywkę. Produkt zapakowany w stylowym woreczku. Długość linijki to 15,5 cm.",
@@ -3834,8 +3831,8 @@
   },
   {
     "category": "dziecięce",
-    "image": "/images/Dziecięce/03.jpg",
-    "slider_images": ["/images/Dziecięce/03.jpg"],
+    "imageCover": "/images/Dziecięce/03.jpg",
+    "images": ["/images/Dziecięce/03.jpg"],
     "pc_id": "NAKLEJKI CG",
     "name": "NAKLEJKI CG",
     "description": "Kolorowe naklejki dla dzieci z możliwością wykonania dowolnej grafiki. Prosty sposób na oznaczenie \ni upiększenie przedmiotów codziennego użytku. Produkt zapakowany w stylowy woreczek. ",
@@ -3849,8 +3846,8 @@
   },
   {
     "category": "dziecięce",
-    "image": "/images/Dziecięce/04.jpg",
-    "slider_images": ["/images/Dziecięce/04.jpg"],
+    "imageCover": "/images/Dziecięce/04.jpg",
+    "images": ["/images/Dziecięce/04.jpg"],
     "pc_id": "DK30-NASZYJNIK SERCE",
     "name": "NASZYJNIK AKRYL SERCE",
     "description": "Naszyjnik z akrylu w kształcie serca z imieniem dziewczynki, dostępne w 3 kolorach. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -3865,8 +3862,8 @@
   },
   {
     "category": "dziecięce",
-    "image": "/images/Dziecięce/05.jpg",
-    "slider_images": ["/images/Dziecięce/05.jpg"],
+    "imageCover": "/images/Dziecięce/05.jpg",
+    "images": ["/images/Dziecięce/05.jpg"],
     "pc_id": "DK27-063A",
     "name": "NIEŚMIERTELNIK NA ŁAŃCUSZKU",
     "description": "Naszyjnik nieśmiertelnik wykonany ze stali nierdzewnej z imieniem chłopięcym. Oferujemy 60 imion chłopięcych \ni znaki zodiaku, możliwe wykonanie dowolnego graweru. Produkt zapakowany na stylowej kartce w woreczku.",
@@ -3886,8 +3883,8 @@
   },
   {
     "category": "dziecięce",
-    "image": "/images/Dziecięce/06.jpg",
-    "slider_images": ["/images/Dziecięce/06.jpg"],
+    "imageCover": "/images/Dziecięce/06.jpg",
+    "images": ["/images/Dziecięce/06.jpg"],
     "pc_id": "SKARBONKA MDF",
     "name": "SKARBONKA",
     "description": "Skarbonka w formie kostki o wymiarach 9 x 9 cm, wykonana z płyty MDF, możliwy dowolny zadruk wg wzoru klienta. Posiadamy 56 wzorów ze śmiesznymi hasłami.",
@@ -3906,8 +3903,8 @@
   },
   {
     "category": "dziecięce",
-    "image": "/images/Dziecięce/07.jpg",
-    "slider_images": ["/images/Dziecięce/07.jpg"],
+    "imageCover": "/images/Dziecięce/07.jpg",
+    "images": ["/images/Dziecięce/07.jpg"],
     "pc_id": "MAGNES PUZZLE",
     "name": "UKŁADANKA PUZZLE",
     "description": "Wysokiej jakości układanka z tworzywa sztucznego na której możliwe jest wykonanie grafiki ze wzorem. Produkt zapakowany w stylowym woreczku. Wymiar 75 x75 mm.",
@@ -3922,8 +3919,8 @@
 
   {
     "category": "do auta",
-    "image": "/images/Do_auta/02.jpg",
-    "slider_images": ["/images/Do_auta/02.jpg"],
+    "imageCover": "/images/Do_auta/02.jpg",
+    "images": ["/images/Do_auta/02.jpg"],
     "pc_id": "AUTO ZAPACH",
     "name": "ZAPACH DO SAMOCHODU",
     "description": " Woreczek z materiału organzy z granulkami polimerowymi nasączonymi w perfumach. Kompozycji 6 zapachów: Black, Ocean, New Car, Truskawka, Wanilia i Guma Balonowa. Każdy zapach został zapakowany w foliowy szczelnie zgrzany woreczek barierowy zabezpieczający przed zwietrzeniem zapachu, oraz kartkę dedykowaną z opisem.",
@@ -3943,8 +3940,8 @@
   },
   {
     "category": "do auta",
-    "image": "/images/Do_auta/01.jpg",
-    "slider_images": ["/images/Do_auta/01.jpg"],
+    "imageCover": "/images/Do_auta/01.jpg",
+    "images": ["/images/Do_auta/01.jpg"],
     "pc_id": "ZAWIESZKA AUTO",
     "name": "ZAWIESZKA DREWNIANA",
     "description": "Zawieszka wykonana z drewna. Naniesione grafiki drukiem UV z obu stron, będą efektowną ozdobą każdego samochodu. Nasz produkt to 6 kształtów, każda sztuka zapakowana na kartoniku.",
@@ -3965,8 +3962,8 @@
 
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/02.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/02.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/02.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/02.jpg"],
     "pc_id": "POPIELNICZKA -2",
     "name": "POPIELNICZKA KWADRAT",
     "description": "Kwadratowa popielniczka wykonana z grubego szkła posiadająca grafikę nadrukowaną na podstawie. Możliwe wykonanie dowolnej grafiki.",
@@ -3980,8 +3977,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/03.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/03.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/03.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/03.jpg"],
     "pc_id": "POPIELNICZKA -1",
     "name": "POPIELNICZKA OKRĄGŁA",
     "description": "Okrągła popielniczka wykonana z grubego szkła posiadająca grafikę nadrukowaną na podstawie. Możliwe wykonanie dowolnej grafiki.",
@@ -3995,8 +3992,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/04.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/04.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/04.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/04.jpg"],
     "pc_id": "DK29-039",
     "name": "ZAPALNICZKA BENZYNOWA",
     "description": "Otwierana zapalniczka benzynowa do napełniania benzyną. Zdobienie na produkcie stylizowane na motyw retro z imieniem męskim. Produkt zapakowany w profilowanym opakowaniu i kartce.",
@@ -4017,8 +4014,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/05.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/05.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/05.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/05.jpg"],
     "pc_id": "DK29-039 ŻYWICA",
     "name": "ZAPALNICZKA BENZYNOWA ŻYWICA",
     "description": "Otwierana zapalniczka benzynowa do napełniania benzyną. Zdobienie na produkcie stylizowane na motyw retro z imieniem męskim. Produkt zapakowany w profilowanym opakowaniu i kartce.",
@@ -4034,8 +4031,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/06.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/06.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/06.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/06.jpg"],
     "pc_id": " ZAPALNICZKA JET MIX",
     "name": "ZAPALNICZKA GAZOWA DUŻA",
     "description": "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 4 kolorach. Produkt zapakowany \nw kartonik i wypraskę z tworzywa sztucznego.",
@@ -4051,8 +4048,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/07.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/07.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/07.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/07.jpg"],
     "pc_id": " ZAPALNICZKA MAŁA ",
     "name": "ZAPALNICZKA GAZOWA MAŁA",
     "description": "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 4 kolorach. Produkt zapakowany \nw kartonik i wypraskę z tworzywa sztucznego.",
@@ -4074,8 +4071,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/08.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/08.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/08.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/08.jpg"],
     "pc_id": "ZAPALNICZKA PŁOMIEŃ",
     "name": "ZAPALNICZKA GAZOWA PŁOMIEŃ",
     "description": "Zapalniczka gazowa z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 6 kolorach. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
@@ -4091,8 +4088,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/zapaliczka_benzyna_kolor.webp",
-    "slider_images": [
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/zapaliczka_benzyna_kolor.webp",
+    "images": [
       "/images/Zapalniczki_i_Popielniczki/zapaliczka_benzyna_kolor.webp"
     ],
     "pc_id": "ZAPALNICZKA BENZYNA KOLOR",
@@ -4111,8 +4108,8 @@
 
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/zl12-czarna.webp",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/zl12-czarna.webp"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/zl12-czarna.webp",
+    "images": ["/images/Zapalniczki_i_Popielniczki/zl12-czarna.webp"],
     "pc_id": "ZAPAL ZL-12 CZARNA",
     "name": "ZAPAL ZL-12 CZARNA",
     "description": "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Produkt dostępny w kolorze czarnym.",
@@ -4129,8 +4126,8 @@
 
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/guma_czarna.webp",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/guma_czarna.webp"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/guma_czarna.webp",
+    "images": ["/images/Zapalniczki_i_Popielniczki/guma_czarna.webp"],
     "pc_id": "ZAPALNICZKA GUMA CZARNA",
     "name": "ZAPALNICZKA GUMA CZARNA",
     "description": "Zapalniczka gazowa z możliwością wielokrotnego napełnienia.",
@@ -4146,8 +4143,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma.jpg",
-    "slider_images": [
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma.jpg",
+    "images": [
       "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet.webp",
       "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma.jpg",
       "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_blue.jpg",
@@ -4172,8 +4169,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc.jpg",
-    "slider_images": [
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc.jpg",
+    "images": [
       "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc.jpg",
       "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc_red.jpg",
       "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc_blue.jpg",
@@ -4193,8 +4190,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/jet_ombre2.jpg",
-    "slider_images": [
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/jet_ombre2.jpg",
+    "images": [
       "/images/Zapalniczki_i_Popielniczki/jet_ombre1.jpg",
       "/images/Zapalniczki_i_Popielniczki/jet_ombre2.jpg"
     ],
@@ -4211,8 +4208,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/guma_ombre.jpg",
-    "slider_images": ["/images/Zapalniczki_i_Popielniczki/guma_ombre.jpg"],
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/guma_ombre.jpg",
+    "images": ["/images/Zapalniczki_i_Popielniczki/guma_ombre.jpg"],
     "pc_id": "ZAPALNICZKA GUMA OMBRE",
     "name": "ZAPALNICZKA GUMA OMBRE",
     "description": "Zapalniczka gazowa z regulowanym płomieniem z możliwością wielokrotnego napełnienia. Dostępna w pięciu kolorach.",
@@ -4229,8 +4226,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kwadrat.jpg",
-    "slider_images": [
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kwadrat.jpg",
+    "images": [
       "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kwadrat.jpg"
     ],
     "pc_id": "DK42-057S",
@@ -4246,8 +4243,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_srednia.jpg",
-    "slider_images": [
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_srednia.jpg",
+    "images": [
       "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_srednia.jpg"
     ],
     "pc_id": "DK42-057M",
@@ -4263,8 +4260,8 @@
   },
   {
     "category": "zapalniczki i popielniczki",
-    "image": "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_duza.jpg",
-    "slider_images": [
+    "imageCover": "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_duza.jpg",
+    "images": [
       "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_duza.jpg"
     ],
     "pc_id": "DK42-057L",
@@ -4281,8 +4278,8 @@
 
   {
     "category": "upominki biznesowe",
-    "image": "/images/Upominki_biznesowe/01.jpg",
-    "slider_images": ["/images/Upominki_biznesowe/01.jpg"],
+    "imageCover": "/images/Upominki_biznesowe/01.jpg",
+    "images": ["/images/Upominki_biznesowe/01.jpg"],
     "pc_id": "DK38-008AB",
     "name": "NOTATNIK",
     "description": "Funkcjonalny notes wykonany z komponentów biodegradowalnych. Możliwe jest wykonanie grafiki ze wzorem w technologii laserowej, dolna część okładki wykonana z korka. Produkt wyposażony w długopis umożliwiający natychmiastowe użycie notesu.",
@@ -4295,8 +4292,8 @@
   },
   {
     "category": "upominki biznesowe",
-    "image": "/images/Upominki_biznesowe/02.jpg",
-    "slider_images": ["/images/Upominki_biznesowe/02.jpg"],
+    "imageCover": "/images/Upominki_biznesowe/02.jpg",
+    "images": ["/images/Upominki_biznesowe/02.jpg"],
     "pc_id": "DK38-008AB",
     "name": "NOTATNIK ECO",
     "description": "Funkcjonalny notes wykonany z komponentów biodegradowalnych. Możliwe jest wykonanie grafiki ze wzorem w technologii laserowej. Produkt dostępny w 3 kolorach wyposażony w długopis umożliwiający natychmiastowe użycie notesu.",
@@ -4309,8 +4306,8 @@
   },
   {
     "category": "upominki biznesowe",
-    "image": "/images/Upominki_biznesowe/03.jpg",
-    "slider_images": ["/images/Upominki_biznesowe/03.jpg"],
+    "imageCover": "/images/Upominki_biznesowe/03.jpg",
+    "images": ["/images/Upominki_biznesowe/03.jpg"],
     "pc_id": "PIRAMIDA SZKŁO M",
     "name": "PIRAMIDA SZKŁO",
     "description": "Ozdoba z bezbarwnego szkła w kształcie piramidy, posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w kartoniku ochronnym.",
@@ -4323,8 +4320,8 @@
   },
   {
     "category": "upominki biznesowe",
-    "image": "/images/Upominki_biznesowe/04.jpg",
-    "slider_images": ["/images/Upominki_biznesowe/04.jpg"],
+    "imageCover": "/images/Upominki_biznesowe/04.jpg",
+    "images": ["/images/Upominki_biznesowe/04.jpg"],
     "pc_id": "PIRAMIDA SZKŁO D",
     "name": "PIRAMIDA SZKŁO DUŻA",
     "description": "Ozdoba z bezbarwnego szkła w kształcie piramidy, posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w kartoniku ochronnym.",
@@ -4337,8 +4334,8 @@
   },
   {
     "category": "upominki biznesowe",
-    "image": "/images/Upominki_biznesowe/05.jpg",
-    "slider_images": ["/images/Upominki_biznesowe/05.jpg"],
+    "imageCover": "/images/Upominki_biznesowe/05.jpg",
+    "images": ["/images/Upominki_biznesowe/05.jpg"],
     "pc_id": "DK39-EKO4",
     "name": "ZESTAW UPOMINKOWY",
     "description": "Zestaw upominkowy (etui na karty, brelok) zapakowany w eleganckim kartoniku. Możliwość wykonania graweru z grafiką klienta, na brelokach możliwy grawer dwustronny. Produkt dostępny w 3 kolorach:  1 - Czarny ze srebrnym grawerem ; \n2 - Brązowy z czarnym grawerem ; 3 - Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
@@ -4352,8 +4349,8 @@
 
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/sub_zestaw_dorosli_1.jpg",
-    "slider_images": [
+    "imageCover": "/images/Sublimacja/sub_zestaw_dorosli_1.jpg",
+    "images": [
       "/images/Sublimacja/sub_zestaw_dorosli_1.jpg",
       "/images/Sublimacja/sub_zestaw_dorosli_2.jpg"
     ],
@@ -4375,8 +4372,8 @@
   },
   {
     "category": "kubki i podkładki",
-    "image": "/images/Sublimacja/sub_zestaw_dzieci_1.jpg",
-    "slider_images": [
+    "imageCover": "/images/Sublimacja/sub_zestaw_dzieci_1.jpg",
+    "images": [
       "/images/Sublimacja/sub_zestaw_dzieci_1.jpg",
       "/images/Sublimacja/sub_zestaw_dzieci_2.jpg"
     ],
@@ -4398,8 +4395,8 @@
   },
   {
     "category": "breloki",
-    "image": "/images/Breloki/06.jpg",
-    "slider_images": [
+    "imageCover": "/images/Breloki/06.jpg",
+    "images": [
       "/images/Breloki/06.jpg",
       "/images/Breloki/07.jpg",
       "/images/Breloki/08.jpg",
@@ -4423,8 +4420,8 @@
   },
   {
     "category": "akcesoria podrozne",
-    "image": "/images/Akcesoria_podróżne/012.jpg",
-    "slider_images": [
+    "imageCover": "/images/Akcesoria_podróżne/012.jpg",
+    "images": [
       "/images/Akcesoria_podróżne/011.jpg",
       "/images/Akcesoria_podróżne/012.jpg",
       "/images/Akcesoria_podróżne/013.jpg",
@@ -4448,8 +4445,8 @@
   },
   {
     "category": "bransoletki",
-    "image": "/images/Zestawy/Tuby/01.jpg",
-    "slider_images": [
+    "imageCover": "/images/Zestawy/Tuby/01.jpg",
+    "images": [
       "/images/Zestawy/Tuby/01.jpg",
       "/images/Zestawy/Tuby/02.jpg",
       "/images/Zestawy/Tuby/03.jpg",
