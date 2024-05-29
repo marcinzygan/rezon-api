@@ -3,19 +3,50 @@ const Product = require("../models/productModel");
 // GET ALL PRODUCTS
 exports.getAllProducts = async (req, res) => {
   try {
-    console.log(req.query);
-    let products;
-    if (req.query.name) {
-      const { name } = req.query;
-      // create regex to find product by name not case sesitive
-      const regex = new RegExp(name, "i");
-      console.log(regex);
-      const queryObj = { ...req.query };
-      products = await Product.find({ name: regex });
-    } else {
-      products = await Product.find();
-    }
+    // make copy of original query Object to avoid mutating original query
+    const queryObj = { ...req.query };
 
+    //FILTER QUERY
+
+    // loop over query object and delete the excluded fields
+    const excludeFields = ["page", "sort", "limit", "fields"];
+    excludeFields.forEach((el) => delete queryObj[el]);
+    console.log(req.query, queryObj);
+
+    let products;
+    if (queryObj.search) {
+      // BUILD QUERY
+
+      const { search } = queryObj;
+      // create regex to find product by name not case sesitive
+      const regex = new RegExp(search, "i");
+      // create regex to find product by pc_id not case sesitive
+
+      // build new query object
+      const newQuery = {
+        $or: [{ name: regex }, { pc_id: regex }],
+      };
+      console.log(regex, queryObj, newQuery);
+      const query = Product.find(newQuery);
+
+      // let query = {};
+      // query = {
+      //   $or: [
+      //     { name: { $regex: queryObj, $options: "i" } },
+      //     { pc_id: { $regex: queryObj, $options: "i" } },
+      //   ],
+      // };
+      // const queryProd = Product.find(query);
+      // EXECUTE QUERY
+      products = await query;
+    } else {
+      // BUILD QUERY
+      const query = Product.find(queryObj);
+
+      // EXECUTE QUERY
+      products = await query;
+    }
+    // SEND RESPONSE
     res.status(200).json({
       status: "success",
       numberOfProducts: products.length,
@@ -23,6 +54,7 @@ exports.getAllProducts = async (req, res) => {
         products: products,
       },
     });
+    // ERROR HANDLING
   } catch (err) {
     res.status(404).json({
       status: "fail",
