@@ -7,41 +7,46 @@ exports.getAllProducts = async (req, res) => {
     const queryObj = { ...req.query };
 
     //FILTER QUERY
+    // 1 Filtering
 
     // loop over query object and delete the excluded fields
     const excludeFields = ["page", "sort", "limit", "fields"];
     excludeFields.forEach((el) => delete queryObj[el]);
     console.log(req.query, queryObj);
 
+    // 2) Advanced filtering
+    // convert queryObj to string
+    let queryStr = JSON.stringify(queryObj);
+    // add $ in front of the matched expression
+    queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
+
+    console.log(JSON.parse(queryStr));
+
+    // BUILD QUERY
     let products;
-    if (queryObj.search) {
-      // BUILD QUERY
-
-      const { search } = queryObj;
-      // create regex to find product by name not case sesitive
+    if (JSON.parse(queryStr).search) {
+      const { search } = JSON.parse(queryStr);
+      // create regex to find product by search param not case sesitive
       const regex = new RegExp(search, "i");
-      // create regex to find product by pc_id not case sesitive
 
-      // build new query object
+      // build new query object to search product either by name or pc_id
+      const newObj = { ...JSON.parse(queryStr) };
+      const excludeSearchField = ["search"];
+      excludeSearchField.forEach((el) => delete newObj[el]);
+
       const newQuery = {
         $or: [{ name: regex }, { pc_id: regex }],
+        $and: [{ ...newObj }],
       };
-      console.log(regex, queryObj, newQuery);
+
+      console.log(regex, newQuery);
       const query = Product.find(newQuery);
 
-      // let query = {};
-      // query = {
-      //   $or: [
-      //     { name: { $regex: queryObj, $options: "i" } },
-      //     { pc_id: { $regex: queryObj, $options: "i" } },
-      //   ],
-      // };
-      // const queryProd = Product.find(query);
       // EXECUTE QUERY
       products = await query;
     } else {
       // BUILD QUERY
-      const query = Product.find(queryObj);
+      const query = Product.find(JSON.parse(queryStr));
 
       // EXECUTE QUERY
       products = await query;
