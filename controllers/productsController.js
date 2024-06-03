@@ -1,6 +1,6 @@
 const Product = require("../models/productModel");
 
-// GET ALL PRODUCTS
+//////// GET ALL PRODUCTS
 exports.getAllProducts = async (req, res) => {
   try {
     // make copy of original query Object to avoid mutating original query
@@ -91,7 +91,7 @@ exports.getAllProducts = async (req, res) => {
   }
 };
 
-//  GET PRODUCT BY ID
+////////  GET PRODUCT BY ID
 exports.getProduct = async (req, res) => {
   try {
     // Find product by search parameter
@@ -112,7 +112,7 @@ exports.getProduct = async (req, res) => {
   }
 };
 
-//CREATE PRODUCT
+//////// CREATE PRODUCT
 exports.createProduct = async (req, res) => {
   try {
     // Create new product
@@ -131,7 +131,7 @@ exports.createProduct = async (req, res) => {
   }
 };
 
-// UPDATE PRODUCT BY ID
+//////// UPDATE PRODUCT BY ID
 exports.updateProduct = async (req, res) => {
   try {
     // Find product by id and update
@@ -158,7 +158,7 @@ exports.updateProduct = async (req, res) => {
     });
   }
 };
-// DELETE PRODUCT BY ID
+//////// DELETE PRODUCT BY ID
 exports.deleteProduct = async (req, res) => {
   try {
     // delete product by id
