@@ -24,7 +24,7 @@ exports.getAllProducts = async (req, res) => {
     let query = Product.find(JSON.parse(queryStr));
 
     if (JSON.parse(queryStr).search) {
-      // query example search=magnes or search=magnes&price[gte]=5
+      // query example: ?search=magnes or ?search=magnes&price[gte]=5
       const { search } = JSON.parse(queryStr);
       // create regex to find product by search param not case sesitive
       const regex = new RegExp(search, "i");
@@ -43,7 +43,7 @@ exports.getAllProducts = async (req, res) => {
     }
     // 3) SORTING PRODUCTS
     if (req.query.sort) {
-      // query example: sort=price
+      // query example: ?sort=price
       query = query.sort(req.query.sort);
       console.log(req.query);
     } else {
@@ -51,12 +51,26 @@ exports.getAllProducts = async (req, res) => {
     }
     //  4) FIELD LIMITING
     if (req.query.fields) {
-      // example: fields=name+pc_id+price
+      // query example: ?fields=name+pc_id+price
       console.log(req.query.fields);
       query = query.select(req.query.fields);
     } else {
       //default exclude the fields
       query = query.select("-__v");
+    }
+    // 5) PAGINATION
+    // query example: ?page=2&limit=100
+    //  1-100 is page 1
+    const page = req.query.page * 1 || 1;
+    const limit = req.query.limit * 1 || 100;
+    const skip = (page - 1) * limit;
+
+    query = query.skip(skip).limit(limit);
+    if (req.query.page) {
+      const numberOfProducts = await Product.countDocuments();
+      if (skip >= numberOfProducts) {
+        throw new Error("no more pages to display");
+      }
     }
     // EXECUTE QUERY
     const products = await query;
@@ -72,7 +86,7 @@ exports.getAllProducts = async (req, res) => {
   } catch (err) {
     res.status(404).json({
       status: "fail",
-      message: err,
+      message: err.message,
     });
   }
 };
