@@ -7,13 +7,13 @@ exports.getAllProducts = async (req, res) => {
     const queryObj = { ...req.query };
 
     //FILTER QUERY
-    // 1 Filtering
+    // 1 FILTERING
 
     // loop over query object and delete the excluded fields
     const excludeFields = ["page", "sort", "limit", "fields"];
     excludeFields.forEach((el) => delete queryObj[el]);
 
-    // 2) Advanced filtering
+    // 2) ADVANCED FILTERING
     // convert queryObj to string
     let queryStr = JSON.stringify(queryObj);
     // add $ in front of the matched expression
@@ -24,6 +24,7 @@ exports.getAllProducts = async (req, res) => {
     let query = Product.find(JSON.parse(queryStr));
 
     if (JSON.parse(queryStr).search) {
+      // query example search=magnes or search=magnes&price[gte]=5
       const { search } = JSON.parse(queryStr);
       // create regex to find product by search param not case sesitive
       const regex = new RegExp(search, "i");
@@ -40,10 +41,22 @@ exports.getAllProducts = async (req, res) => {
 
       query = Product.find(newQuery);
     }
-    // SORTING PRODUCTS
+    // 3) SORTING PRODUCTS
     if (req.query.sort) {
+      // query example: sort=price
       query = query.sort(req.query.sort);
       console.log(req.query);
+    } else {
+      query = query.sort("-createdAt");
+    }
+    //  4) FIELD LIMITING
+    if (req.query.fields) {
+      // example: fields=name+pc_id+price
+      console.log(req.query.fields);
+      query = query.select(req.query.fields);
+    } else {
+      //default exclude the fields
+      query = query.select("-__v");
     }
     // EXECUTE QUERY
     const products = await query;

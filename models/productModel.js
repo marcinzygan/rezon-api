@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema({
+  createdAt: {
+    type: Date,
+    default: Date.now(),
+  },
   pc_id: {
     type: String,
     required: [true, "Please provide product pc_id"],
