@@ -12,7 +12,6 @@ exports.getAllProducts = async (req, res) => {
     // loop over query object and delete the excluded fields
     const excludeFields = ["page", "sort", "limit", "fields"];
     excludeFields.forEach((el) => delete queryObj[el]);
-    console.log(req.query, queryObj);
 
     // 2) Advanced filtering
     // convert queryObj to string
@@ -20,10 +19,10 @@ exports.getAllProducts = async (req, res) => {
     // add $ in front of the matched expression
     queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
 
-    console.log(JSON.parse(queryStr));
-
     // BUILD QUERY
-    let products;
+    // let products;
+    let query = Product.find(JSON.parse(queryStr));
+
     if (JSON.parse(queryStr).search) {
       const { search } = JSON.parse(queryStr);
       // create regex to find product by search param not case sesitive
@@ -39,18 +38,15 @@ exports.getAllProducts = async (req, res) => {
         $and: [{ ...newObj }],
       };
 
-      console.log(regex, newQuery);
-      const query = Product.find(newQuery);
-
-      // EXECUTE QUERY
-      products = await query;
-    } else {
-      // BUILD QUERY
-      const query = Product.find(JSON.parse(queryStr));
-
-      // EXECUTE QUERY
-      products = await query;
+      query = Product.find(newQuery);
     }
+    // SORTING PRODUCTS
+    if (req.query.sort) {
+      query = query.sort(req.query.sort);
+      console.log(req.query);
+    }
+    // EXECUTE QUERY
+    const products = await query;
     // SEND RESPONSE
     res.status(200).json({
       status: "success",
