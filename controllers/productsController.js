@@ -1,31 +1,31 @@
 const Product = require("../models/productModel");
 
-//////// GET ALL PRODUCTS
-exports.getAllProducts = async (req, res) => {
-  try {
-    // make copy of original query Object to avoid mutating original query
-    const queryObj = { ...req.query };
+class APIFeatures {
+  constructor(query, queryObject) {
+    this.query = query;
+    this.queryObject = queryObject;
+  }
 
-    //FILTER QUERY
-    // 1 FILTERING
+  // FILTER METHOD
+  filter() {
+    // make copy of original query Object to avoid mutating original query
+    const queryObj = { ...this.queryObject };
 
     // loop over query object and delete the excluded fields
     const excludeFields = ["page", "sort", "limit", "fields"];
     excludeFields.forEach((el) => delete queryObj[el]);
 
-    // 2) ADVANCED FILTERING
     // convert queryObj to string
     let queryStr = JSON.stringify(queryObj);
+
     // add $ in front of the matched expression
     queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
 
-    // BUILD QUERY
-    // let products;
-    let query = Product.find(JSON.parse(queryStr));
-
+    //SEARCH FEATURE
+    // query example: ?search=magnes or ?search=magnes&price[gte]=5
     if (JSON.parse(queryStr).search) {
-      // query example: ?search=magnes or ?search=magnes&price[gte]=5
       const { search } = JSON.parse(queryStr);
+
       // create regex to find product by search param not case sesitive
       const regex = new RegExp(search, "i");
 
@@ -39,41 +39,60 @@ exports.getAllProducts = async (req, res) => {
         $and: [{ ...newObj }],
       };
 
-      query = Product.find(newQuery);
-    }
-    // 3) SORTING PRODUCTS
-    if (req.query.sort) {
-      // query example: ?sort=price
-      query = query.sort(req.query.sort);
-      console.log(req.query);
+      this.query = this.query.find(newQuery);
     } else {
-      query = query.sort("-createdAt");
+      this.query = this.query.find(JSON.parse(queryStr));
     }
-    //  4) FIELD LIMITING
-    if (req.query.fields) {
-      // query example: ?fields=name+pc_id+price
-      console.log(req.query.fields);
-      query = query.select(req.query.fields);
+    return this;
+  }
+
+  // SORT METHOD
+  // query example: ?sort=price
+  sort() {
+    if (this.queryObject.sort) {
+      this.query = this.query.sort(this.queryObject.sort);
+    } else {
+      this.query = this.query.sort("-createdAt");
+    }
+    return this;
+  }
+
+  // LIMIT METHOD
+  // query example: ?fields=name+pc_id+price
+  limit() {
+    if (this.queryObject.fields) {
+      this.query = this.query.select(this.queryObject.fields);
     } else {
       //default exclude the fields
-      query = query.select("-__v");
+      this.query = this.query.select("-__v");
     }
-    // 5) PAGINATION
-    // query example: ?page=2&limit=100
-    //  1-100 is page 1
-    const page = req.query.page * 1 || 1;
-    const limit = req.query.limit * 1 || 100;
-    const skip = (page - 1) * limit;
+    return this;
+  }
 
-    query = query.skip(skip).limit(limit);
-    if (req.query.page) {
-      const numberOfProducts = await Product.countDocuments();
-      if (skip >= numberOfProducts) {
-        throw new Error("no more pages to display");
-      }
-    }
+  // 5) PAGINATION METHOD
+  // query example: ?page=2&limit=100
+  paginate() {
+    //  1-100 is page 1
+    const page = this.queryObject.page * 1 || 1;
+    const limit = this.queryObject.limit * 1 || 100;
+    const skip = (page - 1) * limit;
+    this.query = this.query.skip(skip).limit(limit);
+
+    return this;
+  }
+}
+
+//////// GET ALL PRODUCTS
+exports.getAllProducts = async (req, res) => {
+  try {
+    // BUILD QUERY
+    const features = new APIFeatures(Product.find(), req.query)
+      .filter()
+      .sort()
+      .limit()
+      .paginate();
     // EXECUTE QUERY
-    const products = await query;
+    const products = await features.query;
     // SEND RESPONSE
     res.status(200).json({
       status: "success",
