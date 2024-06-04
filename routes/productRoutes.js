@@ -8,7 +8,11 @@ const {
   createProduct,
   updateProduct,
   deleteProduct,
+  getProductsStats,
 } = require("../controllers/productsController");
+
+// GET PRODUCT STATS ROUTE
+productRouter.route("/stats").get(getProductsStats);
 
 // PRODUCT MAIN ROUTE
 productRouter.route("/").get(getAllProducts).post(createProduct);
