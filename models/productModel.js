@@ -54,10 +54,12 @@ const productSchema = new mongoose.Schema({
   stand: Boolean,
 });
 
-// Document Middleware runs before .save() and .create() command
+// DOCUMENT MIDDLEWARE
+
+// runs before .save() and .create() command
 // use normal function not arrow function to have acces to "this" keyword
 productSchema.pre("save", function (next) {
-  // console.log("pre", this);
+  // console.log(this);
   this.slug = slugify(this.name, { lower: true });
   next();
 });
@@ -68,6 +70,21 @@ productSchema.pre("save", function (next) {
 //   next();
 // });
 
+// QUERY MIDDLEWARE
+
+// "this" keyword will point to current query
+// productSchema.pre("find", function (next) {
+//   this.find({ active: { $ne: false } });
+//   next();
+// });
+
+// AGGREGATION MIDDLEWARE
+
+// "this" keyword will point to current aggregation object
+productSchema.pre("aggregate", function (next) {
+  console.log(this);
+  next();
+});
 const Product = mongoose.model("Product", productSchema);
 
 module.exports = Product;

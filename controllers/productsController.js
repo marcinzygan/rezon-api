@@ -32,7 +32,6 @@ exports.getAllProducts = async (req, res) => {
 ////////  GET PRODUCT BY ID
 exports.getProduct = async (req, res) => {
   try {
-    console.log(req.query);
     // Find product by search parameter
     const foundProduct = await Product.findById(req.params.id);
     // const foundProduct = await Product.findOne({ _id: id });
