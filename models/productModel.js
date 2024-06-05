@@ -9,10 +9,12 @@ const productSchema = new mongoose.Schema({
   pc_id: {
     type: String,
     required: [true, "Please provide product pc_id"],
+    maxlength: [40, "The pc_id should have maximum of 40 characters"],
   },
   name: {
     type: String,
     required: [true, "Please provide product name"],
+    maxlength: [40, "The pc_id should have maximum of 40 characters"],
     unique: true,
   },
   slug: String,
@@ -43,6 +45,7 @@ const productSchema = new mongoose.Schema({
   active: {
     type: Boolean,
     required: [true, "Please specify if product is active"],
+    default: true,
   },
   custom_shape: Boolean,
   form: String,

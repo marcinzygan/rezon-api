@@ -79,7 +79,7 @@ exports.updateProduct = async (req, res) => {
       {
         // options to return new updated product
         new: true,
-        // run validators
+        // run validators again to validate the incoming data
         runValidators: true,
       },
     );
