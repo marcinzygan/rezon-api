@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const slugify = require("slugify");
 
 const productSchema = new mongoose.Schema({
   createdAt: {
@@ -14,6 +15,7 @@ const productSchema = new mongoose.Schema({
     required: [true, "Please provide product name"],
     unique: true,
   },
+  slug: String,
   category: {
     type: String,
     required: [true, "Please provide product category"],
@@ -51,6 +53,21 @@ const productSchema = new mongoose.Schema({
   compilation_price: Number,
   stand: Boolean,
 });
+
+// Document Middleware runs before .save() and .create() command
+// use normal function not arrow function to have acces to "this" keyword
+productSchema.pre("save", function (next) {
+  // console.log("pre", this);
+  this.slug = slugify(this.name, { lower: true });
+  next();
+});
+
+// middleware to run after document is saved in DB
+// productSchema.post("save", function (doc, next) {
+//   console.log(doc);
+//   next();
+// });
+
 const Product = mongoose.model("Product", productSchema);
 
 module.exports = Product;
