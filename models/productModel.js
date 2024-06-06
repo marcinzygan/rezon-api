@@ -84,10 +84,10 @@ productSchema.pre("save", function (next) {
 // AGGREGATION MIDDLEWARE
 
 // "this" keyword will point to current aggregation object
-productSchema.pre("aggregate", function (next) {
-  console.log(this);
-  next();
-});
+// productSchema.pre("aggregate", function (next) {
+//   console.log(this);
+//   next();
+// });
 const Product = mongoose.model("Product", productSchema);
 
 module.exports = Product;
