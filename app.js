@@ -2,6 +2,8 @@ const morgan = require("morgan");
 const express = require("express");
 const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
+const errorHandler = require("./controllers/errorController");
+const AppError = require("./utils/appError");
 
 const app = express();
 
@@ -27,26 +29,15 @@ app.use("/api/v1/users", userRouter);
 
 //// UNHANDLED ROUTES
 app.all("*", (req, res, next) => {
-  // res.status(404).json({
-  //   status: "fail",
-  //   message: `Can't find ${req.originalUrl} on this server. Please check documentation for available routes.`,
-  // });
-  const err = new Error(
-    `Can't find ${req.originalUrl} on this server. Please check documentation for available routes.`,
+  next(
+    new AppError(
+      `Can't find ${req.originalUrl} on this server. Please check documentation for available routes.`,
+      404,
+    ),
   );
-  err.status = "fail";
-  err.statusCode = 400;
-  next(err);
 });
-//// ERROR HANDLING MIDDLEWARE
-app.use((err, req, res, next) => {
-  err.statusCode = err.statusCode || 500;
-  err.status = err.status || "error";
 
-  res.status(err.statusCode).json({
-    status: err.status,
-    error: err.message,
-  });
-  next();
-});
+//// ERROR HANDLING MIDDLEWARE
+app.use(errorHandler);
+
 module.exports = app;
