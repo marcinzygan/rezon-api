@@ -2,7 +2,7 @@ const morgan = require("morgan");
 const express = require("express");
 const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
-const errorHandler = require("./controllers/errorController");
+const errorController = require("./controllers/errorController");
 const AppError = require("./utils/appError");
 
 const app = express();
@@ -38,6 +38,6 @@ app.all("*", (req, res, next) => {
 });
 
 //// ERROR HANDLING MIDDLEWARE
-app.use(errorHandler);
+app.use(errorController);
 
 module.exports = app;

@@ -1,8 +1,9 @@
 const Product = require("../models/productModel");
 const APIFeatures = require("../utils/apiFeatures");
+const AppError = require("../utils/appError");
 
 //////// GET ALL PRODUCTS
-exports.getAllProducts = async (req, res) => {
+exports.getAllProducts = async (req, res, next) => {
   try {
     // BUILD QUERY
     const features = new APIFeatures(Product.find(), req.query)
@@ -22,15 +23,16 @@ exports.getAllProducts = async (req, res) => {
     });
     // ERROR HANDLING
   } catch (err) {
-    res.status(404).json({
-      status: "fail",
-      message: err.message,
-    });
+    // res.status(404).json({
+    //   status: "fail",
+    //   message: err.message,
+    // });
+    next(new AppError(err.message, 404));
   }
 };
 
 ////////  GET PRODUCT BY ID
-exports.getProduct = async (req, res) => {
+exports.getProduct = async (req, res, next) => {
   try {
     // Find product by search parameter
     const foundProduct = await Product.findById(req.params.id);
@@ -43,15 +45,12 @@ exports.getProduct = async (req, res) => {
       },
     });
   } catch (err) {
-    res.status(404).json({
-      status: "fail",
-      message: err.message,
-    });
+    next(new AppError(err.message, 404));
   }
 };
 
 //////// CREATE PRODUCT
-exports.createProduct = async (req, res) => {
+exports.createProduct = async (req, res, next) => {
   try {
     // Create new product
     const newProduct = await Product.create(req.body);
@@ -62,15 +61,12 @@ exports.createProduct = async (req, res) => {
       },
     });
   } catch (err) {
-    res.status(400).json({
-      status: "fail",
-      message: err.message,
-    });
+    next(new AppError(err.message, 400));
   }
 };
 
 //////// UPDATE PRODUCT BY ID
-exports.updateProduct = async (req, res) => {
+exports.updateProduct = async (req, res, next) => {
   try {
     // Find product by id and update
     const foundProduct = await Product.findByIdAndUpdate(
@@ -90,14 +86,15 @@ exports.updateProduct = async (req, res) => {
       },
     });
   } catch (err) {
-    res.status(400).json({
-      status: "fail",
-      message: err.message,
-    });
+    // res.status(400).json({
+    //   status: "fail",
+    //   message: err.message,
+    // });
+    next(new AppError(err.message, 400));
   }
 };
 //////// DELETE PRODUCT BY ID
-exports.deleteProduct = async (req, res) => {
+exports.deleteProduct = async (req, res, next) => {
   try {
     // delete product by id
     await Product.findByIdAndDelete(req.params.id);
@@ -106,15 +103,16 @@ exports.deleteProduct = async (req, res) => {
       data: null,
     });
   } catch (err) {
-    res.status(400).json({
-      status: "fail",
-      message: err.message,
-    });
+    // res.status(400).json({
+    //   status: "fail",
+    //   message: err.message,
+    // });
+    next(new AppError(err.message, 400));
   }
 };
 // PRODUCTS STATS
 
-exports.getProductsStats = async (req, res) => {
+exports.getProductsStats = async (req, res, next) => {
   try {
     const stats = await Product.aggregate([
       {
@@ -134,9 +132,10 @@ exports.getProductsStats = async (req, res) => {
       },
     });
   } catch (err) {
-    res.status(400).json({
-      status: "fail",
-      message: err.message,
-    });
+    // res.status(400).json({
+    //   status: "fail",
+    //   message: err.message,
+    // });
+    next(new AppError(err.message, 400));
   }
 };
