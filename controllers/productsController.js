@@ -151,3 +151,27 @@ exports.getProductsStats = async (req, res, next) => {
     next(new AppError(err.message, 400));
   }
 };
+
+// LIST CATEGORIES
+
+exports.getCategories = async (req, res, next) => {
+  try {
+    const categories = await Product.aggregate([
+      {
+        $group: {
+          _id: "$category",
+        },
+      },
+      { $addFields: { category: "$_id" } },
+      { $project: { _id: 0 } },
+    ]);
+    res.status(200).json({
+      status: "success",
+      data: {
+        categories: categories,
+      },
+    });
+  } catch (err) {
+    next(new AppError(err.message, 400));
+  }
+};

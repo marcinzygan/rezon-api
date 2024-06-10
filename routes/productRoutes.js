@@ -9,8 +9,10 @@ const {
   updateProduct,
   deleteProduct,
   getProductsStats,
+  getCategories,
 } = require("../controllers/productsController");
-
+// GET CATEGORIES
+productRouter.route("/categories").get(getCategories);
 // GET PRODUCT STATS ROUTE
 productRouter.route("/stats").get(getProductsStats);
 
