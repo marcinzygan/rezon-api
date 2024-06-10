@@ -36,8 +36,11 @@ exports.getProduct = async (req, res, next) => {
   try {
     // Find product by search parameter
     const foundProduct = await Product.findById(req.params.id);
-    // const foundProduct = await Product.findOne({ _id: id });
 
+    // If there is no product show error , always return , to not show two responses.
+    if (!foundProduct) {
+      return next(new AppError(`could not find the id: ${req.params.id}`, 404));
+    }
     res.status(200).json({
       status: "success",
       data: {
@@ -79,6 +82,10 @@ exports.updateProduct = async (req, res, next) => {
         runValidators: true,
       },
     );
+    // If there is no product show error , always return , to not show two responses.
+    if (!foundProduct) {
+      return next(new AppError(`could not find the id: ${req.params.id}`, 404));
+    }
     res.status(200).json({
       status: "success",
       data: {
@@ -97,7 +104,12 @@ exports.updateProduct = async (req, res, next) => {
 exports.deleteProduct = async (req, res, next) => {
   try {
     // delete product by id
-    await Product.findByIdAndDelete(req.params.id);
+    const foundProduct = await Product.findByIdAndDelete(req.params.id);
+
+    // If there is no product show error , always return , to not show two responses.
+    if (!foundProduct) {
+      return next(new AppError(`could not find the id: ${req.params.id}`, 404));
+    }
     res.status(204).json({
       status: "success",
       data: null,
