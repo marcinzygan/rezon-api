@@ -2,7 +2,7 @@
   "name": "rezon-api",
   "version": "1.0.0",
   "description": "API for Rezon products",
-  "main": "app.js",
+  "main": "server.js",
   "engines": {
     "node": ">=10.6.0"
   },
