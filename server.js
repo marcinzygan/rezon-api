@@ -3,6 +3,14 @@ const dotenv = require("dotenv");
 //ENV config
 dotenv.config({ path: "./config.env" });
 
+// Handling Uncaught Exceptions
+process.on("uncaughtException", (err) => {
+  console.log("💥uncaughtException💥", err);
+  console.log("💥 The APP will shut down .... 💥");
+
+  process.exit(1);
+});
+
 const app = require("./app");
 
 // CONENCT TO DATABASE
@@ -23,15 +31,6 @@ const server = app.listen(port, () => {
 // Handling Unhandled Rejections
 process.on("unhandledRejection", (err) => {
   console.log("💥unhandledRejection💥", err);
-  console.log("💥 The APP will shut down .... 💥");
-  server.close(() => {
-    process.exit(1);
-  });
-});
-
-// Handling Uncaught Exceptions
-process.on("uncaughtException", (err) => {
-  console.log("💥uncaughtException💥", err);
   console.log("💥 The APP will shut down .... 💥");
   server.close(() => {
     process.exit(1);
