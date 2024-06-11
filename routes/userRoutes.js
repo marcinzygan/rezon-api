@@ -1,6 +1,7 @@
 const express = require("express");
 
 const userRouter = express.Router();
+
 const {
   getAllUsers,
   getUser,
@@ -8,7 +9,13 @@ const {
   updateUser,
   deleteUser,
 } = require("../controllers/usersCotroller");
+
+const { signupUser } = require("../controllers/authController");
+
 // USERS ROUTES
+
+//User Signup
+userRouter.route("/signup").post(signupUser);
 
 userRouter.route("/").get(getAllUsers).post(createUser);
 
