@@ -20,9 +20,19 @@ const server = app.listen(port, () => {
   console.log(`App running on port ${port} ...`);
 });
 
+// Handling Unhandled Rejections
 process.on("unhandledRejection", (err) => {
-  console.log("There was an Error:", err.name, err.message);
-  console.log("🔥 The APP will shut down .... 🔥");
+  console.log("💥unhandledRejection💥", err);
+  console.log("💥 The APP will shut down .... 💥");
+  server.close(() => {
+    process.exit(1);
+  });
+});
+
+// Handling Uncaught Exceptions
+process.on("uncaughtException", (err) => {
+  console.log("💥uncaughtException💥", err);
+  console.log("💥 The APP will shut down .... 💥");
   server.close(() => {
     process.exit(1);
   });
