@@ -11,13 +11,16 @@ const {
   getProductsStats,
   getCategories,
 } = require("../controllers/productsController");
+
+const { protect } = require("../controllers/authController");
+
 // GET CATEGORIES
 productRouter.route("/categories").get(getCategories);
 // GET PRODUCT STATS ROUTE
 productRouter.route("/stats").get(getProductsStats);
 
 // PRODUCT MAIN ROUTE
-productRouter.route("/").get(getAllProducts).post(createProduct);
+productRouter.route("/").get(protect, getAllProducts).post(createProduct);
 
 // PRODUCT ROUTE TO GET PATCH DELETE PRODUCT BY ID
 productRouter

@@ -49,7 +49,15 @@ exports.loginUser = async (req, res, next) => {
     const user = await User.findOne({ email }).select("+password");
 
     // console.log(user, password);
-
+    // If there in no user return AppError
+    if (!user) {
+      return next(
+        new AppError(
+          "There was an error with authentication: Incorrect email or password",
+          401,
+        ),
+      );
+    }
     // instance method from User model
     const isPasswordCorrect = await user.comparePassword(
       password,
@@ -75,5 +83,35 @@ exports.loginUser = async (req, res, next) => {
     }
   } catch (err) {
     next(new AppError(err.message, 400));
+  }
+};
+
+exports.protect = async (req, res, next) => {
+  try {
+    let token;
+    // 1) Get token from req.headers , check if token exists
+    if (
+      req.headers.authorization &&
+      req.headers.authorization.startsWith("Bearer")
+    ) {
+      token = req.headers.authorization.split(" ")[1];
+    }
+    // check if token exists
+    if (!token) {
+      return next(
+        new AppError("Please log in in order to access this resource", 401),
+      );
+    }
+    // 2) Token verification
+
+    // 3) Check if user still exists
+
+    // 4) Check if user changed password after token was issued
+
+    // 5) If all above if passed call next() and give access to protected route.
+    console.log(token);
+    next();
+  } catch (err) {
+    return next(new AppError(err.message, 400));
   }
 };
