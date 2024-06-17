@@ -26,7 +26,7 @@ userRouter.route("/login").post(loginUser);
 // Forgot Password
 userRouter.route("/forgot-password").post(forgotPassword);
 // Reset Password
-userRouter.route("/reset-password").post(resetPassword);
+userRouter.route("/reset-password/:token").patch(resetPassword);
 // Main route
 userRouter.route("/").get(getAllUsers).post(createUser);
 

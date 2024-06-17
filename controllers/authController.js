@@ -2,6 +2,7 @@ const jwt = require("jsonwebtoken");
 const { promisify } = require("util");
 const User = require("../models/userModel");
 const AppError = require("../utils/appError");
+const sendEmail = require("../utils/nodemailer");
 
 // GENERATE JWT TOKEN
 
@@ -156,25 +157,40 @@ exports.restrictTo = (role) => {
 
 // FORGOT PASSWORD
 exports.forgotPassword = async (req, res, next) => {
+  // 1) Get user from POST email
+  const user = await User.findOne({
+    email: req.body.email,
+  });
+  if (!user) {
+    return next(new AppError("There is no user with this email adress", 404));
+  }
+  console.log(user);
   try {
-    // 1) Get user from POST email
-    const user = await User.findOne({
-      email: req.body.email,
-    });
-    if (!user) {
-      return next(new AppError("There is no user with this email adress", 404));
-    }
-    console.log(user);
     // 2) Generate random reset token
     const resetToken = user.sendPasswordResetToken();
-    // 3) Send token back as an email
+    //  save user document to DB
     await user.save();
+    // 3) Send token back as an email
+    const resetURL = `${req.protocol}://${req.get("host")}/api/v1/reset-password/${resetToken}`;
+    await sendEmail({
+      email: user.email,
+      subject: "Password reset for Rezon API",
+      message: `Please use provided token to reset your password.  Please use this link in order to reset your password: ${resetURL} This link is only valid for 10 minutes.`,
+    });
     res.status(200).json({
       status: "success",
-      token: resetToken,
+      message: "Token send to email",
     });
   } catch (err) {
-    return next(new AppError("error.", 404));
+    user.passwordResetToken = undefined;
+    user.passwordResetTokenExpiresAt = undefined;
+    await user.save();
+    return next(
+      new AppError(
+        "There was an error sending email, please try again later!",
+        500,
+      ),
+    );
   }
 };
 // RESET PASSWORD
