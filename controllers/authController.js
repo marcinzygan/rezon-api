@@ -110,7 +110,7 @@ exports.protect = async (req, res, next) => {
 
     // 3) Check if user still exists
     const user = await User.findById(decodedToken.id);
-    console.log(user);
+    // console.log(user);
     if (!user) {
       return next(
         new AppError("Unauthorized access: this user no longer exist", 401),
@@ -119,7 +119,12 @@ exports.protect = async (req, res, next) => {
     // 4) Check if user changed password after token was issued
 
     if (user.checkIfPasswordChanged(decodedToken.iat)) {
-      return next(new AppError("Unauthorized access: please login again", 401));
+      return next(
+        new AppError(
+          "Unauthorized access: user recently changed password! Please log in again.",
+          401,
+        ),
+      );
     }
 
     req.user = user;
@@ -131,3 +136,46 @@ exports.protect = async (req, res, next) => {
     return next(new AppError(err.message, 400));
   }
 };
+
+// RESTRICT ROUTES TO "ADMIN"
+exports.restrictTo = (role) => {
+  return (req, res, next) => {
+    console.log(role, req.user.role);
+    if (role !== req.user.role) {
+      return next(
+        new AppError(
+          "You do not have a permission to perform this acction.",
+          403,
+        ),
+      );
+    }
+
+    next();
+  };
+};
+
+// FORGOT PASSWORD
+exports.forgotPassword = async (req, res, next) => {
+  try {
+    // 1) Get user from POST email
+    const user = await User.findOne({
+      email: req.body.email,
+    });
+    if (!user) {
+      return next(new AppError("There is no user with this email adress", 404));
+    }
+    console.log(user);
+    // 2) Generate random reset token
+    const resetToken = user.sendPasswordResetToken();
+    // 3) Send token back as an email
+    await user.save();
+    res.status(200).json({
+      status: "success",
+      token: resetToken,
+    });
+  } catch (err) {
+    return next(new AppError("error.", 404));
+  }
+};
+// RESET PASSWORD
+exports.resetPassword = (req, res, next) => {};

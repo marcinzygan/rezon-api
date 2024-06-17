@@ -26,6 +26,7 @@
     //   "FunctionExpression",
     //   "FunctionDeclaration"
     // ],
-    "prefer-arrow-callback": "off"
+    "prefer-arrow-callback": "off",
+    "arrow-body-style": "off"
   }
 }

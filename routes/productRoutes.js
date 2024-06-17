@@ -12,7 +12,7 @@ const {
   getCategories,
 } = require("../controllers/productsController");
 
-const { protect } = require("../controllers/authController");
+const { protect, restrictTo } = require("../controllers/authController");
 
 // GET CATEGORIES
 productRouter.route("/categories").get(getCategories);
@@ -20,13 +20,16 @@ productRouter.route("/categories").get(getCategories);
 productRouter.route("/stats").get(getProductsStats);
 
 // PRODUCT MAIN ROUTE
-productRouter.route("/").get(protect, getAllProducts).post(createProduct);
+productRouter
+  .route("/")
+  .get(protect, getAllProducts)
+  .post(protect, restrictTo("admin"), createProduct);
 
 // PRODUCT ROUTE TO GET PATCH DELETE PRODUCT BY ID
 productRouter
   .route("/:id")
   .get(getProduct)
-  .patch(updateProduct)
-  .delete(deleteProduct);
+  .patch(protect, restrictTo("admin"), updateProduct)
+  .delete(protect, restrictTo("admin"), deleteProduct);
 
 module.exports = productRouter;

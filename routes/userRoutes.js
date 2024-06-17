@@ -10,7 +10,12 @@ const {
   deleteUser,
 } = require("../controllers/usersCotroller");
 
-const { signupUser, loginUser } = require("../controllers/authController");
+const {
+  signupUser,
+  loginUser,
+  forgotPassword,
+  resetPassword,
+} = require("../controllers/authController");
 
 // USERS ROUTES
 
@@ -18,7 +23,11 @@ const { signupUser, loginUser } = require("../controllers/authController");
 userRouter.route("/signup").post(signupUser);
 // Login User
 userRouter.route("/login").post(loginUser);
-
+// Forgot Password
+userRouter.route("/forgot-password").post(forgotPassword);
+// Reset Password
+userRouter.route("/reset-password").post(resetPassword);
+// Main route
 userRouter.route("/").get(getAllUsers).post(createUser);
 
 // Users by id
