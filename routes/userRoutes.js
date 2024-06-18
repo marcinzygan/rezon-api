@@ -22,6 +22,11 @@ userRouter.route("/login").post(authController.loginUser);
 userRouter.route("/forgot-password").post(authController.forgotPassword);
 // Reset Password
 userRouter.route("/reset-password/:token").patch(authController.resetPassword);
+// Update Password
+userRouter
+  .route("/update-password")
+  .patch(authController.protect, authController.updatePassword);
+
 // Main route
 userRouter
   .route("/")

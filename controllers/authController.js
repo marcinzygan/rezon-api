@@ -12,7 +12,19 @@ const generateJwtToken = function (id) {
     expiresIn: process.env.JWT_EXPIRES_IN,
   });
 };
+// CREATE RESPONSE AND SEND TOKEN FUNCTION
 
+const createSendToken = (user, statusCode, res) => {
+  const token = generateJwtToken(user._id);
+  // JWT token
+  res.status(statusCode).json({
+    status: "success",
+    token: token,
+    data: {
+      user: user,
+    },
+  });
+};
 // NEW USER SIGNUP
 exports.signupUser = async (req, res, next) => {
   try {
@@ -22,16 +34,8 @@ exports.signupUser = async (req, res, next) => {
       password: req.body.password,
       passwordConfirmation: req.body.passwordConfirmation,
     });
-    // JWT token
-    const token = generateJwtToken(newUser._id);
-
-    res.status(201).json({
-      status: "success",
-      token: token,
-      data: {
-        user: newUser,
-      },
-    });
+    // Create and send JWT token
+    createSendToken(newUser, 201, res);
   } catch (err) {
     next(new AppError(err.message, 400));
   }
@@ -69,12 +73,14 @@ exports.loginUser = async (req, res, next) => {
 
     // 3) If all s ok send JWT token to client
     if (user && isPasswordCorrect) {
+      // Create and send JWT token
+      createSendToken(user, 200, res);
       // generate token
-      const token = generateJwtToken(user._id);
-      res.status(200).json({
-        status: "success",
-        token: token,
-      });
+      // const token = generateJwtToken(user._id);
+      // res.status(200).json({
+      //   status: "success",
+      //   token: token,
+      // });
     } else {
       return next(
         new AppError(
@@ -128,11 +134,11 @@ exports.protect = async (req, res, next) => {
         ),
       );
     }
-
+    // 5) If all above if passed call next() and give access to protected route.
     req.user = user;
 
     next();
-    // 5) If all above if passed call next() and give access to protected route.
+
     // console.log(decodedToken, token);
   } catch (err) {
     return next(new AppError(err.message, 400));
@@ -225,13 +231,49 @@ exports.resetPassword = async (req, res, next) => {
     await user.save();
     // 3) Update passwordChangedAt for current user
     // 4) Log user in , send JWT token
-    // JWT token
-    const token = generateJwtToken(user._id);
 
-    res.status(201).json({
-      status: "success",
-      token: token,
-    });
+    // Create and send JWT token
+    createSendToken(user, 201, res);
+    // // JWT token
+    // const token = generateJwtToken(user._id);
+
+    // res.status(201).json({
+    //   status: "success",
+    //   token: token,
+    // });
+  } catch (err) {
+    return next(new AppError(err.message, 500));
+  }
+};
+
+// UPDATE PASSWORD OF LOGED IN USER
+
+exports.updatePassword = async (req, res, next) => {
+  try {
+    console.log(req.user);
+
+    // 1) Get user from DB
+    const user = await User.findOne(req.user._id).select("+password");
+    // 2) Check if posted current password is correct
+    const isPasswordCorrect = await user.comparePassword(
+      req.body.currentPassword,
+      user.password,
+    );
+    if (!isPasswordCorrect) {
+      return next(new AppError("The current password did not match!", 401));
+    }
+    // 3) Set new password
+    user.password = req.body.password;
+    user.passwordConfirmation = req.body.passwordConfirmation;
+    await user.save();
+    // 4) Log in user and send JWT token
+    // Create and send JWT token
+    createSendToken(user, 201, res);
+    // const token = generateJwtToken(user._id);
+    // res.status(201).json({
+    //   status: "success",
+    //   user: token,
+    // });
   } catch (err) {
     return next(new AppError(err.message, 500));
   }
