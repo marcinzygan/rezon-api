@@ -57,6 +57,13 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
+// MIDDLEWARE TO UPDATE passwordChangedAt
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password") || this.isNew) return next();
+  this.passwordChangedAt = Date.now() - 1000;
+  next();
+});
+
 //  COMPARE USER PASSWORDS
 
 // Create instance method for PASSWORD COMPARE
@@ -97,8 +104,8 @@ userSchema.methods.sendPasswordResetToken = function () {
     .update(passwordToken)
     .digest("hex");
   this.passwordResetTokenExpiresAt = Date.now() + 10 * 60 * 1000;
-  console.log(Date.now());
-  console.log(passwordToken, this.passwordResetTokenExpiresAt);
+
+  console.log(passwordToken, this.passwordResetToken);
   return passwordToken;
 };
 
