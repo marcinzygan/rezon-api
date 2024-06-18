@@ -22,7 +22,7 @@ productRouter.route("/stats").get(getProductsStats);
 // PRODUCT MAIN ROUTE
 productRouter
   .route("/")
-  .get(protect, getAllProducts)
+  .get(getAllProducts)
   .post(protect, restrictTo("admin"), createProduct);
 
 // PRODUCT ROUTE TO GET PATCH DELETE PRODUCT BY ID
