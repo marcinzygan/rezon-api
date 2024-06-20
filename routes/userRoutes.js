@@ -2,13 +2,7 @@ const express = require("express");
 
 const userRouter = express.Router();
 
-const {
-  getAllUsers,
-  getUser,
-  createUser,
-  updateUser,
-  deleteUser,
-} = require("../controllers/usersCotroller");
+const usersCotroller = require("../controllers/usersCotroller");
 
 const authController = require("../controllers/authController");
 
@@ -24,16 +18,27 @@ userRouter.route("/forgot-password").post(authController.forgotPassword);
 userRouter.route("/reset-password/:token").patch(authController.resetPassword);
 // Update Password
 userRouter
-  .route("/update-password")
-  .patch(authController.protect, authController.updatePassword);
+  .route("/update-my-password")
+  .patch(authController.protect, authController.updateMyPassword);
+userRouter
+  .route("/update-me")
+  .patch(authController.protect, usersCotroller.updateMe);
 
 // Main route
 userRouter
   .route("/")
-  .get(authController.protect, authController.restrictTo("admin"), getAllUsers)
-  .post(createUser);
+  .get(
+    authController.protect,
+    authController.restrictTo("admin"),
+    usersCotroller.getAllUsers,
+  )
+  .post(usersCotroller.createUser);
 
 // Users by id
-userRouter.route("/:id").get(getUser).patch(updateUser).delete(deleteUser);
+userRouter
+  .route("/:id")
+  .get(usersCotroller.getUser)
+  .patch(usersCotroller.updateUser)
+  .delete(usersCotroller.deleteUser);
 
 module.exports = userRouter;

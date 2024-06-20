@@ -248,7 +248,7 @@ exports.resetPassword = async (req, res, next) => {
 
 // UPDATE PASSWORD OF LOGED IN USER
 
-exports.updatePassword = async (req, res, next) => {
+exports.updateMyPassword = async (req, res, next) => {
   try {
     console.log(req.user);
 
