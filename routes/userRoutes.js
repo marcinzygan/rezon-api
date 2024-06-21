@@ -23,6 +23,9 @@ userRouter
 userRouter
   .route("/update-me")
   .patch(authController.protect, usersCotroller.updateMe);
+userRouter
+  .route("/delete-me")
+  .delete(authController.protect, usersCotroller.deleteMe);
 
 // Main route
 userRouter

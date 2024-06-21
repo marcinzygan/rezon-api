@@ -51,6 +51,19 @@ exports.updateMe = async (req, res, next) => {
     next(new AppError(err.message, 404));
   }
 };
+// DELETE CURRENTLY LOGGED IN USER
+
+exports.deleteMe = async (req, res, next) => {
+  try {
+    await User.findByIdAndUpdate(req.user._id, { active: false });
+    res.status(204).json({
+      status: "success",
+      data: null,
+    });
+  } catch (err) {
+    next(new AppError(err.message, 404));
+  }
+};
 
 exports.createUser = (req, res) => {
   res.status(500).json({

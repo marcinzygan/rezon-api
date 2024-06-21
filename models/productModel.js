@@ -44,7 +44,6 @@ const productSchema = new mongoose.Schema({
   new: Boolean,
   active: {
     type: Boolean,
-    required: [true, "Please specify if product is active"],
     default: true,
   },
   custom_shape: Boolean,
@@ -67,19 +66,13 @@ productSchema.pre("save", function (next) {
   next();
 });
 
-// middleware to run after document is saved in DB
-// productSchema.post("save", function (doc, next) {
-//   console.log(doc);
-//   next();
-// });
-
 // QUERY MIDDLEWARE
 
-// "this" keyword will point to current query
-// productSchema.pre("find", function (next) {
-//   this.find({ active: { $ne: false } });
-//   next();
-// });
+productSchema.pre(/^find/, function (next) {
+  // "this" keyword will point to current query
+  this.find({ active: { $ne: false } });
+  next();
+});
 
 // AGGREGATION MIDDLEWARE
 

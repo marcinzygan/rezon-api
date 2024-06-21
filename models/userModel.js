@@ -27,6 +27,11 @@ const userSchema = new mongoose.Schema({
     enum: ["user", "admin"],
     default: "user",
   },
+  active: {
+    type: Boolean,
+    default: true,
+    select: false,
+  },
   passwordConfirmation: {
     type: String,
     required: [true, "Please confirm your password"],
@@ -63,7 +68,12 @@ userSchema.pre("save", async function (next) {
   this.passwordChangedAt = Date.now() - 1000;
   next();
 });
-
+// MIDDLEWARE TO EXCLUDE INACTIVE USERS FROM SHOWING IN RESULTS
+userSchema.pre(/^find/, async function (next) {
+  //this points to current query
+  this.find({ active: true });
+  next();
+});
 //  COMPARE USER PASSWORDS
 
 // Create instance method for PASSWORD COMPARE
