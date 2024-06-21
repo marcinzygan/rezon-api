@@ -45,6 +45,7 @@ const productSchema = new mongoose.Schema({
   active: {
     type: Boolean,
     default: true,
+    select: false,
   },
   custom_shape: Boolean,
   form: String,
