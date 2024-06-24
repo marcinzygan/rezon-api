@@ -4,6 +4,7 @@ const rateLimit = require("express-rate-limit");
 const helmet = require("helmet");
 const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
+const hpp = require("hpp");
 
 const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
@@ -38,6 +39,9 @@ app.use(mongoSanitize());
 
 // DATA SANITAZATION AGAINST NOSQL XSS
 app.use(xss());
+
+// PREVENT PARAMETER POLUTION
+app.use(hpp());
 
 // Test middleware
 app.use((req, res, next) => {
