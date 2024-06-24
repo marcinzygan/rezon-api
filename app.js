@@ -2,6 +2,8 @@ const morgan = require("morgan");
 const express = require("express");
 const rateLimit = require("express-rate-limit");
 const helmet = require("helmet");
+const mongoSanitize = require("express-mongo-sanitize");
+const xss = require("xss-clean");
 
 const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
@@ -30,6 +32,12 @@ app.use("/api", limiter);
 
 // BODY PARSER , reading data from body into req.body
 app.use(express.json({ limit: "10kb" }));
+
+// DATA SANITAZATION AGAINST NOSQL DATA INJECTON
+app.use(mongoSanitize());
+
+// DATA SANITAZATION AGAINST NOSQL XSS
+app.use(xss());
 
 // Test middleware
 app.use((req, res, next) => {
