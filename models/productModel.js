@@ -45,7 +45,6 @@ const productSchema = new mongoose.Schema({
   active: {
     type: Boolean,
     default: true,
-    select: false,
   },
   custom_shape: Boolean,
   form: String,
@@ -69,11 +68,11 @@ productSchema.pre("save", function (next) {
 
 // QUERY MIDDLEWARE
 
-productSchema.pre(/^find/, function (next) {
-  // "this" keyword will point to current query
-  this.find({ active: { $ne: false } });
-  next();
-});
+// productSchema.pre(/^find/, function (next) {
+//   // "this" keyword will point to current query
+//   this.find({ active: { $ne: false } });
+//   next();
+// });
 
 // AGGREGATION MIDDLEWARE
 
