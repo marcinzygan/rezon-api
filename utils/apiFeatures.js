@@ -19,7 +19,7 @@ class APIFeatures {
     // add $ in front of the matched expression
     queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
 
-    //SEARCH FEATURE
+    //SEARCH FEATURE.
     // query example: ?search=magnes or ?search=magnes&price[gte]=5
     if (JSON.parse(queryStr).search) {
       const { search } = JSON.parse(queryStr);
