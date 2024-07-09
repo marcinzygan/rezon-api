@@ -5,6 +5,7 @@ const helmet = require("helmet");
 const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
+const cors = require("cors");
 
 const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
@@ -14,7 +15,8 @@ const AppError = require("./utils/appError");
 const app = express();
 
 ////// GLOBAL MIDDLEWARE
-
+// CORS
+app.use(cors());
 // SET HTTP HEADERS
 app.use(helmet());
 
