@@ -50,7 +50,7 @@ class APIFeatures {
     if (this.queryObject.sort) {
       this.query = this.query.sort(this.queryObject.sort);
     } else {
-      this.query = this.query.sort({ category: 1, createdAt: 1, new: 1 });
+      this.query = this.query.sort({ category: 1, createdAt: 1, new: -1 });
     }
     return this;
   }
