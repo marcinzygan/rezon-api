@@ -56,7 +56,7 @@ class APIFeatures {
   }
 
   // LIMIT METHOD
-  // query example: ?fields=name+pc_id+price
+  // query  example: ?fields=name+pc_id+price
   limitFields() {
     if (this.queryObject.fields) {
       this.query = this.query.select(this.queryObject.fields);
