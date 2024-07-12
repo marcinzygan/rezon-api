@@ -40,8 +40,20 @@ userRouter
 // Users by id
 userRouter
   .route("/:id")
-  .get(usersCotroller.getUser)
-  .patch(usersCotroller.updateUser)
-  .delete(usersCotroller.deleteUser);
+  .get(
+    authController.protect,
+    authController.restrictTo("admin"),
+    usersCotroller.getUser,
+  )
+  .patch(
+    authController.protect,
+    authController.restrictTo("admin"),
+    usersCotroller.updateUser,
+  )
+  .delete(
+    authController.protect,
+    authController.restrictTo("admin"),
+    usersCotroller.deleteUser,
+  );
 
 module.exports = userRouter;
