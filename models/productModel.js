@@ -14,7 +14,7 @@ const productSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "Please provide product name"],
-    maxlength: [40, "The pc_id should have maximum of 40 characters"],
+    maxlength: [40, "The name should have maximum of 40 characters"],
     unique: true,
   },
   slug: String,

@@ -19,9 +19,27 @@ mongoose.connect(DB, {}).then(() => {
 const products = JSON.parse(
   fs.readFileSync(`${__dirname}/productData.json`, "utf-8"),
 );
+console.log(products);
+// DELETE a certain fields from json file
+// async function deleteFields() {
+//   products.forEach(function (obj) {
+//     delete obj._id;
+//     delete obj.createdAt;
+//   });
+// }
+
+// deleteFields();
+
+// fs.writeFile(
+//   `${__dirname}/tes.json`,
+//   JSON.stringify(products),
+//   "utf-8",
+//   (err) => {
+//     console.log("done", err);
+//   },
+// );
 
 // Import data to DB
-
 const importData = async () => {
   try {
     await ProductModel.create(products);
