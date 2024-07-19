@@ -16,6 +16,8 @@ userRouter.route("/login").post(authController.loginUser);
 userRouter.route("/forgot-password").post(authController.forgotPassword);
 // Reset Password
 userRouter.route("/reset-password/:token").patch(authController.resetPassword);
+// Get info about currently logged in user
+userRouter.route("/get-me").get(authController.protect, usersCotroller.getMe);
 // Update Password
 userRouter
   .route("/update-my-password")

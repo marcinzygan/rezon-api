@@ -19,7 +19,20 @@ exports.getAllUsers = async (req, res, next) => {
     next(new AppError(err.message, 404));
   }
 };
-
+// GET CURRENTLY LOGGED IN USER
+exports.getMe = async (req, res, next) => {
+  try {
+    const user = await User.findById(req.user._id);
+    res.status(200).json({
+      status: "success",
+      data: {
+        user: user,
+      },
+    });
+  } catch (err) {
+    next(new AppError(err.message, 404));
+  }
+};
 // UPDATE CURRENT USER
 exports.updateMe = async (req, res, next) => {
   try {

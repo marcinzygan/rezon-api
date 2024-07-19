@@ -54,7 +54,7 @@ const importData = async () => {
 
 const deleteAllData = async () => {
   try {
-    await ProductModel.deleteMany();
+    await ProductModel.deleteMany({ displayCategory: { $ne: true } });
     console.log("Colletcon deleted successfully");
   } catch (err) {
     console.log(err);
