@@ -16,9 +16,7 @@ mongoose.connect(DB, {}).then(() => {
 
 // Read JSON file
 
-const products = JSON.parse(
-  fs.readFileSync(`${__dirname}/productData.json`, "utf-8"),
-);
+const products = JSON.parse(fs.readFileSync(`${__dirname}/tes.json`, "utf-8"));
 console.log(products);
 // DELETE a certain fields from json file
 // async function deleteFields() {
@@ -35,7 +33,7 @@ console.log(products);
 //   JSON.stringify(products),
 //   "utf-8",
 //   (err) => {
-//     console.log("done", err);
+//     console.log(err);
 //   },
 // );
 
