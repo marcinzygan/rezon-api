@@ -19,7 +19,11 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: [process.env.HOSTNAME, "http://localhost:3000"],
+    origin: [
+      process.env.HOSTNAME,
+      "http://localhost:3000",
+      "https://www.rezon.eu/",
+    ],
   }),
 );
 // SET HTTP HEADERS
