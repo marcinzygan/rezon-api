@@ -19,7 +19,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: process.env.HOSTNAME,
+    origin: [process.env.HOSTNAME, "http://localhost:3000"],
   }),
 );
 // SET HTTP HEADERS
