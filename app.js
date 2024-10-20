@@ -6,7 +6,7 @@ const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
 const cors = require("cors");
-
+const cookieParser = require("cookie-parser");
 const productRouter = require("./routes/productRoutes");
 const userRouter = require("./routes/userRoutes");
 const errorController = require("./controllers/errorController");
@@ -16,7 +16,12 @@ const app = express();
 
 ////// GLOBAL MIDDLEWARE
 // CORS
-app.use(cors());
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.HOSTNAME,
+  }),
+);
 // SET HTTP HEADERS
 app.use(helmet());
 
@@ -35,7 +40,7 @@ app.use("/api", limiter);
 
 // BODY PARSER , reading data from body into req.body
 app.use(express.json({ limit: "10kb" }));
-
+app.use(cookieParser());
 // DATA SANITAZATION AGAINST NOSQL DATA INJECTON
 app.use(mongoSanitize());
 
@@ -48,7 +53,8 @@ app.use(hpp());
 // Test middleware
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  // console.log(req.requestTime, req.headers);
+  console.log(req.cookies);
+
   next();
 });
 

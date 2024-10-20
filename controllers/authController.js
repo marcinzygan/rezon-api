@@ -25,6 +25,8 @@ const createSendToken = (user, statusCode, res) => {
     httpOnly: true,
   };
   if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
+  console.log(process.env.NODE_ENV);
+
   // send cookie
   res.cookie("jwt", token, cookieOptions);
 
@@ -82,6 +84,7 @@ exports.loginUser = async (req, res, next) => {
     // 3) If all s ok send JWT token to client
     if (user && isPasswordCorrect) {
       // Create and send JWT token
+
       createSendToken(user, 200, res);
       // generate token
       // const token = generateJwtToken(user._id);
