@@ -18,11 +18,7 @@ const app = express();
 // CORS
 app.use(
   cors({
-    origin: [
-      process.env.HOSTNAME,
-      "http://localhost:3000",
-      "https://www.rezon.eu/",
-    ],
+    origin: process.env.HOSTNAME,
   }),
 );
 // SET HTTP HEADERS
