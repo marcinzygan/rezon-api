@@ -18,6 +18,7 @@ const app = express();
 // CORS
 app.use(
   cors({
+    credentials: true,
     origin: process.env.HOSTNAME,
   }),
 );
