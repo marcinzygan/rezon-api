@@ -23,7 +23,7 @@ const createSendToken = (user, statusCode, res) => {
     ),
     // domain: "rezon.eu",
     sameSite: "none",
-    // httpOnly: true,
+    httpOnly: true,
     partitioned: true,
   };
   if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
