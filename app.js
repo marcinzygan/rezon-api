@@ -19,12 +19,11 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: "*",
-    // origin: [
-    //   process.env.HOSTNAME,
-    //   "https://rezon-katalog.netlify.app/",
-    //   "http://localhost:3000",
-    // ],
+    origin: [
+      process.env.HOSTNAME,
+      "https://rezon-katalog.netlify.app",
+      "http://localhost:3000",
+    ],
   }),
 );
 // SET HTTP HEADERS
