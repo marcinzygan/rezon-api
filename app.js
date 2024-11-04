@@ -44,14 +44,7 @@ app.use("/api", limiter);
 
 // BODY PARSER , reading data from body into req.body
 app.use(express.json({ limit: "10kb" }));
-app.use(
-  cookieParser("test", {
-    sameSite: "none",
-    httpOnly: false,
-    secure: false,
-    maxAge: 900000,
-  }),
-);
+app.use(cookieParser());
 // DATA SANITAZATION AGAINST NOSQL DATA INJECTON
 app.use(mongoSanitize());
 
@@ -64,7 +57,7 @@ app.use(hpp());
 // Test middleware
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  console.log(req.cookies);
+  // console.log(req.cookies);
 
   next();
 });

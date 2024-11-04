@@ -116,9 +116,11 @@ exports.protect = async (req, res, next) => {
       req.headers.authorization.startsWith("Bearer")
     ) {
       token = req.headers.authorization.split(" ")[1];
+    } else if (req.cookies.jwt) {
+      token = req.cookies.jwt;
     }
-    // check if token exists
     if (!token) {
+      // check if token exists
       return next(
         new AppError("Please log in in order to access this resource", 401),
       );
@@ -161,7 +163,7 @@ exports.protect = async (req, res, next) => {
 // RESTRICT ROUTES TO "ADMIN"
 exports.restrictTo = (role) => {
   return (req, res, next) => {
-    console.log(role, req.user.role);
+    // console.log(role, req.user.role);
     if (role !== req.user.role) {
       return next(
         new AppError(
@@ -184,7 +186,7 @@ exports.forgotPassword = async (req, res, next) => {
   if (!user) {
     return next(new AppError("There is no user with this email adress", 404));
   }
-  console.log(user);
+  // console.log(user);
   try {
     // 2) Generate random reset token
     const resetToken = user.sendPasswordResetToken();
@@ -226,7 +228,7 @@ exports.resetPassword = async (req, res, next) => {
       passwordResetToken: hashedToken,
       passwordResetTokenExpiresAt: { $gt: Date.now() },
     });
-    console.log(user);
+    // console.log(user);
     if (!user) {
       return next(
         new AppError(
@@ -263,7 +265,7 @@ exports.resetPassword = async (req, res, next) => {
 
 exports.updateMyPassword = async (req, res, next) => {
   try {
-    console.log(req.user);
+    // console.log(req.user);
 
     // 1) Get user from DB
     const user = await User.findOne(req.user._id).select("+password");
