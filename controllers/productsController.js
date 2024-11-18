@@ -161,10 +161,10 @@ exports.getCategories = async (req, res, next) => {
         $group: {
           _id: "$category",
         },
-        $sort: { _id: 1 },
       },
       { $addFields: { category: "$_id" } },
       { $project: { _id: 0 } },
+      { $sort: { category: 1 } },
     ]);
     res.status(200).json({
       status: "success",
