@@ -161,7 +161,7 @@ exports.getCategories = async (req, res, next) => {
         $group: {
           _id: "$category",
         },
-        $sort: { category: 1 },
+        $sort: { _id: 1 },
       },
       { $addFields: { category: "$_id" } },
       { $project: { _id: 0 } },
