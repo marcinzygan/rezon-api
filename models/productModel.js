@@ -30,11 +30,10 @@ const productSchema = new mongoose.Schema({
     type: String,
     trim: true,
   },
-  imageCover: {
-    type: String,
-    required: [true, "Please provide product image path"],
+  images: {
+    type: [String],
+    required: [true, "Please provide at least one image path"],
   },
-  images: [String],
   technology: Number,
   stock: Number,
   stock_optimal: Number,
